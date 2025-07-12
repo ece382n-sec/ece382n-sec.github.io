@@ -1,8 +1,14 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: "ECE 382N: Security at the Hardware-Software Interface"
+description: "Course website for \"ECE382N: Security at the Hardware-Software Interface\" at UT Austin"
 theme: just-the-docs
 
-url: https://just-the-docs.github.io
+url: https://ece382n-sec-ut.github.io
 
-aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+# aux_links:
+#   Template Repository: https://github.com/just-the-docs/just-the-docs-template
+
+# sass:
+#   style: compressed
+
+# include:
+#   - assets/css
