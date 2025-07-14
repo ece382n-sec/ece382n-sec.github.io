@@ -1,12 +1,8 @@
 ---
 title: Course Schedule
-layout: default
-nav_enabled: false
+layout: minimal
 ---
 
 # Course Schedule and Materials
-
-<p style="font-size: 1.5em">Fall 2025</p>
-
-[[Back to main](/)]
-
+<p class="year-tag">Fall 2025</p>
+<hr>

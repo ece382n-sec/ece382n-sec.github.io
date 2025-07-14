@@ -1,0 +1,2 @@
+{"rule":"UNIT_SPACE","sentence":"^\\QWelcome to \"ECE 382N: Security at the Hardware-Software Interface,\" where we learn how to build secure computer systems and interesting ways to break them.\\E$"}
+{"rule":"UNIT_SPACE","sentence":"^\\QPrerequisites\nECE 312(H): Software Design and Implementation I (or C programming skills)\nECE 460N: Computer Architecture\nECE 461S: Operating Systems\nSome background in security is recommended\\E$"}

@@ -3,6 +3,41 @@ h1 {
     font-size: 2em;
 }
 
+ul {
+    margin-top: 0 !important;
+}
+
+li {
+    margin: 0;
+}
+
+li.allowed::before {
+    content: "✔" !important;
+    color: green !important;
+}
+
+li.blocked::before {
+    content: "✗" !important;
+    color: red !important;
+}
+
+// ul.allow-list ul.block-list {
+//     list-style: none;
+// }
+
+// ul.allow-list li::marker {
+//     content: "✓";
+// }
+
+// ul.block-list li::marker {
+//     content: "✗";
+// }
+
 .ut-color {
     color: #bf5700
+}
+
+.year-tag {
+    font-size: 1.5em;
+    color: rgb(128, 128, 128);
 }

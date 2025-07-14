@@ -4,8 +4,8 @@ theme: just-the-docs
 
 url: https://ece382n-sec-ut.github.io
 
-# aux_links:
-#   Template Repository: https://github.com/just-the-docs/just-the-docs-template
+aux_links:
+  Home: /
 
 # sass:
 #   style: compressed
