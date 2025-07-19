@@ -4,7 +4,7 @@ layout: home
 nav_enabled: false
 ---
 
-# Security at the Hardware-Software Interface (ECE 382N, UT Austin)
+# ECE 382N: Security at the Hardware-Software Interface (UT Austin)
 <p class="year-tag">Fall 2025</p>
 <hr>
 
@@ -12,14 +12,14 @@ nav_enabled: false
 **TA:** TBA\\
 **Lectures:** Mon & Weds, 3:00pm--4:30pm, PMA 7.114\\
 **Office Hour (w/ Neil):** Thu, 4:00pm--5:00pm or by appointments, location TBA\\
-**Online Discussion & Assignments:** [GitHub Classroom](https://classroom.github.com/classrooms/217621515-ece-382n-security-at-the-hardware-software-interface-fa25)\\
+**Online Discussion & Assignments:** [GitHub Classroom](https://classroom.github.com/classrooms/217621515-fa25-ece-382n-security-at-the-hardware-software-interface)\\
 **Format:** In-person lectures, paper reading, research-oriented projects
 
 <!-- <p class="ut-color">
 Note: for course related emails, please include prefix "[ECE 382N]" in your subject line, thanks!
 </p> -->
 
-[[Schedule, Reading List, and Slides](/schedule)], [[Term Project](/project)]
+[[Schedule, readings, and slides](/schedule)], [[Term project](/project)]
 
 <hr>
 
@@ -54,7 +54,7 @@ The reading list and details about paper review can be found [here](/schedule).
 
 **Participate:** Students will attend every class and actively participate in class discussions.
 Questions are *always* welcomed during and after the lecture.
-Note that there might be (simple) pop quizzes during lectures.
+Note that there might be pop quizzes during lectures.
 
 *Policy: Students can skip two lectures without grade penalty.*
 
@@ -72,10 +72,10 @@ with an optional lab (totaling 110%).
 * 10%: Class participation
 * 65%: Term project =
     * (3%: Project proposal) +
-    * (5%: Checkpoint report 1) +
-    * (7%: Checkpoint report 2) +
-    * (20%: Final presentation) +
-    * (30%: Final report)
+    * (6%: Midpoint lightning talk) +
+    * (6%: Midpoint report) +
+    * (15%: Final presentation) +
+    * (35%: Final report)
 * 10%: Optional lab
 * Extra bonus points for correcting errors in this course
 
