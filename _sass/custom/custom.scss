@@ -21,18 +21,6 @@ li.blocked::before {
     color: red !important;
 }
 
-// ul.allow-list ul.block-list {
-//     list-style: none;
-// }
-
-// ul.allow-list li::marker {
-//     content: "✓";
-// }
-
-// ul.block-list li::marker {
-//     content: "✗";
-// }
-
 .ut-color {
     color: #bf5700
 }
@@ -40,4 +28,8 @@ li.blocked::before {
 .year-tag {
     font-size: 1.4em;
     color: rgb(128, 128, 128);
+}
+
+.main {
+    max-width: 60rem !important;
 }

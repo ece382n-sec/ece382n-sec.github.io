@@ -30,8 +30,8 @@ Lastly, the instructor will advise each individual or team independently as need
 
 * Sep 3: Form a team and send your team information to TA
 * Sep 15: Project proposal due
-* Oct 29: Midpoint lighting talk (during the class)
-* Nov 3: Midpoint report due
+* Oct 27: Midpoint lighting talk (during the class)
+* Oct 31: Midpoint report due
 * Dec 3 & 8: Final Project Presentation (during the classes)
 * Dec 12: Final report due
 
@@ -39,8 +39,8 @@ Lastly, the instructor will advise each individual or team independently as need
 
 ## Project Report
 
-The final project report is a conference/workship-like paper,
-with up to 6 pages (*all page limits exclude references*).
+The final project report is a 6-page conference/workship-like paper
+(*all page limits exclude references*).
 Please format your report using this [LaTex template](https://github.com/ece382n-sec/Project-Report-Template).
 *Note that some sections in the template are not needed for the proposal and midpoint report.*
 
@@ -87,3 +87,5 @@ please make sure every team member presents part of the project.
 The talk length will be 12--15 minutes,
 depending on the number of teams,
 followed by a 5-min Q&A.
+**Please send you final presentation to the instructor at least
+two days before your scheduled presentation.**

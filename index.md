@@ -9,10 +9,10 @@ nav_enabled: false
 <hr>
 
 **Instructor:** [Neil Zhao](https://zzrcxb.me) <[neil.zhao@utexas.edu](mailto:neil.zhao@utexas.edu)>, office TBA, *please just call him Neil*\\
-**TA:** TBA\\
+**TA:** Ethan Jiang <[zx.jiang@utexas.edu](mailto:zx.jiang@utexas.edu)>\\
 **Lectures:** Mon & Weds, 3:00pm--4:30pm, PMA 7.114\\
 **Office Hour (w/ Neil):** Thu, 4:00pm--5:00pm or by appointments, location TBA\\
-**Online Discussion & Assignments:** [GitHub Classroom](https://classroom.github.com/classrooms/217621515-fa25-ece-382n-security-at-the-hardware-software-interface)\\
+**Online Discussion & Assignments:** TBD\\
 **Format:** In-person lectures, paper reading, research-oriented projects
 
 <!-- <p class="ut-color">
@@ -46,11 +46,11 @@ We will be going over the following topics:
 ## Course Requirements
 The expectations for all students in this course are as follows:
 
-**Read:** Students will complete a (light) pre-lecture reading and a mini quiz **before each lecture**.
-At the end of each week, students will complete an additional in-depth post-lecture reading and submit a conference-style paper review **before the next lecture**.
+**Read:** Before each lecture, students will complete a (light) pre-lecture reading and a mini quiz.
+After each lecture, students will complete an additional in-depth post-lecture reading and submit a conference-style paper review before the first lecture in the subsequent instructing week.
 The reading list and details about paper review can be found [here](/schedule).
 
-*Policy: Students can skip a week-worth of reading assignments (i.e., two pre-lecture readings and one post-lecture reading) without grade penalty.*
+*Policy: Students can skip a week-worth of reading assignments (i.e., two pre-lecture quizzes and two post-lecture reviews) without grade penalty.*
 
 **Participate:** Students will attend every class and actively participate in class discussions.
 Questions are *always* welcomed during and after the lecture.
