@@ -8,18 +8,18 @@ nav_enabled: false
 <p class="year-tag">Fall 2025</p>
 <hr>
 
-**Instructor:** [Neil Zhao](https://zzrcxb.me) <[neil.zhao@utexas.edu](mailto:neil.zhao@utexas.edu)>, office TBA, *please just call him Neil*\\
+**Instructor:** [Neil Zhao](https://zzrcxb.me) <[neil.zhao@utexas.edu](mailto:neil.zhao@utexas.edu)>, *please just call him Neil*\\
+**Office Hour (w/ Instructor):** Tue & Thu, 4pm--5pm or by appointments, EER 5.890\\
 **TA:** Ethan Jiang <[zx.jiang@utexas.edu](mailto:zx.jiang@utexas.edu)>\\
-**Lectures:** Mon & Weds, 3:00pm--4:30pm, PMA 7.114\\
-**Office Hour (w/ Neil):** Thu, 4:00pm--5:00pm or by appointments, location TBA\\
-**Online Discussion & Assignments:** TBD\\
+**Lectures:** Mon & Weds, 3pm--4:30pm, PMA 7.114\\
+**Office Hour (w/ TA):** Tue, 1pm--2pm, EER 5.652 (for logistical questions)\\
 **Format:** In-person lectures, paper reading, research-oriented projects
 
-<!-- <p class="ut-color">
-Note: for course related emails, please include prefix "[ECE 382N]" in your subject line, thanks!
-</p> -->
+<p class="ut-color">
+Note: for course related emails, please include prefix "[ECE 382N]" in the subject, thank you!
+</p>
 
-[[Schedule, readings, and slides](/schedule)], [[Term project](/project)]
+[[Schedule, reading list, and slides](/schedule)], [[Term project](/project)]
 
 <hr>
 
@@ -37,26 +37,36 @@ We will be going over the following topics:
 * System-level attacks in AI systems
 * Other interesting emerging threats to computer systems
 
+
+
 ### Prerequisites
-- ECE 312(H): Software Design and Implementation I (or C programming skills)
+- ECE 312: Software Design and Implementation I (or C programming skills)
 - ECE 460N: Computer Architecture
 - ECE 461S: Operating Systems
 - Some background in security is recommended
 
 ## Course Requirements
+This course consists of a mixture of structured lectures given by the instructors
+and paper presentations & discussions led by student presenters.
 The expectations for all students in this course are as follows:
 
-**Read:** Before each lecture, students will complete a (light) pre-lecture reading and a mini quiz.
-After each lecture, students will complete an additional in-depth post-lecture reading and submit a conference-style paper review before the first lecture in the subsequent instructing week.
+**Read:**
+* **Lectures:**Before each lecture, students will complete a (light) pre-lecture reading and a mini quiz (*due 2 hours before each lecture*).
+After each lecture, students will complete an additional in-depth post-lecture reading and
+submit a conference-style paper review by the Saturday of that week (though you are encouraged to submit it by Friday).
+* **Paper discussions:** Before each paper discussion session, students will read one of the papers to be discussed and submit a conference-style paper review (*due one day before the discussion*).
+
 The reading list and details about paper review can be found [here](/schedule).
 
-*Policy: Students can skip a week-worth of reading assignments (i.e., two pre-lecture quizzes and two post-lecture reviews) without grade penalty.*
+*Policy: Students can skip one pre-lecture reading and mini quiz, as well as two paper reviews without grade penalty.*
 
 **Participate:** Students will attend every class and actively participate in class discussions.
 Questions are *always* welcomed during and after the lecture.
 Note that there might be pop quizzes during lectures.
 
 *Policy: Students can skip two lectures without grade penalty.*
+
+**Present:** Students will present research papers and lead the discussion during the paper discussion sessions. The presentation guideline will be discussed during the class, as it depends on the course enrollment.
 
 **Research:** Students will conduct a term research project in system security.
 Both attack and defense projects are welcomed.
@@ -66,18 +76,16 @@ More details about the term project can be found [here](/project).
 
 As a research-oriented course, there will be no exams :).
 Your grade will be largely determined by the term project and class participation,
-with an optional lab (totaling 110%).
-* 10%: Pre-lecture reading and mini quizzes
-* 15%: Post-lecture reading and paper reviews
-* 10%: Class participation
-* 65%: Term project =
+with an optional lab (totaling 105%).
+* 5%: Class participation
+* 5%: Pre-lecture reading and mini quizzes
+* 15%: Post-lecture reading and pre-discussion paper reviews
+* 20%: Leading paper discussion
+* 60%: Term project =
     * (3%: Project proposal) +
-    * (6%: Midpoint lightning talk) +
-    * (6%: Midpoint report) +
+    * (7%: Midpoint report) +
     * (15%: Final presentation) +
     * (35%: Final report)
-* 10%: Optional lab
-* Extra bonus points for correcting errors in this course
 
 
 ## Other Course Policies
