@@ -8,12 +8,12 @@ nav_enabled: false
 <p class="year-tag">Fall 2025</p>
 <hr>
 
+**When and Where:** Mon & Weds, 3pm--4:30pm, PMA 7.114\\
+**Format:** Lectures, paper reading & discussions, research-oriented term projects\\
 **Instructor:** [Neil Zhao](https://zzrcxb.me) <[neil.zhao@utexas.edu](mailto:neil.zhao@utexas.edu)>, *please just call him Neil*\\
-**Office Hour (w/ Instructor):** Tue & Thu, 4pm--5pm or by appointments, EER 5.890\\
+**Instructor Office Hour:** Tue & Thu, 4pm--5pm or by appointments, EER 5.890\\
 **TA:** Ethan Jiang <[zx.jiang@utexas.edu](mailto:zx.jiang@utexas.edu)>\\
-**Lectures:** Mon & Weds, 3pm--4:30pm, PMA 7.114\\
-**Office Hour (w/ TA):** Tue, 1pm--2pm, EER 5.652 (for logistical questions)\\
-**Format:** In-person lectures, paper reading, research-oriented projects
+**TA Office Hour:** Tue, 1pm--2pm, EER 5.652 (for logistical questions)
 
 <p class="ut-color">
 Note: for course related emails, please include prefix "[ECE 382N]" in the subject, thank you!
@@ -24,20 +24,17 @@ Note: for course related emails, please include prefix "[ECE 382N]" in the subje
 <hr>
 
 ## Course Overview
-
 Welcome to "ECE 382N: Security at the Hardware-Software Interface,"
 where we learn how to build secure computer systems and interesting ways to break them.
 This is a research-oriented seminar course with a major term project.
 We will be going over the following topics:
 * Side-channel attacks and defenses
 * Transient-execution attacks and defenses
-* Sandboxing and isolation
 * Trusted-execution environments
+* Sandboxing and isolation
 * Memory safety techniques
 * System-level attacks in AI systems
 * Other interesting emerging threats to computer systems
-
-
 
 ### Prerequisites
 - ECE 312: Software Design and Implementation I (or C programming skills)
@@ -46,41 +43,36 @@ We will be going over the following topics:
 - Some background in security is recommended
 
 ## Course Requirements
-This course consists of a mixture of structured lectures given by the instructors
-and paper presentations & discussions led by student presenters.
+This course combines structured lectures with student-led paper presentations and discussions.
 The expectations for all students in this course are as follows:
 
-**Read:**
-* **Lectures:**Before each lecture, students will complete a (light) pre-lecture reading and a mini quiz (*due 2 hours before each lecture*).
-After each lecture, students will complete an additional in-depth post-lecture reading and
-submit a conference-style paper review by the Saturday of that week (though you are encouraged to submit it by Friday).
-* **Paper discussions:** Before each paper discussion session, students will read one of the papers to be discussed and submit a conference-style paper review (*due one day before the discussion*).
+<div><strong>Read:</strong></div>
+* **Lectures:** Before each lecture, you will complete a pre-lecture reading and a mini quiz. After the lecture, you will read an additional in-depth paper and submit a conference-style review. These reviews are designed to prepare you for the academic process of peer review. The mini quiz is due two hours before each lecture. The paper review is due by Sunday of that week.
+* **Paper discussions:** Before each paper discussion session, you will read one of the assigned papers and submit a conference-style paper review one day before the discussion.
 
-The reading list and details about paper review can be found [here](/schedule).
+You can find the course schedule and reading list [here](/schedule).
 
-*Policy: Students can skip one pre-lecture reading and mini quiz, as well as two paper reviews without grade penalty.*
+*Policy: You can skip one pre-lecture reading and mini quiz, as well as two paper reviews without grade penalty.*
 
-**Participate:** Students will attend every class and actively participate in class discussions.
-Questions are *always* welcomed during and after the lecture.
-Note that there might be pop quizzes during lectures.
+**Participate:** You will attend every class and actively participate in class discussions.
+Questions are always welcomed during and after the lecture.
+Pop quizzes may be given during lectures and will count towards your participation grade.
 
-*Policy: Students can skip two lectures without grade penalty.*
+*Policy: You can skip two lectures without grade penalty.*
 
-**Present:** Students will present research papers and lead the discussion during the paper discussion sessions. The presentation guideline will be discussed during the class, as it depends on the course enrollment.
+**Present:** You will present research papers and lead the discussion during the paper discussion sessions. We will discuss the presentation guidelines in class, as they depend on the course enrollment.
 
-**Research:** Students will conduct a term research project in system security.
+**Research:** You will conduct a term research project in system security.
 Both attack and defense projects are welcomed.
 More details about the term project can be found [here](/project).
 
 ## Grading
-
-As a research-oriented course, there will be no exams :).
-Your grade will be largely determined by the term project and class participation,
-with an optional lab (totaling 105%).
-* 5%: Class participation
+As a research-oriented course, there will be no exams.
+Your final grade is based on the following components:
+* 10%: Class participation (includes in-class discussion and pop quizzes)
 * 5%: Pre-lecture reading and mini quizzes
-* 15%: Post-lecture reading and pre-discussion paper reviews
-* 20%: Leading paper discussion
+* 10%: Post-lecture reading and pre-discussion paper reviews
+* 15%: Leading paper discussion
 * 60%: Term project =
     * (3%: Project proposal) +
     * (7%: Midpoint report) +
@@ -89,29 +81,26 @@ with an optional lab (totaling 105%).
 
 
 ## Other Course Policies
-Students are expected to adhere to the [Standards of Conduct](https://deanofstudents.utexas.edu/conduct/standardsofconduct.php).
-Please do not cheat, it is not worth it.
-This course also has the following additional policies.
+The university provides a Canvas [page](https://utexas.instructure.com/courses/1377522) with policies and resources relevant to all courses. You can refer to it as you navigate your time at UT. This course also has the following additional policies.
 
 ### Use of AI Tools
 Generative AI tools such as ChatGPT and Claude have become widespread.
 Hype aside, these tools are indeed transforming the way we retrieve and process information.
 It is therefore crucial to learn how to effectively use these tools in our research---while maintaining academic integrity and avoiding intellectual dishonesty.
-The general policy for this course regarding the use of AI tools is that **it is acceptable to retrieve and process information, but not to create original content**.
+The general policy for this course regarding the use of AI tools is that **it is acceptable to retrieve and process retrieved information, but not to create original content**.
 Here are some examples (though not an exhaustive list):
 
 #### Allowed
 <ul>
-<li class="allowed">Find related work</li>
-<li class="allowed">Clarify a confusing concept (but please be aware of hallucinations)</li>
+<li class="allowed">Find and summarize related work</li>
+<li class="allowed">Clarify a confusing concept (but please be aware of hallucination/fabrication)</li>
 <li class="allowed">Proof read your draft for grammar errors</li>
 </ul>
 
 #### Prohibited
 <ul>
-<li class="blocked">Complete mini quizzes or write paper reviews</li>
-<li class="blocked">Write the project proposal, checkpoint reports, and the final report</li>
-<li class="blocked">"Vide code" the lab</li>
+<li class="blocked">Upload the course reading and questions to AI tools to complete mini quizzes or write paper reviews</li>
+<li class="blocked">Ask AI tools to write the project proposal, checkpoint reports, and the final report</li>
 </ul>
 
 Confirmed violations can result in receiving an "F" for this course.
