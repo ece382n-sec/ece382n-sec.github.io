@@ -19,7 +19,7 @@ nav_enabled: false
 Note: for course related emails, please include prefix "[ECE 382N]" in the subject, thank you!
 </p>
 
-[[Schedule, reading list, and slides](/schedule)], [[Term project](/project)], [[Ed Discussion](https://edstem.org/us/courses/83088/discussion)]
+[[Schedule, reading list, and slides](/schedule)], [[Term project](/project)], [[Ed Discussion](https://edstem.org/us/courses/83088/discussion)], [[Acknowledgements](/ack)]
 
 <hr>
 
