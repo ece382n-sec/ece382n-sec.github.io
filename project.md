@@ -30,7 +30,6 @@ Lastly, the instructor will advise each individual or team independently as need
 
 * Sep 3: Form a team and send your team information to TA
 * Sep 15: Project proposal due
-* Oct 27: Midpoint lighting talk (during the class)
 * Oct 31: Midpoint report due
 * Dec 3 & 8: Final Project Presentation (during the classes)
 * Dec 12: Final report due
@@ -66,26 +65,20 @@ This report should describe:
 (4) what the remaining tasks are and how you plan to complete them.
 
 **Final report (<= 6 pages):**
-After a semester of hard work, you will write up your findings like a research paper.
+After a semester of hard work, you will write up your findings like a short research paper.
 You can include supplementary materials as appendices.
 
 **Submission instructions:** TBD
 
 
-## Presentation
+## Final Presentation
 
-**Midpoint lightning talk:**
-Before the mindpoint report is due,
-you or your team will give a lightning talk
-to share your research problem and progress with the class.
-The talk duration will be determined based on the number of teams.
-
-**Final presentation:**
 You will give a conference-style talk to present your term project.
 If you are working as a team,
 please make sure every team member presents part of the project.
 The talk length will be 12--15 minutes,
 depending on the number of teams,
-followed by a 5-min Q&A.
+followed by a 3-min to 5-min Q&A.
 **Please send you final presentation to the instructor at least
-two days before your scheduled presentation.**
+two days before your scheduled presentation
+if you want some preliminary feedback before presenting.**
