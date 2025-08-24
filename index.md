@@ -19,7 +19,7 @@ nav_enabled: false
 Note: for course related emails, please include prefix "[ECE 382N]" in the subject, thank you!
 </p>
 
-[[Schedule, reading list, and slides](/schedule)], [[Term project](/project)]
+[[Schedule, reading list, and slides](/schedule)], [[Term project](/project)], [[Ed Discussion](https://edstem.org/us/courses/83088/discussion)]
 
 <hr>
 
@@ -112,3 +112,5 @@ or misuse personal information---doing so can lead to serious legal consequences
 Be extra mindful of ethical and legal issues if you are working on any attack-focused term project.
 When in doubt, please reach out to the course instructor.
 
+## A Notice of Academic Accommodations from Disability and Access (D&A)
+If you are a student with a disability, or think you may have a disability, and need accommodations please contact Disability and Access (D&A). You may refer to D&A’s website for contact and more information: [http://disability.utexas.edu/](http://disability.utexas.edu/). If you are already registered with D&A, please deliver your accommodation letter to me as early as possible in the semester so we can discuss your approved accommodations.
