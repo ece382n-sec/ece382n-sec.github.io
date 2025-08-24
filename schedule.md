@@ -7,7 +7,7 @@ layout: minimal
 <p class="year-tag">Fall 2025</p>
 <hr>
 
-<!-- ## Course Schedule -->
+## Course Schedule (Tentative)
 
 (L) = Lecture given by the instructor\\
 (D) = Paper discussion led by student presenters
