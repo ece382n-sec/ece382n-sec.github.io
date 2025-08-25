@@ -64,7 +64,7 @@ ul.inline {
     <td rowspan="2">Bootstrap</td>
     <td>(L) Course Logistics</td>
     <td>Please fill this <a href="https://forms.gle/nX2kyiBxQmFPqetQ9" target="_blank">anonymous course-preparation survey</a> by Aug 28 (Thu)</td>
-    <td></td>
+    <td><a href="https://docs.google.com/presentation/d/188onoHX-T-CbIo1eKGBL697aUNOY_zA5BTwOMLv4R9I/edit?usp=sharing" target="_blank">Slides</a></td>
   </tr>
   <tr>
     <td class="date">Aug 27</td>
