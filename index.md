@@ -58,7 +58,7 @@ You can find the course schedule and reading list [here](/schedule).
 Questions are always welcomed during and after the lecture.
 Pop quizzes may be given during lectures and will count towards your participation grade.
 
-*Policy: You can skip two lectures without grade penalty.*
+*Policy: You can skip two lectures/discussions without grade penalty.*
 
 **Present:** You will present research papers and lead the discussion during the paper discussion sessions. We will discuss the presentation guidelines in class, as they depend on the course enrollment.
 

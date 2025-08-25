@@ -63,7 +63,7 @@ ul.inline {
     <td class="date">Aug 25</td>
     <td rowspan="2">Bootstrap</td>
     <td>(L) Course Logistics</td>
-    <td>-</td>
+    <td>Please fill this [anonymous course-preparation survey](https://forms.gle/nX2kyiBxQmFPqetQ9) by Aug 28 (Thu)</td>
     <td></td>
   </tr>
   <tr>
