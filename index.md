@@ -8,7 +8,7 @@ nav_enabled: false
 <p class="year-tag">Fall 2025</p>
 <hr>
 
-**When and Where:** Mon & Weds, 3pm--4:30pm, PMA 7.114\\
+**When and Where:** Mon & Weds, 3pm--4:30pm, ~~PMA 7.114~~ $\rightarrow$ WAG 214\\
 **Format:** Lectures, paper reading & discussions, research-oriented term projects\\
 **Instructor:** [Neil Zhao](https://zzrcxb.me) <[neil.zhao@utexas.edu](mailto:neil.zhao@utexas.edu)>, *please just call him Neil*\\
 **Instructor Office Hour:** Tue & Thu, 4pm--5pm or by appointments, EER 5.890\\
