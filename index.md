@@ -8,6 +8,10 @@ nav_enabled: false
 <p class="year-tag">Fall 2025</p>
 <hr>
 
+<p class="ut-color" style="font-size: larger">
+<strong>Important Announcement: We changed our classroom to WAG 214.</strong>
+</p>
+
 **When and Where:** Mon & Weds, 3pm--4:30pm, ~~PMA 7.114~~ $\rightarrow$ WAG 214\\
 **Format:** Lectures, paper reading & discussions, research-oriented term projects\\
 **Instructor:** [Neil Zhao](https://zzrcxb.me) <[neil.zhao@utexas.edu](mailto:neil.zhao@utexas.edu)>, *please just call him Neil*\\
@@ -16,7 +20,7 @@ nav_enabled: false
 **TA Office Hour:** Tue, 3pm--4pm, EER 5.652 (for logistical questions)
 
 <p class="ut-color">
-Note: for course related emails, please include prefix "[ECE 382N]" in the subject, thank you!
+Note: For course related emails, please include prefix "[ECE 382N]" in the subject, thank you!
 </p>
 
 [[Schedule, reading list, and slides](/schedule)], [[Term project](/project)], [[Ed discussion](https://edstem.org/us/courses/83088/discussion)], [[Acknowledgements](/ack)]
