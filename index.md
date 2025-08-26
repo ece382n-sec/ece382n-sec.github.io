@@ -13,7 +13,7 @@ nav_enabled: false
 **Instructor:** [Neil Zhao](https://zzrcxb.me) <[neil.zhao@utexas.edu](mailto:neil.zhao@utexas.edu)>, *please just call him Neil*\\
 **Instructor Office Hour:** Tue & Thu, 4pm--5pm or by appointments, EER 5.890\\
 **TA:** Ethan Jiang <[zx.jiang@utexas.edu](mailto:zx.jiang@utexas.edu)>\\
-**TA Office Hour:** Tue, 1pm--2pm, EER 5.652 (for logistical questions)
+**TA Office Hour:** Tue, 3pm--4pm, EER 5.652 (for logistical questions)
 
 <p class="ut-color">
 Note: for course related emails, please include prefix "[ECE 382N]" in the subject, thank you!
