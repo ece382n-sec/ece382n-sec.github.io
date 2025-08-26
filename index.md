@@ -9,10 +9,10 @@ nav_enabled: false
 <hr>
 
 <p class="ut-color" style="font-size: larger">
-<strong>Important Announcement: We changed our classroom to WAG 214.</strong>
+<strong><u>Important Announcement: We changed our classroom to WAG 214.</u></strong>
 </p>
 
-**When and Where:** Mon & Weds, 3pm--4:30pm, ~~PMA 7.114~~ $\rightarrow$ WAG 214\\
+**When and Where:** Mon & Weds, 3pm--4:30pm, ~~PMA 7.114~~ <span>&#8594;</span> WAG 214\\
 **Format:** Lectures, paper reading & discussions, research-oriented term projects\\
 **Instructor:** [Neil Zhao](https://zzrcxb.me) <[neil.zhao@utexas.edu](mailto:neil.zhao@utexas.edu)>, *please just call him Neil*\\
 **Instructor Office Hour:** Tue & Thu, 4pm--5pm or by appointments, EER 5.890\\
