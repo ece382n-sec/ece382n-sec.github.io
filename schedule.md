@@ -70,7 +70,7 @@ ul.inline {
     <td class="date">Aug 27</td>
     <td>(L) Topic Overview and Project Ideas</td>
     <td>-</td>
-    <td></td>
+    <td><a href="https://utexas-my.sharepoint.com/:p:/g/personal/zz9427_eid_utexas_edu/EVFPHPN0hvhBlwCDUoXud4cBcAiRqi82pCe8e9sDfqMJHg?e=NPQf9r" target="_blank">Slides</td>
   </tr>
   <tr>
     <td rowspan="2" class="week" id="week-2">Week 2</td>
