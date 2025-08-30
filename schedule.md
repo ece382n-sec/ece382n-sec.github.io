@@ -83,8 +83,18 @@ ul.inline {
     <td>(L) Cache-Based Side Channels (w/ Demo!)</td>
     <td>
       <ul class="inline">
-        <li><strong>Pre-lecture:</strong> Flush+Reload: A High Resolution, Low Noise, L3 Cache Side-Channel Attack</li>
-        <li><strong>Post-lecture:</strong> Theory and Practice of Finding Eviction Sets</li>
+        <li><strong>Pre-lecture:</strong>
+          Flush+Reload: A High Resolution, Low Noise, L3 Cache Side-Channel Attack (USENIX Sec '14)
+        </li>
+        <li><strong>Post-lecture (Choose one to review):</strong>
+          <ul class="inline">
+            <li>Last-Level Cache Side-Channel Attacks are Practical (SP '15)</li>
+            <li>Theory and Practice of Finding Eviction Sets (SP '19)</li>
+          </ul>
+        </li>
+        <li>
+          <a href="https://github.com/ece382n-sec/Example-PoCs" target="_blank"><strong>Demo code repo</strong></a>
+        </li>
       </ul>
     </td>
     <td></td>
@@ -95,19 +105,20 @@ ul.inline {
     <td>(L) Side Channels in Public Clouds (w/ Demo!)</td>
     <td>
       <ul class="inline">
-        <li><strong>Pre-lecture:</strong> Hey, You, Get Off of My Cloud: Exploring Information Leakage in Third-Party Compute Clouds</li>
-        <li><strong>Post-lecture:</strong> Everywhere All at Once: Co-Location Attacks on Public Cloud FaaS</li>
+        <li><strong>Pre-lecture:</strong> Hey, You, Get Off of My Cloud: Exploring Information Leakage in Third-Party Compute Clouds (CCS '09)</li>
+        <li><strong>Post-lecture:</strong> Everywhere All at Once: Co-Location Attacks on Public Cloud FaaS (ASPLOS '24)</li>
       </ul>
     </td>
     <td></td>
   </tr>
   <tr>
     <td class="date">Sep 10</td>
-    <td>(L) Partitioning and Randomization</td>
+    <td>(L) Detection, Partitioning and Randomization</td>
     <td>
       <ul class="inline">
-        <li><strong>Pre-lecture:</strong> CATalyst: Defeating Last-Level Cache Side Channel Attacks in Cloud Computing</li>
-        <li><strong>Post-lecture:</strong> MIRAGE: Mitigating Conflict-Based Cache Attacks  with a Practical Fully-Associative Design</li>
+        <li><strong>Pre-lecture:</strong> CATalyst: Defeating Last-Level Cache Side Channel Attacks in Cloud Computing (HPCA '16)</li>
+        <li><strong>No post-lecture reading, please focus on your term project proposal</strong>
+        </li>
       </ul>
     </td>
     <td></td>
@@ -119,7 +130,7 @@ ul.inline {
     <td>
       <ul class="inline">
         <li><strong>Pre-lecture:</strong> (Intel) Data Operand Independent Timing Instruction Set Architecture (ISA) Guidance</li>
-        <li><strong>Post-lecture:</strong> Data Oblivious ISA Extensions for Side Channel-Resistant and High Performance Computing</li>
+        <li><strong>Post-lecture:</strong> Data Oblivious ISA Extensions for Side Channel-Resistant and High Performance Computing (NDSS '19)</li>
       </ul>
     </td>
     <td></td>
@@ -131,7 +142,7 @@ ul.inline {
     <td>
       <ul class="inline">
         <li><strong>Pre-lecture:</strong> Spectre Attacks: Exploiting Speculative Execution</li>
-        <li><strong>Post-lecture:</strong> A Systematic Evaluation of Transient Execution Attacks and Defenses</li>
+        <li><strong>No post-lecture reading</strong></li>
       </ul>
     </td>
     <td></td>
@@ -151,11 +162,12 @@ ul.inline {
   </tr>
   <tr>
     <td class="date">Sep 24</td>
-    <td>(L) Software and Hardware Defenses</td>
+    <td>(D) Hardware Defenses</td>
     <td>
+      <strong>Papers to discuss (Choose one to review):</strong><br>
       <ul class="inline">
-        <li><strong>Pre-lecture:</strong> <a href="https://llvm.org/docs/SpeculativeLoadHardening.html" target="_blank">Speculative Load Hardening</a></li>
-        <li><strong>Post-lecture:</strong> Speculative Taint Tracking (STT): A Comprehensive Protection for Speculatively Accessed Data</li>
+        <li>Efficient Invisible Speculative Execution through Selective Delay and Value Prediction (ISCA '19)</li>
+        <li>Speculative Taint Tracking (STT): A Comprehensive Protection for Speculatively Accessed Data (MICRO '19)</li>
       </ul>
     </td>
     <td></td>
@@ -190,8 +202,7 @@ ul.inline {
     <td>(L) TEE Designs</td>
     <td>
       <ul class="inline">
-        <!-- <li><strong>Pre-lecture:</strong> </li> -->
-        <li><strong>Post-lecture:</strong> Keystone: An Open Framework for Architecting Trusted Execution Environments</li>
+        <li><strong>Pre-lecture:</strong> Keystone: An Open Framework for Architecting Trusted Execution Environments</li>
       </ul>
     </td>
     <td></td>
@@ -223,7 +234,7 @@ ul.inline {
   </tr>
   <tr>
     <td class="date">Oct 15</td>
-    <td>(L) Memory Safety</td>
+    <td>(L) Memory Safety & Control-Flow Integrity</td>
     <td>
       <ul class="inline">
         <li><strong>Pre-lecture:</strong> An Introduction to CHERI</li>
@@ -235,11 +246,12 @@ ul.inline {
   <tr>
     <td rowspan="2" class="week" id="week-9">Week 9</td>
     <td class="date">Oct 20</td>
-    <td>(L) Control-Flow Integrity</td>
+    <td>(D) In-Process Isolation</td>
     <td>
+      <strong>Papers to discuss (Choose one to review):</strong><br>
       <ul class="inline">
-        <li><strong>Pre-lecture:</strong> <a href="https://www.intel.com/content/www/us/en/developer/articles/technical/technical-look-control-flow-enforcement-technology.html" target="_blank">A Technical Look at Intel Control-Flow Enforcement Technology</a></li>
-        <li><strong>Post-lecture:</strong> SPECCFI: Mitigating Spectre Attacks using CFI Informed Speculation</li>
+        <li>Donky: Domain Keys--Efficient In-Process Isolation for RISC-V and x86</li>
+        <li>Going beyond the Limits of SFI: Flexible and Secure Hardware-Assisted In-Process Isolation with HFI</li>
       </ul>
     </td>
     <td></td>
@@ -248,9 +260,10 @@ ul.inline {
     <td class="date">Oct 22</td>
     <td>(D) Transient Execution + Memory Safety</td>
     <td>
+      <strong>Papers to discuss (Choose one to review):</strong><br>
       <ul class="inline">
-        <li><strong>Pre-lecture:</strong> Speculative Probing: Hacking Blind in the Spectre Era</li>
-        <li><strong>Post-lecture:</strong> PACMAN: Attacking ARM Pointer Authentication with Speculative Execution</li>
+        <li>Speculative Probing: Hacking Blind in the Spectre Era</li>
+        <li>PACMAN: Attacking ARM Pointer Authentication with Speculative Execution</li>
       </ul>
     </td>
     <td></td>
@@ -262,8 +275,7 @@ ul.inline {
     <td>(L) RowHammer</td>
     <td>
       <ul class="inline">
-        <!-- <li><strong>Pre-lecture:</strong> Speculative Probing: Hacking Blind in the Spectre Era</li> -->
-        <li><strong>Post-lecture:</strong> RowHammer: A Retrospective</li>
+        <li><strong>Pre-lecture:</strong> RowHammer: A Retrospective</li>
         <li><strong>Optional:</strong> <a href="https://www.youtube.com/watch?v=sgd7PHQQ1AI" target="_blank">The Story of Rowhammer</a> by Onur Mutlu</li>
       </ul>
     </td>
@@ -334,11 +346,12 @@ ul.inline {
   <tr>
     <td rowspan="2" class="week" id="week-13">Week 13</td>
     <td class="date">Nov 17</td>
-    <td>(L/D) Private Search</td>
+    <td>(D) Attacks on GPU</td>
     <td>
       <strong>Paper to discuss:</strong><br>
       <ul class="inline">
-      <li>Compass: Encrypted Semantic Search with High Accuracy</li>
+        <li>BarraCUDA: Edge GPUs do Leak DNN Weights</li>
+        <li>GPU.zip: On the Side-Channel Implications of Hardware-Based Graphical Data Compression</li>
       </ul>
     </td>
     <td></td>
@@ -349,8 +362,13 @@ ul.inline {
     <td>
       <strong>Papers to discuss (Choose one to review):</strong><br>
       <ul class="inline">
-      <li>SpecFuzz: Bringing Spectre-Type Vulnerabilities to the Surface</li>
-      <li>Medusa: Microarchitectural Data Leakage via Automated Attack Synthesis</li>
+        <li>SpecFuzz: Bringing Spectre-Type Vulnerabilities to the Surface</li>
+        <li>Medusa: Microarchitectural Data Leakage via Automated Attack Synthesis</li>
+      </ul>
+      <strong>(Optional) Videos on hardware fuzzing:</strong>
+      <ul class="inline">
+        <li><a href="https://www.youtube.com/watch?v=neWc0H1k2Lc" target="_blank">The Discovery of Zenbleed ft. Tavis Ormandy</a> by LiveOverflow</li>
+        <li><a href="https://www.youtube.com/watch?v=KrksBdWcZgQ" target="_blank">Breaking the x86 Instruction Set</a> by Christopher Domas at BlackHat '17</li>
       </ul>
     </td>
     <td></td>
