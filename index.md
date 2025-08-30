@@ -9,7 +9,7 @@ nav_enabled: false
 <hr>
 
 <p class="ut-color" style="font-size: larger">
-<strong><u>Important Announcement: We changed our classroom to WAG 214.</u></strong>
+<strong><u>Important Announcement: We changed our classroom to WAG 214</u></strong>
 </p>
 
 **When and Where:** Mon & Weds, 3pm--4:30pm, ~~PMA 7.114~~ <span>&#8594;</span> **WAG 214**\\
