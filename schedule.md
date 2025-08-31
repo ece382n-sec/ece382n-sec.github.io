@@ -96,12 +96,11 @@ ul.inline {
             Theory and Practice of Finding Eviction Sets (SP '19)</a></li>
           </ul>
         </li>
-        <li>
-          <a href="https://github.com/ece382n-sec/Example-PoCs" target="_blank"><strong>Demo code repo</strong></a>
-        </li>
       </ul>
     </td>
-    <td></td>
+    <td>
+      <a href="https://github.com/ece382n-sec/Example-PoCs" target="_blank">PoC</a>
+    </td>
   </tr>
   <tr>
     <td rowspan="2" class="week" id="week-3">Week 3</td>
