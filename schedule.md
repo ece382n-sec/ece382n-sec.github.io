@@ -157,8 +157,9 @@ ul.inline {
     <td>
       <strong>Papers to discuss (Choose one to review):</strong><br>
       <ul class="inline">
-        <li>An Analysis of Speculative Type Confusion Vulnerabilities in the Wild</li>
-        <li>Branch History Injection: On the Effectiveness of Hardware Mitigations Against Cross-Privilege Spectre-v2 Attacks</li>
+        <li><a href="https://www.usenix.org/conference/usenixsecurity21/presentation/kirzner" target="_blank">
+        An Analysis of Speculative Type Confusion Vulnerabilities in the Wild (USENIX Sec '21)</a></li>
+        <li><a href="https://www.usenix.org/conference/usenixsecurity22/presentation/barberis" target="_blank">Branch History Injection: On the Effectiveness of Hardware Mitigations Against Cross-Privilege Spectre-v2 Attacks (USENIX Sec '22)</a></li>
       </ul>
     </td>
     <td></td>
@@ -169,8 +170,10 @@ ul.inline {
     <td>
       <strong>Papers to discuss (Choose one to review):</strong><br>
       <ul class="inline">
-        <li>Efficient Invisible Speculative Execution through Selective Delay and Value Prediction (ISCA '19)</li>
-        <li>Speculative Taint Tracking (STT): A Comprehensive Protection for Speculatively Accessed Data (MICRO '19)</li>
+        <li><a href="https://dl.acm.org/doi/10.1145/3307650.3322216" target="_blank">
+        Efficient Invisible Speculative Execution through Selective Delay and Value Prediction (ISCA '19)</a></li>
+        <li><a href="https://dl.acm.org/doi/10.1145/3352460.3358274" target="_blank">
+        Speculative Taint Tracking (STT): A Comprehensive Protection for Speculatively Accessed Data (MICRO '19)</a></li>
       </ul>
     </td>
     <td></td>
@@ -291,8 +294,10 @@ ul.inline {
     <td>
       <strong>Papers to discuss (Choose one to review):</strong><br>
       <ul class="inline">
-      <li>Remote Timing Attacks on Efficient Language Model Inference</li>
-      <li>I Know What You Asked: Prompt Leakage via KV-Cache Sharing in Multi-Tenant LLM Serving</li>
+      <li><a href="https://arxiv.org/abs/2508.15036" target="_blank">
+      MoEcho: Exploiting Side-Channel Attacks to Compromise User Privacy in Mixture-of-Experts LLMs</a></li>
+      <li><a href="https://www.ndss-symposium.org/ndss-paper/i-know-what-you-asked-prompt-leakage-via-kv-cache-sharing-in-multi-tenant-llm-serving/" target="_blank">
+      I Know What You Asked: Prompt Leakage via KV-Cache Sharing in Multi-Tenant LLM Serving</a></li>
       </ul>
     </td>
     <td></td>
@@ -325,11 +330,12 @@ ul.inline {
   <tr>
     <td rowspan="2" class="week" id="week-12">Week 12</td>
     <td class="date">Nov 10</td>
-    <td>(L/D) Information-Flow Tracking in Hardware</td>
+    <td>(L) Information-Flow Tracking in Hardware</td>
     <td>
       <strong>Paper to discuss:</strong><br>
       <ul class="inline">
       <li>Complete Information Flow Tracking from the Gates Up</li>
+      <li>Speculative Privacy Tracking (SPT): Leaking Information From Speculative Execution Without Compromising Privacy</li>
       </ul>
     </td>
     <td></td>
@@ -341,7 +347,7 @@ ul.inline {
       <strong>Papers to discuss (Choose one to review):</strong><br>
       <ul class="inline">
       <li>Hertzbleed: Turning Power Side-Channel Attacks Into Remote Timing Attacks on x86</li>
-      <li>GoFetch: Breaking Constant-Time Cryptographic Implementations Using Data Memory-Dependent Prefetchers</li>
+      <li>Pentimento: Data Remanence in Cloud FPGAs</li>
       </ul>
     </td>
     <td></td>
@@ -366,7 +372,7 @@ ul.inline {
       <strong>Papers to discuss (Choose one to review):</strong><br>
       <ul class="inline">
         <li>SpecFuzz: Bringing Spectre-Type Vulnerabilities to the Surface</li>
-        <li>Medusa: Microarchitectural Data Leakage via Automated Attack Synthesis</li>
+        <li>Cascade: CPU Fuzzing via Intricate Program Generation</li>
       </ul>
       <strong>(Optional) Videos on hardware fuzzing:</strong>
       <ul class="inline">
