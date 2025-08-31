@@ -9,6 +9,8 @@ layout: minimal
 
 ## Course Schedule (Tentative)
 
+**Please find the paper-discussion sign-up sheet on Canvas, under the "Home" tab**
+
 (L) = Lecture given by the instructor\\
 (D) = Paper discussion led by student presenters
 
@@ -367,7 +369,7 @@ ul.inline {
   </tr>
   <tr>
     <td class="date">Nov 19</td>
-    <td>(D) Fuzzing & Attack Automation</td>
+    <td>(D) SW & HW Fuzzing</td>
     <td>
       <strong>Papers to discuss (Choose one to review):</strong><br>
       <ul class="inline">
