@@ -84,12 +84,16 @@ ul.inline {
     <td>
       <ul class="inline">
         <li><strong>Pre-lecture:</strong>
-          Flush+Reload: A High Resolution, Low Noise, L3 Cache Side-Channel Attack (USENIX Sec '14)
+          <a href="https://www.usenix.org/conference/usenixsecurity14/technical-sessions/presentation/yarom" target="_blank">
+          Flush+Reload: A High Resolution, Low Noise, L3 Cache Side-Channel Attack (USENIX Sec '14, Sections 1--3)
+          </a>
         </li>
         <li><strong>Post-lecture (Choose one to review):</strong>
           <ul class="inline">
-            <li>Last-Level Cache Side-Channel Attacks are Practical (SP '15)</li>
-            <li>Theory and Practice of Finding Eviction Sets (SP '19)</li>
+            <li><a href="https://yuval.yarom.org/pdfs/LiuYGHL15.pdf" target="_blank">
+            Last-Level Cache Side-Channel Attacks are Practical (SP '15)</a></li>
+            <li><a href="https://www.computer.org/csdl/proceedings-article/sp/2019/666000a039/1dlwkwPrlCw" target="_blank">
+            Theory and Practice of Finding Eviction Sets (SP '19)</a></li>
           </ul>
         </li>
         <li>
