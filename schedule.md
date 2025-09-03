@@ -101,6 +101,7 @@ ul.inline {
       </ul>
     </td>
     <td>
+      <a href="files/L1 - Cache Side Channels.pdf">Slides</a><br>
       <a href="https://github.com/ece382n-sec/Example-PoCs" target="_blank">PoC</a>
     </td>
   </tr>
