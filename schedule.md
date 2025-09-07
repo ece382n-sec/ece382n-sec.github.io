@@ -87,7 +87,7 @@ ul.inline {
       <ul class="inline">
         <li><strong>Pre-lecture:</strong>
           <a href="https://www.usenix.org/conference/usenixsecurity14/technical-sessions/presentation/yarom" target="_blank">
-          Flush+Reload: A High Resolution, Low Noise, L3 Cache Side-Channel Attack (USENIX Sec '14, Sections 1--3)
+          Flush+Reload: A High Resolution, Low Noise, L3 Cache Side-Channel Attack (USENIX Sec '14, Sections 1-3)
           </a>
         </li>
         <li><strong>Post-lecture (Choose one to review):</strong>
@@ -111,8 +111,12 @@ ul.inline {
     <td>(L) Side Channels in Public Clouds (w/ Demo!)</td>
     <td>
       <ul class="inline">
-        <li><strong>Pre-lecture:</strong> Hey, You, Get Off of My Cloud: Exploring Information Leakage in Third-Party Compute Clouds (CCS '09)</li>
-        <li><strong>Post-lecture:</strong> Everywhere All at Once: Co-Location Attacks on Public Cloud FaaS (ASPLOS '24)</li>
+        <li><strong>Pre-lecture:</strong>
+        <a href="https://rist.tech.cornell.edu/papers/cloudsec.pdf" target="_blank">
+        Hey, You, Get Off of My Cloud: Exploring Information Leakage in Third-Party Compute Clouds (CCS '09, Sections 1-3, 6)</a></li>
+        <li><strong>Post-lecture:</strong>
+        <a href="https://zzrcxb.me/files/papers/ASPLOS24-Everywhere.pdf" target="_blank">
+        Everywhere All at Once: Co-Location Attacks on Public Cloud FaaS (ASPLOS '24)</a></li>
       </ul>
     </td>
     <td></td>
@@ -122,9 +126,10 @@ ul.inline {
     <td>(L) Detection, Partitioning and Randomization</td>
     <td>
       <ul class="inline">
-        <li><strong>Pre-lecture:</strong> CATalyst: Defeating Last-Level Cache Side Channel Attacks in Cloud Computing (HPCA '16)</li>
-        <li><strong>No post-lecture reading, please focus on your term project proposal</strong>
-        </li>
+        <li><strong>Pre-lecture:</strong>
+        <a href="https://class.ece.iastate.edu/tyagi/cpre581/papers/HPCA16Catalyst.pdf" target="_blank">
+        CATalyst: Defeating Last-Level Cache Side Channel Attacks in Cloud Computing (HPCA '16)</a></li>
+        <li><strong>No post-lecture reading, please focus on your term project proposal</strong></li>
       </ul>
     </td>
     <td></td>
@@ -335,7 +340,7 @@ ul.inline {
     <td class="date">Nov 10</td>
     <td>(L) Information-Flow Tracking in Hardware</td>
     <td>
-      <strong>Paper to discuss:</strong><br>
+      <strong>Paper to discuss (Choose one to review):</strong><br>
       <ul class="inline">
       <li>Complete Information Flow Tracking from the Gates Up</li>
       <li>Speculative Privacy Tracking (SPT): Leaking Information From Speculative Execution Without Compromising Privacy</li>

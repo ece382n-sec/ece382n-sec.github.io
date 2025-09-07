@@ -8,22 +8,14 @@ nav_enabled: false
 <p class="year-tag">Fall 2025</p>
 <hr>
 
-<p class="ut-color" style="font-size: larger">
-<strong><u>Important Announcement: We changed our classroom to WAG 214</u></strong>
-</p>
-
 **When and Where:** Mon & Weds, 3pm--4:30pm, ~~PMA 7.114~~ <span>&#8594;</span> **WAG 214**\\
 **Format:** Lectures, paper reading & discussions, research-oriented term projects\\
 **Instructor:** [Neil Zhao](https://zzrcxb.me) <[neil.zhao@utexas.edu](mailto:neil.zhao@utexas.edu)>, *please just call him Neil*\\
 **Instructor Office Hour:** Tue 4pm--5pm, Thu 11am--12pm, or by appointments, EER 5.890\\
 **TA:** Ethan Jiang <[zx.jiang@utexas.edu](mailto:zx.jiang@utexas.edu)>\\
-**TA Office Hour:** Tue, 3pm--4pm, EER 5.652 (for logistical questions)
+**TA Office Hour:** Tue 3pm--4pm, EER 5.652 (for logistical questions)
 
-<p class="ut-color">
-Note: For course related emails, please include prefix "[ECE 382N]" in the subject, thank you!
-</p>
-
-[[Schedule, reading list, and slides](/schedule)], [[Term project](/project)], [[Ed discussion](https://edstem.org/us/courses/83088/discussion)], [[Acknowledgements](/ack)]
+[[Schedule, reading list, and slides](schedule/)], [[Term project](project/)], [[Ed discussion](https://edstem.org/us/courses/83088/discussion)], [[Acknowledgements](ack/)]
 
 <hr>
 
@@ -54,7 +46,7 @@ The expectations for all students in this course are as follows:
 * **Lectures:** Before each lecture, you will complete a pre-lecture reading and a mini quiz. After the lecture, you will read an additional in-depth paper and submit a conference-style review. These reviews are designed to prepare you for the academic process of peer review. The mini quiz is due two hours before each lecture. The paper review is due by Sunday of that week.
 * **Paper discussions:** Before each paper discussion session, you will read one of the assigned papers and submit a conference-style paper review one day before the discussion.
 
-You can find the course schedule and reading list [here](/schedule).
+You can find the course schedule and reading list [here](schedule/).
 
 *Policy: You can skip one pre-lecture reading and mini quiz, as well as two paper reviews without grade penalty.*
 
@@ -68,7 +60,7 @@ Pop quizzes may be given during lectures and will count towards your participati
 
 **Research:** You will conduct a term research project in system security.
 Both attack and defense projects are welcomed.
-More details about the term project can be found [here](/project).
+More details about the term project can be found [here](project/).
 
 ## Grading
 As a research-oriented course, there will be no exams.
