@@ -15,7 +15,7 @@ nav_enabled: false
 **TA:** Ethan Jiang <[zx.jiang@utexas.edu](mailto:zx.jiang@utexas.edu)>\\
 **TA Office Hour:** Tue 3pm--4pm, EER 5.652 (for logistical questions)
 
-[[Schedule, reading list, and slides](schedule/)], [[Term project](project/)], [[Ed discussion](https://edstem.org/us/courses/83088/discussion)], [[Acknowledgements](ack/)]
+[[Schedule, reading list, and slides](schedule)], [[Term project](project)], [[Ed discussion](https://edstem.org/us/courses/83088/discussion)], [[Acknowledgements](ack)]
 
 <hr>
 
@@ -46,7 +46,7 @@ The expectations for all students in this course are as follows:
 * **Lectures:** Before each lecture, you will complete a pre-lecture reading and a mini quiz. After the lecture, you will read an additional in-depth paper and submit a conference-style review. These reviews are designed to prepare you for the academic process of peer review. The mini quiz is due two hours before each lecture. The paper review is due by Sunday of that week.
 * **Paper discussions:** Before each paper discussion session, you will read one of the assigned papers and submit a conference-style paper review one day before the discussion.
 
-You can find the course schedule and reading list [here](schedule/).
+You can find the course schedule and reading list [here](schedule).
 
 *Policy: You can skip one pre-lecture reading and mini quiz, as well as two paper reviews without grade penalty.*
 
@@ -60,7 +60,7 @@ Pop quizzes may be given during lectures and will count towards your participati
 
 **Research:** You will conduct a term research project in system security.
 Both attack and defense projects are welcomed.
-More details about the term project can be found [here](project/).
+More details about the term project can be found [here](project).
 
 ## Grading
 As a research-oriented course, there will be no exams.
