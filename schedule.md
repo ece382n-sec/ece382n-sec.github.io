@@ -119,7 +119,7 @@ ul.inline {
         Everywhere All at Once: Co-Location Attacks on Public Cloud FaaS (ASPLOS '24)</a></li>
       </ul>
     </td>
-    <td></td>
+    <td>ref="files/L2 - Side Channels in Public Cloud.pdf">Slides</a></td>
   </tr>
   <tr>
     <td class="date">Sep 10</td>
