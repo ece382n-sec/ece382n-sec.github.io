@@ -128,7 +128,7 @@ ul.inline {
       <ul class="inline">
         <li><strong>Pre-lecture:</strong>
         <a href="https://class.ece.iastate.edu/tyagi/cpre581/papers/HPCA16Catalyst.pdf" target="_blank">
-        CATalyst: Defeating Last-Level Cache Side Channel Attacks in Cloud Computing (HPCA '16)</a></li>
+        CATalyst: Defeating Last-Level Cache Side Channel Attacks in Cloud Computing (HPCA '16, Sections 1-3)</a></li>
         <li><strong>No post-lecture reading, please focus on your term project proposal</strong></li>
       </ul>
     </td>
