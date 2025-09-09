@@ -123,7 +123,7 @@ ul.inline {
   </tr>
   <tr>
     <td class="date">Sep 10</td>
-    <td>(L) Detection, Partitioning and Randomization</td>
+    <td>(L) Partitioning, Randomization, and Detection</td>
     <td>
       <ul class="inline">
         <li><strong>Pre-lecture:</strong>
