@@ -130,9 +130,14 @@ ul.inline {
         <a href="https://class.ece.iastate.edu/tyagi/cpre581/papers/HPCA16Catalyst.pdf" target="_blank">
         CATalyst: Defeating Last-Level Cache Side Channel Attacks in Cloud Computing (HPCA '16, Sections 1-3)</a></li>
         <li><strong>No post-lecture reading, please focus on your term project proposal</strong></li>
+        <li>(Optional) <a href="https://docs.google.com/presentation/d/1TezFuMWDTNXdEq-o2tuAN62myVBqD7To/edit?usp=sharing&ouid=109395281671520631390&rtpof=true&sd=true" target="_blank">
+        A Game of Cache Attacks and Defense</a>
+        by Moinuddin Qureshi at
+        <a href="https://sites.google.com/view/mad-isca22" target="_blank">MAD tutorial (ISCA '22)
+        </a></li>
       </ul>
     </td>
-    <td></td>
+    <td><a href="files/L3 - Partitioning, Randomization, and Detection.pdf">Slides</a></td>
   </tr>
   <tr>
     <td rowspan="2" class="week" id="week-4">Week 4</td>
