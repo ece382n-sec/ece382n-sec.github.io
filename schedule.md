@@ -145,8 +145,16 @@ ul.inline {
     <td>(L) Data-Oblivious Computation</td>
     <td>
       <ul class="inline">
-        <li><strong>Pre-lecture:</strong> (Intel) Data Operand Independent Timing Instruction Set Architecture (ISA) Guidance</li>
-        <li><strong>Post-lecture:</strong> Data Oblivious ISA Extensions for Side Channel-Resistant and High Performance Computing (NDSS '19)</li>
+        <li><strong>Pre-lecture:</strong>
+        <a href="https://www.intel.com/content/www/us/en/developer/articles/technical/software-security-guidance/secure-coding/mitigate-timing-side-channel-crypto-implementation.html" target="_blank">Guidelines for Mitigating Timing Side Channels Against Cryptographic Implementations</a> by Intel</li>
+        <li><strong>(Optional) Other Resources:</strong>
+        <ul class="inline">
+        <li><a href="https://elaineshi.com/docs/oramlecture.pdf" target="_blank">Oblivious RAM</a> by Elaine Shi</li>
+        <li><a href="https://github.com/veorq/cryptocoding" target="_blank">Cryptocoding (a list of "coding rules")
+        for implementing cryptographic operations</a> by
+        Jean-Philippe Aumasson</li>
+        </ul>
+        </li>
       </ul>
     </td>
     <td></td>
@@ -157,8 +165,16 @@ ul.inline {
     <td>(L) Spectre and Meltdown (w/ Demo!)</td>
     <td>
       <ul class="inline">
-        <li><strong>Pre-lecture:</strong> Spectre Attacks: Exploiting Speculative Execution</li>
-        <li><strong>No post-lecture reading</strong></li>
+        <li><strong>Pre-lecture:</strong>
+        <a href="https://www.youtube.com/watch?v=zOvBHxMjNls" target="_blank">
+        Conference presentation of Spectre Attacks</a>
+        </li>
+        <li><strong>(Optional) Other Resources:</strong>
+        <ul class="inline">
+        <li><a href="https://spectreattack.com/spectre.pdf" target="_blank">Spectre Attacks: Exploiting Speculative Execution</a></li>
+        <li><a href="https://meltdownattack.com/meltdown.pdf" target="_blank">Meltdown: Reading Kernel Memory from User Space</a></li>
+        </ul>
+        </li>
       </ul>
     </td>
     <td></td>
