@@ -29,7 +29,7 @@ The instructor will advise each individual or team throughout the semester as ne
 ## Milestones
 
 * **Sep 3:** Form a team and send your team information to TA
-* **Sep 15:** Project proposal due
+* ~~Sep 15~~<span>&#8594;</span>**Sep 17:** Project proposal due
 * **Oct 31:** Midpoint report due
 * **Dec 3 & 8:** Final project presentation (during the classes)
 * **Dec 12:** Final report due
