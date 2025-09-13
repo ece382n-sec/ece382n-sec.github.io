@@ -47,9 +47,10 @@ The project proposal should describe:
 (1) what research problem you or your team is trying to answer;
 (2) why this problem is important;
 (3) how you plan to address it;
-(4) what resources you will need;
-(5) what you are not sure about; and
-(6) if you are working as a team,
+(4) how you plan to evaluate your idea;
+(5) what resources you will need;
+(6) what you are not sure about; and
+(7) if you are working as a team,
 how you plan to load balance the tasks between team members.
 After submitting the proposal,
 you or your team will schedule a 15-min meeting
