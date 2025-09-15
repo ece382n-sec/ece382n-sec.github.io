@@ -157,7 +157,8 @@ ul.inline {
         </li>
       </ul>
     </td>
-    <td></td>
+    <td><a href="files/L4 - Data-Oblivious Computation.pdf">Slides</a><br>
+      <a href="https://github.com/ece382n-sec/Example-PoCs/tree/main/Strcmp" target="_blank">PoC</a></td>
   </tr>
   <tr>
     <td class="date">Sep 17</td>
