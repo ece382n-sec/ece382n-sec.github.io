@@ -163,7 +163,7 @@ ul.inline {
   <tr>
     <td class="date">Sep 17</td>
     <td rowspan="3">Speculation</td>
-    <td>(L) Spectre and Meltdown (w/ Demo!)</td>
+    <td>(L) Transient-Execution Attacks (w/ Demo!)</td>
     <td>
       <ul class="inline">
         <li><strong>Pre-lecture:</strong>
@@ -174,11 +174,13 @@ ul.inline {
         <ul class="inline">
         <li><a href="https://spectreattack.com/spectre.pdf" target="_blank">Spectre Attacks: Exploiting Speculative Execution</a></li>
         <li><a href="https://meltdownattack.com/meltdown.pdf" target="_blank">Meltdown: Reading Kernel Memory from User Space</a></li>
+        <li><a href="https://www.usenix.org/conference/usenixsecurity19/presentation/canella" target="_blank">A Systematic Evaluation of Transient Execution Attacks and Defenses</a></li>
         </ul>
         </li>
       </ul>
     </td>
-    <td></td>
+    <td><a href="files/L5 - Spectre and Meltdown.pdf">Slides</a><br>
+      <a href="https://github.com/ece382n-sec/Example-PoCs/tree/main/Spectre" target="_blank">PoC</a></td>
   </tr>
   <tr>
     <td rowspan="2" class="week" id="week-5">Week 5</td>
