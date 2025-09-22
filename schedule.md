@@ -187,12 +187,13 @@ ul.inline {
     <td class="date">Sep 22</td>
     <td>(D) Advanced Spectre Attacks</td>
     <td>
-      <strong>Papers to discuss (Choose one to review):</strong><br>
+    <ul class="inline">
+      <li><strong>Papers to discuss (Choose one to review):</strong><br>
       <ul class="inline">
         <li><a href="https://www.usenix.org/conference/usenixsecurity21/presentation/kirzner" target="_blank">
         An Analysis of Speculative Type Confusion Vulnerabilities in the Wild (USENIX Sec '21)</a></li>
         <li><a href="https://www.usenix.org/conference/usenixsecurity22/presentation/barberis" target="_blank">Branch History Injection: On the Effectiveness of Hardware Mitigations Against Cross-Privilege Spectre-v2 Attacks (USENIX Sec '22)</a></li>
-      </ul>
+      </ul></li>
       <li><strong>(Optional) Other Resources:</strong>
         <ul class="inline">
         <li><a href="https://support.google.com/faqs/answer/7625886" target="_blank">Retpoline: a software construct for preventing branch-target-injection</a></li>
@@ -201,7 +202,8 @@ ul.inline {
         The AMD Branch (Mis)predictor: Just Set it and Forget it!
         (<a href="https://grsecurity.net/amd_branch_mispredictor_just_set_it_and_forget_it" target="_blank">Part 1</a>,
         <a href="https://grsecurity.net/amd_branch_mispredictor_part_2_where_no_cpu_has_gone_before" target="_blank">Part 2</a>)</li>
-        </ul>
+        </ul></li>
+    </ul>
     </td>
     <td></td>
   </tr>
