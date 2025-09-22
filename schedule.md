@@ -193,6 +193,15 @@ ul.inline {
         An Analysis of Speculative Type Confusion Vulnerabilities in the Wild (USENIX Sec '21)</a></li>
         <li><a href="https://www.usenix.org/conference/usenixsecurity22/presentation/barberis" target="_blank">Branch History Injection: On the Effectiveness of Hardware Mitigations Against Cross-Privilege Spectre-v2 Attacks (USENIX Sec '22)</a></li>
       </ul>
+      <li><strong>(Optional) Other Resources:</strong>
+        <ul class="inline">
+        <li><a href="https://support.google.com/faqs/answer/7625886" target="_blank">Retpoline: a software construct for preventing branch-target-injection</a></li>
+        <li><a href="https://www.usenix.org/conference/usenixsecurity22/presentation/wikner" target="_blank">RETBLEED: Arbitrary Speculative Code Execution with Return Instructions</a></li>
+        <li>
+        The AMD Branch (Mis)predictor: Just Set it and Forget it!
+        (<a href="https://grsecurity.net/amd_branch_mispredictor_just_set_it_and_forget_it" target="_blank">Part 1</a>,
+        <a href="https://grsecurity.net/amd_branch_mispredictor_part_2_where_no_cpu_has_gone_before" target="_blank">Part 2</a>)</li>
+        </ul>
     </td>
     <td></td>
   </tr>
