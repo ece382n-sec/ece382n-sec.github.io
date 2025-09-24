@@ -211,12 +211,21 @@ ul.inline {
     <td class="date">Sep 24</td>
     <td>(D) Hardware Defenses</td>
     <td>
+      <ul class="inline">
+      <li>
       <strong>Papers to discuss (Choose one to review):</strong><br>
       <ul class="inline">
         <li><a href="https://dl.acm.org/doi/10.1145/3307650.3322216" target="_blank">
         Efficient Invisible Speculative Execution through Selective Delay and Value Prediction (ISCA '19)</a></li>
         <li><a href="https://dl.acm.org/doi/10.1145/3352460.3358274" target="_blank">
         Speculative Taint Tracking (STT): A Comprehensive Protection for Speculatively Accessed Data (MICRO '19)</a></li>
+      </ul>
+      </li>
+      <li><strong>(Optional) Other Resources:</strong>
+        <ul class="inline">
+        <li><a href="https://dl.acm.org/doi/10.1145/3445814.3446708" target="_blank">Speculative interference attacks: breaking invisible speculation schemes</a></li>
+        <li><a href="https://ieeexplore.ieee.org/document/9138997" target="_blank">Speculative Data-Oblivious Execution: Mobilizing Safe Prediction For Safe and Efficient Speculative Execution</a></li>
+        </ul></li>
       </ul>
     </td>
     <td></td>
