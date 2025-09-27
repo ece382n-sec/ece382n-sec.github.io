@@ -237,7 +237,6 @@ ul.inline {
     <td>(L) Overview and Background</td>
     <td>
       <ul class="inline">
-        <li><strong>Pre-lecture:</strong> Trusted Execution Environments: Properties, Applications, and Challenges</li>
         <li><strong>Post-lecture:</strong> Intel SGX Explained (Chapters 1--3)</li>
       </ul>
     </td>
@@ -248,7 +247,7 @@ ul.inline {
     <td>(L) Memory Encryption and Authentication</td>
     <td>
       <ul class="inline">
-        <li><strong>Pre-lecture:</strong> Efficient Memory Integrity Verification and Encryption for Secure Processors</li>
+        <!-- <li><strong>Pre-lecture:</strong> Efficient Memory Integrity Verification and Encryption for Secure Processors</li> -->
         <li><strong>Post-lecture:</strong> Using Address Independent Seed Encryption and Bonsai Merkle Trees to Make Secure Processors OS- and Performance-Friendly</li>
       </ul>
     </td>
