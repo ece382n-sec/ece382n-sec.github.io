@@ -234,10 +234,12 @@ ul.inline {
     <td rowspan="2" class="week" id="week-6">Week 6</td>
     <td class="date">Sep 29</td>
     <td rowspan="4">Trusted<br>Execution<br>Environments<br>(TEEs)</td>
-    <td>(L) Overview and Background</td>
+    <td>(L) TEE Overview and Attestation</td>
     <td>
       <ul class="inline">
-        <li><strong>Post-lecture:</strong> Intel SGX Explained (Chapters 1--3)</li>
+        <!-- <li><strong>Pre-lecture:</strong> Trusted Execution Environments: Properties, Applications, and Challenges</li> -->
+        <li><strong>(Optional) Other Resources:</strong>
+        <a href="https://eprint.iacr.org/2016/086.pdf" target="_blank">Intel SGX Explained</a></li>
       </ul>
     </td>
     <td></td>
@@ -248,7 +250,16 @@ ul.inline {
     <td>
       <ul class="inline">
         <!-- <li><strong>Pre-lecture:</strong> Efficient Memory Integrity Verification and Encryption for Secure Processors</li> -->
-        <li><strong>Post-lecture:</strong> Using Address Independent Seed Encryption and Bonsai Merkle Trees to Make Secure Processors OS- and Performance-Friendly</li>
+        <li><strong>(Optional) Other Resources:</strong>
+        <ul class="inline">
+        <li><a href="https://microarch.org/micro36/html/pdf/suh-EfficMemory.pdf" target="_blank">
+        Efficient Memory Integrity Verification and Encryption for Secure Processors
+        </a></li>
+        <li><a href="https://faculty.cc.gatech.edu/~milos/rogers_micro07.pdf" target="_blank">
+        Using Address Independent Seed Encryption and Bonsai Merkle Trees to Make Secure Processors OS- and Performance-Friendly
+        </a></li>
+        </ul>
+        </li>
       </ul>
     </td>
     <td></td>
@@ -259,7 +270,9 @@ ul.inline {
     <td>(L) TEE Designs</td>
     <td>
       <ul class="inline">
-        <li><strong>Pre-lecture:</strong> Keystone: An Open Framework for Architecting Trusted Execution Environments</li>
+        <li><strong>Pre-lecture:</strong>
+        <a href="https://www.youtube.com/watch?v=lQu95We1Lmc" target="_blank">
+        (Presentation) Keystone: An Open Framework for Architecting Trusted Execution Environments</a></li>
       </ul>
     </td>
     <td></td>
