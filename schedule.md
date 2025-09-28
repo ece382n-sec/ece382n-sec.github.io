@@ -283,8 +283,10 @@ ul.inline {
     <td>
       <strong>Papers to discuss (Choose one to review):</strong><br>
       <ul class="inline">
-        <li>Controlled-Channel Attacks: Deterministic Side Channels for Untrusted Operating Systems</li>
-        <li>MicroScope: Enabling Microarchitectural Replay Attacks</li>
+        <li><a href="https://www.ieee-security.org/TC/SP2015/papers-archived/6949a640.pdf" target="_blank">
+        Controlled-Channel Attacks: Deterministic Side Channels for Untrusted Operating Systems (SP '15)</a></li>
+        <li><a href="https://www.cs.cmu.edu/~dskarlat/publications/microScope_isca19.pdf" target="_blank">
+        MicroScope: Enabling Microarchitectural Replay Attacks (ISCA '19)</a></li>
       </ul>
     </td>
     <td></td>
