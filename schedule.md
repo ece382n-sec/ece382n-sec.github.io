@@ -242,7 +242,9 @@ ul.inline {
         <a href="https://eprint.iacr.org/2016/086.pdf" target="_blank">Intel SGX Explained</a></li>
       </ul>
     </td>
-    <td></td>
+    <td>
+    <a href="files/L6 - TEE Overview and Attestation.pdf">Slides</a>
+    </td>
   </tr>
   <tr>
     <td class="date">Oct 1</td>
