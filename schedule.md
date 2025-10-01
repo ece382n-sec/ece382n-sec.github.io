@@ -248,7 +248,7 @@ ul.inline {
   </tr>
   <tr>
     <td class="date">Oct 1</td>
-    <td>(L) Memory Encryption and Authentication</td>
+    <td>(L) Memory Encryption and Integrity Protection</td>
     <td>
       <ul class="inline">
         <!-- <li><strong>Pre-lecture:</strong> Efficient Memory Integrity Verification and Encryption for Secure Processors</li> -->
@@ -264,7 +264,9 @@ ul.inline {
         </li>
       </ul>
     </td>
-    <td></td>
+    <td>
+    <a href="files/L7 - Memory Encryption and Integrity Protection.pdf">Slides</a>
+    </td>
   </tr>
   <tr>
     <td rowspan="2" class="week" id="week-7">Week 7</td>
