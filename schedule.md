@@ -279,7 +279,7 @@ ul.inline {
         (Presentation) Keystone: An Open Framework for Architecting Trusted Execution Environments</a></li>
       </ul>
     </td>
-    <td></td>
+    <td><a href="files/L8 - TEE Designs.pdf">Slides</a></td>
   </tr>
   <tr>
     <td class="date">Oct 8</td>
