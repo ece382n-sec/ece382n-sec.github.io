@@ -302,8 +302,12 @@ ul.inline {
     <td>(L) OS and VM Isolation</td>
     <td>
       <ul class="inline">
-        <!-- <li><strong>Pre-lecture:</strong> An Introduction to CHERI</li> -->
-        <li><strong>Post-lecture:</strong> Firecracker: Lightweight Virtualization for Serverless Applications</li>
+        <li><strong>(Optional) Other Resources:</strong></li>
+        <ul class="inline">
+        <li><a href="https://dl.acm.org/doi/10.1145/3132747.3132763" target="_blank">My VM is Lighter (and Safer) than your Container</a></li>
+        <li><a href="https://www.usenix.org/system/files/nsdi20-paper-agache.pdf" target="_blank">Firecracker: Lightweight Virtualization for Serverless Applications</a></li>
+        <li><a href="https://pages.cs.wisc.edu/~swift/papers/vee20-isolation.pdf" target="_blank">Blending Containers and Virtual Machines: A Study of Firecracker and gVisor</a></li>
+        </ul>
       </ul>
     </td>
     <td></td>
@@ -313,8 +317,13 @@ ul.inline {
     <td>(L) Memory Safety & Control-Flow Integrity</td>
     <td>
       <ul class="inline">
-        <li><strong>Pre-lecture:</strong> An Introduction to CHERI</li>
-        <li><strong>Post-lecture:</strong> No-FAT: Architectural Support for Low Overhead Memory Safety Checks</li>
+        <!-- <li><strong>Pre-lecture:</strong> </li> -->
+        <li><strong>(Optional) Other Resources:</strong></li>
+        <ul class="inline">
+        <li><a href="https://people.eecs.berkeley.edu/~dawnsong/papers/Oakland13-SoK-CR.pdf" target="_blank">SoK: Eternal War in Memory</a></li>
+        <li><a href="https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-941.pdf" target="_blank">An Introduction to CHERI</a></li>
+        <li><a href="https://www.cs.columbia.edu/~mtarek/files/preprint_ISCA21_NoFAT.pdf" target="_blank">No-FAT: Architectural Support for Low Overhead Memory Safety Checks</a></li>
+      </ul>
       </ul>
     </td>
     <td></td>
@@ -326,8 +335,10 @@ ul.inline {
     <td>
       <strong>Papers to discuss (Choose one to review):</strong><br>
       <ul class="inline">
-        <li>Donky: Domain Keys--Efficient In-Process Isolation for RISC-V and x86</li>
-        <li>Going beyond the Limits of SFI: Flexible and Secure Hardware-Assisted In-Process Isolation with HFI</li>
+        <li><a href="https://www.usenix.org/system/files/sec20-schrammel.pdf" target="_blank">
+        Donky: Domain Keys--Efficient In-Process Isolation for RISC-V and x86 (USENIX '20)</a></li>
+        <li><a href="https://dl.acm.org/doi/10.1145/3582016.3582023" target="_blank">
+        Going beyond the Limits of SFI: Flexible and Secure Hardware-Assisted In-Process Isolation with HFI (ASPLOS '23)</a></li>
       </ul>
     </td>
     <td></td>
@@ -338,8 +349,10 @@ ul.inline {
     <td>
       <strong>Papers to discuss (Choose one to review):</strong><br>
       <ul class="inline">
-        <li>Speculative Probing: Hacking Blind in the Spectre Era</li>
-        <li>PACMAN: Attacking ARM Pointer Authentication with Speculative Execution</li>
+        <li><a href="https://download.vusec.net/papers/blindside_ccs20.pdf" target="_blank">
+        Speculative Probing: Hacking Blind in the Spectre Era (CCS '20)</a></li>
+        <li><a href="https://pacmanattack.com/paper.pdf" target="_blank">
+        PACMAN: Attacking ARM Pointer Authentication with Speculative Execution (ISCA '22)</a></li>
       </ul>
     </td>
     <td></td>
