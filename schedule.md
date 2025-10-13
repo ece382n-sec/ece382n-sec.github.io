@@ -304,6 +304,8 @@ ul.inline {
       <ul class="inline">
         <li><strong>(Optional) Other Resources:</strong></li>
         <ul class="inline">
+        <li><a href="https://www.vmware.com/docs/perf_esx_intel-ept-eval" target="_blank">Performance Evaluation of Intel EPT Hardware Assist</a></li>
+        <li><a href="https://web.stanford.edu/class/cs240/readings/hwsw.pdf" target="_blank">A Comparison of Software and Hardware Techniques for x86 Virtualization</a></li>
         <li><a href="https://dl.acm.org/doi/10.1145/3132747.3132763" target="_blank">My VM is Lighter (and Safer) than your Container</a></li>
         <li><a href="https://www.usenix.org/system/files/nsdi20-paper-agache.pdf" target="_blank">Firecracker: Lightweight Virtualization for Serverless Applications</a></li>
         <li><a href="https://pages.cs.wisc.edu/~swift/papers/vee20-isolation.pdf" target="_blank">Blending Containers and Virtual Machines: A Study of Firecracker and gVisor</a></li>
@@ -314,15 +316,17 @@ ul.inline {
   </tr>
   <tr>
     <td class="date">Oct 15</td>
-    <td>(L) Memory Safety & Control-Flow Integrity</td>
+    <td>(L) Memory Safety</td>
     <td>
       <ul class="inline">
-        <!-- <li><strong>Pre-lecture:</strong> </li> -->
+        <li><strong>Pre-lecture:</strong>
+        <a href="https://www.youtube.com/watch?v=1S0aBV-Waeo" target="_blank">Running a Buffer Overflow Attack - Computerphile</a></li>
         <li><strong>(Optional) Other Resources:</strong></li>
         <ul class="inline">
         <li><a href="https://people.eecs.berkeley.edu/~dawnsong/papers/Oakland13-SoK-CR.pdf" target="_blank">SoK: Eternal War in Memory</a></li>
         <li><a href="https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-941.pdf" target="_blank">An Introduction to CHERI</a></li>
         <li><a href="https://www.cs.columbia.edu/~mtarek/files/preprint_ISCA21_NoFAT.pdf" target="_blank">No-FAT: Architectural Support for Low Overhead Memory Safety Checks</a></li>
+        <li><a href="https://www.cs.ucr.edu/~csong/oakland20-speccfi.pdf" target="_blank">SPECCFI: Mitigating Spectre Attacks using CFI Informed Speculation</a></li>
       </ul>
       </ul>
     </td>
