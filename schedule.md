@@ -312,7 +312,9 @@ ul.inline {
         </ul>
       </ul>
     </td>
-    <td></td>
+    <td>
+    <a href="files/L9 - OS and VM Isolation.pdf">Slides</a>
+    </td>
   </tr>
   <tr>
     <td class="date">Oct 15</td>
