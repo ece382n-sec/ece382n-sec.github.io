@@ -332,7 +332,7 @@ ul.inline {
       </ul>
       </ul>
     </td>
-    <td></td>
+    <td><a href="files/L10 - Memory Safety.pdf">Slides</a></td>
   </tr>
   <tr>
     <td rowspan="2" class="week" id="week-9">Week 9</td>
