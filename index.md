@@ -11,7 +11,7 @@ nav_enabled: false
 **When and Where:** Mon & Weds, 3pm--4:30pm, ~~PMA 7.114~~ <span>&#8594;</span> **WAG 214**\\
 **Format:** Lectures, paper reading & discussions, research-oriented term projects\\
 **Instructor:** [Neil Zhao](https://zzrcxb.me) <[neil.zhao@utexas.edu](mailto:neil.zhao@utexas.edu)>, *please just call him Neil*\\
-**Instructor Office Hour:** Tue 4pm--5pm, Thu 11am--12pm, or by appointments, EER 5.890\\
+**Instructor Office Hour:** Tue 2pm--3pm, Thu 11am--12pm, or by appointments, EER 5.890\\
 **TA:** Ethan Jiang <[zx.jiang@utexas.edu](mailto:zx.jiang@utexas.edu)>\\
 **TA Office Hour:** Tue 3pm--4pm, EER 5.652 (for logistical questions)
 
