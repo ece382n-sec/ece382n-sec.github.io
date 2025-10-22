@@ -370,8 +370,12 @@ ul.inline {
     <td>(L) RowHammer</td>
     <td>
       <ul class="inline">
-        <li><strong>Pre-lecture:</strong> RowHammer: A Retrospective</li>
-        <li><strong>Optional:</strong> <a href="https://www.youtube.com/watch?v=sgd7PHQQ1AI" target="_blank">The Story of Rowhammer</a> by Onur Mutlu</li>
+        <li><strong>(Optional) Other Resources:</strong></li>
+        <ul class="inline">
+        <li><a href="https://www.youtube.com/watch?v=sgd7PHQQ1AI" target="_blank">The Story of Rowhammer</a></li>
+        <li><a href="https://arxiv.org/abs/1904.09724" target="_blank">RowHammer: A Retrospective</li>
+        <li><a href="https://ieeexplore.ieee.org/document/9833664/" target="_blank">ProTRR: Principled yet Optimal In-DRAM Target Row Refresh</li>
+        </ul>
       </ul>
     </td>
     <td></td>
@@ -384,9 +388,9 @@ ul.inline {
       <strong>Papers to discuss (Choose one to review):</strong><br>
       <ul class="inline">
       <li><a href="https://arxiv.org/abs/2508.15036" target="_blank">
-      MoEcho: Exploiting Side-Channel Attacks to Compromise User Privacy in Mixture-of-Experts LLMs</a></li>
+      MoEcho: Exploiting Side-Channel Attacks to Compromise User Privacy in Mixture-of-Experts LLMs (CCS '25)</a></li>
       <li><a href="https://www.ndss-symposium.org/ndss-paper/i-know-what-you-asked-prompt-leakage-via-kv-cache-sharing-in-multi-tenant-llm-serving/" target="_blank">
-      I Know What You Asked: Prompt Leakage via KV-Cache Sharing in Multi-Tenant LLM Serving</a></li>
+      I Know What You Asked: Prompt Leakage via KV-Cache Sharing in Multi-Tenant LLM Serving (NDSS '25)</a></li>
       </ul>
     </td>
     <td></td>
