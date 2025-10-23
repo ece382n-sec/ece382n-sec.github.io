@@ -373,8 +373,8 @@ ul.inline {
         <li><strong>(Optional) Other Resources:</strong></li>
         <ul class="inline">
         <li><a href="https://www.youtube.com/watch?v=sgd7PHQQ1AI" target="_blank">The Story of Rowhammer</a></li>
-        <li><a href="https://arxiv.org/abs/1904.09724" target="_blank">RowHammer: A Retrospective</li>
-        <li><a href="https://ieeexplore.ieee.org/document/9833664/" target="_blank">ProTRR: Principled yet Optimal In-DRAM Target Row Refresh</li>
+        <li><a href="https://arxiv.org/abs/1904.09724" target="_blank">RowHammer: A Retrospective</a></li>
+        <li><a href="https://ieeexplore.ieee.org/document/9833664/" target="_blank">ProTRR: Principled yet Optimal In-DRAM Target Row Refresh</a></li>
         </ul>
       </ul>
     </td>
