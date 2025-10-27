@@ -373,7 +373,8 @@ ul.inline {
         <li><strong>(Optional) Other Resources:</strong></li>
         <ul class="inline">
         <li><a href="https://www.youtube.com/watch?v=sgd7PHQQ1AI" target="_blank">The Story of Rowhammer</a></li>
-        <li><a href="https://arxiv.org/abs/1904.09724" target="_blank">RowHammer: A Retrospective</a></li>
+        <li><a href="https://users.ece.cmu.edu/~yoonguk/papers/kim-isca14.pdf" target="_blank">Flipping Bits in Memory Without Accessing Them: An Experimental Study of DRAM Disturbance Errors</a></li>
+        <li><a href="https://microarch.org/micro53/papers/738300a001.pdf" target="_blank">Graphene: Strong yet Lightweight RowHammer Protection</a></li>
         <li><a href="https://ieeexplore.ieee.org/document/9833664/" target="_blank">ProTRR: Principled yet Optimal In-DRAM Target Row Refresh</a></li>
         </ul>
       </ul>
