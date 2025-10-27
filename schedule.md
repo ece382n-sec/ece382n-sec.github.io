@@ -378,7 +378,7 @@ ul.inline {
         </ul>
       </ul>
     </td>
-    <td></td>
+    <td><a href="files/L11 - RowHammer.pdf">Slides</a></td>
   </tr>
   <tr>
     <td class="date">Oct 29</td>
