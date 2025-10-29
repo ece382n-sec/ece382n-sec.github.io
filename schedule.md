@@ -403,8 +403,8 @@ ul.inline {
     <td>
       <strong>Papers to discuss (Choose one to review):</strong><br>
       <ul class="inline">
-      <li>Graviton: Trusted Execution Environments on GPUs</li>
-      <li>Sequestered Encryption: A Hardware Technique for Comprehensive Data Privacy</li>
+      <li><a href="https://www.usenix.org/conference/osdi18/presentation/volos" target="_blank">Graviton: Trusted Execution Environments on GPUs (OSDI '18)</a></li>
+      <li><a href="https://ieeexplore.ieee.org/document/9935044" target="_blank">Sequestered Encryption: A Hardware Technique for Comprehensive Data Privacy (SEED '22)</a></li>
       </ul>
     </td>
     <td></td>
@@ -415,8 +415,8 @@ ul.inline {
     <td>
       <strong>Papers to discuss (Choose one to review):</strong><br>
       <ul class="inline">
-      <li>Computing with Time: Microarchitectural Weird Machines</li>
-      <li>The Gates of Time: Improving Cache Attacks with Transient Execution</li>
+      <li><a href="https://dl.acm.org/doi/10.1145/3445814.3446729" target="_blank">Computing with Time: Microarchitectural Weird Machines (ASPLOS '21)</a></li>
+      <li><a href="https://www.usenix.org/conference/usenixsecurity23/presentation/katzman" target="_blank">The Gates of Time: Improving Cache Attacks with Transient Execution (USENIX Sec '23)</a></li>
       </ul>
     </td>
     <td></td>
