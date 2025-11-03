@@ -406,6 +406,11 @@ ul.inline {
       <li><a href="https://www.usenix.org/conference/osdi18/presentation/volos" target="_blank">Graviton: Trusted Execution Environments on GPUs (OSDI '18)</a></li>
       <li><a href="https://ieeexplore.ieee.org/document/9935044" target="_blank">Sequestered Encryption: A Hardware Technique for Comprehensive Data Privacy (SEED '22)</a></li>
       </ul>
+      <strong>(Optional) Other resources:</strong>
+      <ul class="inline">
+      <li><a href="https://cacm.acm.org/practice/creating-the-first-confidential-gpus/" target="_blank">Creating the First Confidential GPUs</a></li>
+      <li><a href="https://patentimages.storage.googleapis.com/f1/da/9f/89cc38c496264c/US12105855.pdf" target="_blank">Privacy-enhanced computation via sequestered encryption (US Patent)</a></li>
+      </ul>
     </td>
     <td></td>
   </tr>
