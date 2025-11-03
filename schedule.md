@@ -409,6 +409,7 @@ ul.inline {
       <strong>(Optional) Other resources:</strong>
       <ul class="inline">
       <li><a href="https://cacm.acm.org/practice/creating-the-first-confidential-gpus/" target="_blank">Creating the First Confidential GPUs</a></li>
+      <li><a href="https://dl.acm.org/doi/10.1145/3576915.3616643" target="_blank">Security Verification of Low-Trust Architectures (CCS '23)</a></li>
       <li><a href="https://patentimages.storage.googleapis.com/f1/da/9f/89cc38c496264c/US12105855.pdf" target="_blank">Privacy-enhanced computation via sequestered encryption (US Patent)</a></li>
       </ul>
     </td>
