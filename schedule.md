@@ -434,8 +434,8 @@ ul.inline {
     <td>
       <strong>Paper to discuss (Choose one to review):</strong><br>
       <ul class="inline">
-      <li>Complete Information Flow Tracking from the Gates Up</li>
-      <li>Speculative Privacy Tracking (SPT): Leaking Information From Speculative Execution Without Compromising Privacy</li>
+      <li><a href="https://dl.acm.org/doi/10.1145/1508244.1508258" target="_blank">Complete Information Flow Tracking from the Gates Up (ASPLOS '09)</a></li>
+      <li><a href="https://cwfletcher.github.io/content/research/2021.micro.spt.paper.pdf" target="_blank">Speculative Privacy Tracking (SPT): Leaking Information From Speculative Execution Without Compromising Privacy (MICRO '21)</a></li>
       </ul>
     </td>
     <td></td>
@@ -446,8 +446,8 @@ ul.inline {
     <td>
       <strong>Papers to discuss (Choose one to review):</strong><br>
       <ul class="inline">
-      <li>Hertzbleed: Turning Power Side-Channel Attacks Into Remote Timing Attacks on x86</li>
-      <li>Pentimento: Data Remanence in Cloud FPGAs</li>
+      <li><a href="https://www.usenix.org/conference/usenixsecurity22/presentation/wang-yingchen" target="_blank">Hertzbleed: Turning Power Side-Channel Attacks Into Remote Timing Attacks on x86 (USENIX Sec '22)</a></li>
+      <li><a href="https://dl.acm.org/doi/10.1145/3620665.3640355" target="_blank">Pentimento: Data Remanence in Cloud FPGAs (ASPLOS '24)</a></li>
       </ul>
     </td>
     <td></td>
@@ -459,8 +459,8 @@ ul.inline {
     <td>
       <strong>Paper to discuss:</strong><br>
       <ul class="inline">
-        <li>BarraCUDA: Edge GPUs do Leak DNN Weights</li>
-        <li>GPU.zip: On the Side-Channel Implications of Hardware-Based Graphical Data Compression</li>
+        <li><a href="https://www.usenix.org/conference/usenixsecurity25/presentation/horvath" target="_blank">BarraCUDA: Edge GPUs do Leak DNN Weights (USENIX Sec '25)</a></li>
+        <li><a href="https://www.computer.org/csdl/proceedings-article/sp/2024/313000a084/1RjEaSnpO3m" target="_blank">GPU.zip: On the Side-Channel Implications of Hardware-Based Graphical Data Compression (SP '24)</a></li>
       </ul>
     </td>
     <td></td>
@@ -471,8 +471,8 @@ ul.inline {
     <td>
       <strong>Papers to discuss (Choose one to review):</strong><br>
       <ul class="inline">
-        <li>SpecFuzz: Bringing Spectre-Type Vulnerabilities to the Surface</li>
-        <li>Cascade: CPU Fuzzing via Intricate Program Generation</li>
+        <li><a href="https://www.usenix.org/conference/usenixsecurity20/presentation/oleksenko" target="_blank">SpecFuzz: Bringing Spectre-Type Vulnerabilities to the Surface (USENIX Sec '20)</a></li>
+        <li><a href="https://www.usenix.org/conference/usenixsecurity24/presentation/solt" target="_blank">Cascade: CPU Fuzzing via Intricate Program Generation (USENIX Sec '24)</a></li>
       </ul>
       <strong>(Optional) Videos on hardware fuzzing:</strong>
       <ul class="inline">
