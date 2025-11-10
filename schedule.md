@@ -439,7 +439,7 @@ ul.inline {
       </ul>
     </td>
     <td>
-    <a href="files/L12 - Information-Flow Tracking in Hardware.pdf"></a>
+    <a href="files/L12 - Information-Flow Tracking in Hardware.pdf">Slides</a>
     </td>
   </tr>
   <tr>
