@@ -438,7 +438,9 @@ ul.inline {
       <li><a href="https://cwfletcher.github.io/content/research/2021.micro.spt.paper.pdf" target="_blank">Speculative Privacy Tracking (SPT): Leaking Information From Speculative Execution Without Compromising Privacy (MICRO '21)</a></li>
       </ul>
     </td>
-    <td></td>
+    <td>
+    <a href="files/L12 - Information-Flow Tracking in Hardware.pdf"></a>
+    </td>
   </tr>
   <tr>
     <td class="date">Nov 12</td>
