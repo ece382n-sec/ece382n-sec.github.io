@@ -451,6 +451,12 @@ ul.inline {
       <li><a href="https://www.usenix.org/conference/usenixsecurity22/presentation/wang-yingchen" target="_blank">Hertzbleed: Turning Power Side-Channel Attacks Into Remote Timing Attacks on x86 (USENIX Sec '22)</a></li>
       <li><a href="https://dl.acm.org/doi/10.1145/3620665.3640355" target="_blank">Pentimento: Data Remanence in Cloud FPGAs (ASPLOS '24)</a></li>
       </ul>
+      <strong>(Optional) Other Resources:</strong>
+      <ul class="inline">
+        <li><a href="https://www.hertzbleed.com/2h2b.pdf">DVFS Frequently Leaks Secrets: Hertzbleed Attacks Beyond SIKE, Cryptography, and CPU-Only Data</a></li>
+        <li><a href="https://www.usenix.org/system/files/usenixsecurity23-taneja.pdf">Hot Pixels: Frequency, Power, and Temperature Attacks on GPUs and Arm SoCs</a></li>
+        <li><a href="https://timing.attacks.cr.yp.to/overclocking.html">Advice from DJB</a></li>
+      </ul>
     </td>
     <td></td>
   </tr>
@@ -463,12 +469,6 @@ ul.inline {
       <ul class="inline">
         <li><a href="https://www.usenix.org/conference/usenixsecurity25/presentation/horvath" target="_blank">BarraCUDA: Edge GPUs do Leak DNN Weights (USENIX Sec '25)</a></li>
         <li><a href="https://www.computer.org/csdl/proceedings-article/sp/2024/313000a084/1RjEaSnpO3m" target="_blank">GPU.zip: On the Side-Channel Implications of Hardware-Based Graphical Data Compression (SP '24)</a></li>
-      <strong>(Optional) Other Resources</strong>
-      <ul class="inline">
-        <li><a href="https://www.hertzbleed.com/2h2b.pdf">DVFS Frequently Leaks Secrets: Hertzbleed Attacks Beyond SIKE, Cryptography, and CPU-Only Data</a></li>
-        <li><a href="https://www.usenix.org/system/files/usenixsecurity23-taneja.pdf">Hot Pixels: Frequency, Power, and Temperature Attacks on GPUs and Arm SoCs</a></li>
-        <li><a href="https://timing.attacks.cr.yp.to/overclocking.html">Advice from DJB</a></li>
-      </ul>
       </ul>
     </td>
     <td></td>
