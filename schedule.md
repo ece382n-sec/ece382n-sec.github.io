@@ -7,7 +7,7 @@ layout: minimal
 <p class="year-tag">Fall 2025</p>
 <hr>
 
-## Course Schedule (Tentative)
+## Course Schedule
 
 **Please find the paper-discussion sign-up sheet on Canvas, under the "Home" tab**
 
@@ -470,7 +470,7 @@ ul.inline {
         <li><a href="https://www.usenix.org/conference/usenixsecurity25/presentation/horvath" target="_blank">BarraCUDA: Edge GPUs do Leak DNN Weights (USENIX Sec '25)</a></li>
         <li><a href="https://www.computer.org/csdl/proceedings-article/sp/2024/313000a084/1RjEaSnpO3m" target="_blank">GPU.zip: On the Side-Channel Implications of Hardware-Based Graphical Data Compression (SP '24)</a></li>
       </ul>
-      <strong>(Optional) Other Resources:</strong>
+      <strong>(Optional) Other resources:</strong>
       <ul class="inline">
         <li><a href="https://homes.cs.washington.edu/~dkohlbre/papers/subnormal.pdf" target="_blank">On Subnormal Floating Point and Abnormal Timing</a></li>
         <li><a href="https://www.pixnapping.com/" target="_blank">Pixnapping Attack</a></li>
