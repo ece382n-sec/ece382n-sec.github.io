@@ -4,109 +4,127 @@ layout: home
 nav_enabled: false
 ---
 
-# ECE 382N: Security at the Hardware-Software Interface (UT Austin)
+# ECE 382N: Security at the Hardware-Software Interface
 <p class="year-tag">Fall 2025</p>
 <hr>
 
-**When and Where:** Mon & Weds, 3pm--4:30pm, ~~PMA 7.114~~ <span>&#8594;</span> **WAG 214**\\
-**Format:** Lectures, paper reading & discussions, research-oriented term projects\\
-**Instructor:** [Neil Zhao](https://zzrcxb.me) <[neil.zhao@utexas.edu](mailto:neil.zhao@utexas.edu)>, *please just call him Neil*\\
-**Instructor Office Hour:** Tue 2pm--3pm, Thu 11am--12pm, or by appointments, EER 5.890\\
-**TA:** Ethan Jiang <[zx.jiang@utexas.edu](mailto:zx.jiang@utexas.edu)>\\
-**TA Office Hour:** Tue 3pm--4pm, EER 5.652 (for logistical questions)
+<div class="home-logistics-card">
+<div class="home-card-title">Course logistics</div>
+<div class="home-logistics-grid">
+<div class="home-logistics-item"><div class="home-logistics-label">Time &amp; place</div><div class="home-logistics-value">🕒 Mon &amp; Weds, 3pm–4:30pm<br>📍 <del>PMA 7.114</del> → <strong>WAG 214</strong></div></div>
+<div class="home-logistics-item"><div class="home-logistics-label">Format</div><div class="home-logistics-value">Lectures, paper readings, student discussions, and a research-oriented term project</div></div>
+<div class="home-logistics-item"><div class="home-logistics-label">Instructor</div><div class="home-logistics-value"> <a href="https://zzrcxb.me">Neil Zhao</a> &lt;<a href="mailto:neil.zhao@utexas.edu">neil.zhao@utexas.edu</a>&gt;<br><span class="muted-text">Please just call him Neil.</span></div></div>
+<div class="home-logistics-item"><div class="home-logistics-label">Instructor office hour</div><div class="home-logistics-value">Tue 2pm–3pm, Thu 11am–12pm, or by appointment<br><span class="muted-text">EER 5.890</span></div></div>
+<div class="home-logistics-item"><div class="home-logistics-label">TA</div><div class="home-logistics-value">Ethan Jiang &lt;<a href="mailto:zx.jiang@utexas.edu">zx.jiang@utexas.edu</a>&gt;</div></div>
+<div class="home-logistics-item"><div class="home-logistics-label">TA office hour</div><div class="home-logistics-value">Tue 3pm–4pm<br><span class="muted-text">EER 5.652, for logistical questions</span></div></div>
+</div>
+</div>
 
-[[Schedule, reading list, and slides](schedule)], [[Term project](project)], [[Ed discussion](https://edstem.org/us/courses/83088/discussion)], [[Acknowledgements](ack)]
+<div class="home-action-grid">
+<a class="home-action primary" href="schedule"><strong>Schedule</strong><span>Readings, slides, and weekly plan</span></a>
+<a class="home-action" href="project"><strong>Term project</strong><span>Milestones and expectations</span></a>
+<a class="home-action" href="https://edstem.org/us/courses/83088/discussion"><strong>Ed discussion</strong><span>Course Q&amp;A and announcements</span></a>
+<a class="home-action" href="ack"><strong>Acknowledgements</strong><span>Prior materials and credits</span></a>
+</div>
 
 <hr>
 
 ## Course Overview
-Welcome to "ECE 382N: Security at the Hardware-Software Interface,"
-where we learn how to build secure computer systems and interesting ways to break them.
-This is a research-oriented seminar course with a major term project.
-We will be going over the following topics:
+
+This course studies how secure computer systems are built, how they fail, and how attackers exploit the hardware-software boundary. The course is research-oriented: you will read papers, discuss attacks and defenses, and complete a term project.
+
+**Topics include:**
+
 * Side-channel attacks and defenses
 * Transient-execution attacks and defenses
 * Trusted-execution environments
 * Sandboxing and isolation
 * Memory safety techniques
 * System-level attacks in AI systems
-* Other interesting emerging threats to computer systems
+* Other emerging threats to computer systems
 
 ### Prerequisites
-- ECE 312: Software Design and Implementation I (or C programming skills)
+
+- ECE 312: Software Design and Implementation I, or C programming skills
 - ECE 460N: Computer Architecture
 - ECE 461S: Operating Systems
 - Some background in security is recommended
 
 ## Course Requirements
-This course combines structured lectures with student-led paper presentations and discussions.
-The expectations for all students in this course are as follows:
 
-<div><strong>Read:</strong></div>
-* **Lectures:** Before each lecture, you will complete a pre-lecture reading and a mini quiz. After the lecture, you will read an additional in-depth paper and submit a conference-style review. These reviews are designed to prepare you for the academic process of peer review. The mini quiz is due two hours before each lecture. The paper review is due by Sunday of that week.
-* **Paper discussions:** Before each paper discussion session, you will read one of the assigned papers and submit a conference-style paper review one day before the discussion.
+### Read
 
-You can find the course schedule and reading list [here](schedule).
+Before lectures, you will complete assigned readings and a mini quiz. After lectures, you will read an additional paper and submit a short conference-style review.
 
-*Policy: You can skip one pre-lecture reading and mini quiz, as well as two paper reviews without grade penalty.*
+- Mini quizzes are due two hours before lecture.
+- Paper reviews are due by Sunday of that week.
+- For paper discussions, reviews are due one day before discussion.
 
-**Participate:** You will attend every class and actively participate in class discussions.
-Questions are always welcomed during and after the lecture.
-Pop quizzes may be given during lectures and will count towards your participation grade.
+> **Policy:** You may skip one pre-lecture reading and mini quiz, and two paper reviews without grade penalty.
+{: .note }
 
-*Policy: You can skip two lectures/discussions without grade penalty.*
+### Participate
 
-**Present:** You will present research papers and lead the discussion during the paper discussion sessions. We will discuss the presentation guidelines in class, as they depend on the course enrollment.
+You are expected to attend class and participate in discussions. Questions are welcome during and after lecture. Pop quizzes may be given during lectures and count toward participation.
 
-**Research:** You will conduct a term research project in system security.
-Both attack and defense projects are welcomed.
-More details about the term project can be found [here](project).
+> **Policy:** You may skip two lectures or discussions without grade penalty.
+{: .note }
+
+### Present
+
+You will present research papers and lead discussion during paper discussion sessions. Presentation guidelines will be discussed in class.
+
+### Research
+
+You will conduct a term research project in system security. Both attack and defense projects are welcome. More details are available on the [term project page](project).
 
 ## Grading
-As a research-oriented course, there will be no exams.
-Your final grade is based on the following components:
-* 10%: Class participation (includes in-class discussion and pop quizzes)
+
+There are no exams. The final grade is based on:
+
+* 10%: Class participation, including discussion and pop quizzes
 * 5%: Pre-lecture reading and mini quizzes
 * 10%: Post-lecture reading and pre-discussion paper reviews
 * 15%: Leading paper discussion
-* 60%: Term project =
-    * (3%: Project proposal) +
-    * (7%: Midpoint report) +
-    * (15%: Final presentation) +
-    * (35%: Final report)
-
+* 60%: Term project
+    * 3%: Project proposal
+    * 7%: Midpoint report
+    * 15%: Final presentation
+    * 35%: Final report
 
 ## Other Course Policies
-The university provides a Canvas [page](https://utexas.instructure.com/courses/1377522) with policies and resources relevant to all courses. You can refer to it as you navigate your time at UT. This course also has the following additional policies.
+
+The university provides a Canvas [page](https://utexas.instructure.com/courses/1377522) with policies and resources relevant to all courses. This course also has the following additional policies.
 
 ### Use of AI Tools
-Generative AI tools such as ChatGPT and Claude have become widespread.
-Hype aside, these tools are indeed transforming the way we retrieve and process information.
-It is therefore crucial to learn how to effectively use these tools in our research---while maintaining academic integrity and avoiding intellectual dishonesty.
-The general policy for this course regarding the use of AI tools is that **it is acceptable to retrieve and process retrieved information, but not to create original content**.
-Here are some examples (though not an exhaustive list):
 
-#### Allowed
+Generative AI tools may be used to retrieve, organize, and clarify information. They may not be used to create original submitted content.
+
+**Allowed:**
+
 <ul>
 <li class="allowed">Find and summarize related work</li>
-<li class="allowed">Clarify a confusing concept (but please be aware of hallucination/fabrication)</li>
-<li class="allowed">Proof read your draft for grammar errors</li>
+<li class="allowed">Clarify a confusing concept, while checking for hallucination or fabrication</li>
+<li class="allowed">Proofread your draft for grammar errors</li>
 </ul>
 
-#### Prohibited
+**Prohibited:**
+
 <ul>
-<li class="blocked">Upload the course reading and questions to AI tools to complete mini quizzes or write paper reviews</li>
-<li class="blocked">Ask AI tools to write the project proposal, checkpoint reports, and the final report</li>
+<li class="blocked">Upload course readings or questions to AI tools to complete mini quizzes or paper reviews</li>
+<li class="blocked">Ask AI tools to write the project proposal, checkpoint reports, or final report</li>
 </ul>
 
-Confirmed violations can result in receiving an "F" for this course.
+Confirmed violations can result in receiving an **F** for this course.
 
 ### Hacking Ethics & Legal Considerations
-In this course, you will learn about vulnerabilities in computer systems.
-However, you **must not** attack other people's computers, access systems without authorization,
-or misuse personal information---doing so can lead to serious legal consequences.
-Be extra mindful of ethical and legal issues if you are working on any attack-focused term project.
-When in doubt, please reach out to the course instructor.
+
+In this course, you will learn about vulnerabilities in computer systems. However, you **must not** attack other people’s computers, access systems without authorization, or misuse personal information. Doing so can lead to serious legal consequences.
+
+Be especially careful with ethical and legal issues if your term project is attack-focused. When in doubt, contact the instructor.
 
 ## A Notice of Academic Accommodations from Disability and Access (D&A)
-If you are a student with a disability, or think you may have a disability, and need accommodations please contact Disability and Access (D&A). You may refer to D&A’s website for contact and more information: [http://disability.utexas.edu/](http://disability.utexas.edu/). If you are already registered with D&A, please deliver your accommodation letter to me as early as possible in the semester so we can discuss your approved accommodations.
+
+If you are a student with a disability, or think you may have a disability, and need accommodations, please contact Disability and Access (D&A). You may refer to D&A’s website for contact and more information: [http://disability.utexas.edu/](http://disability.utexas.edu/).
+
+If you are already registered with D&A, please deliver your accommodation letter as early as possible so we can discuss your approved accommodations.

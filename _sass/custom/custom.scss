@@ -1,39 +1,780 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600;700;800;900&display=swap");
+
+:root {
+    --ut-orange: #a34a00;
+    --ut-orange-dark: #733200;
+    --ut-orange-edge: #c26a2e;
+    --ut-orange-soft: #f4dfcc;
+    --ut-orange-soft-border: #d49a66;
+
+    --text: #242832;
+    --heading: #20242c;
+    --muted: #667085;
+    --muted-dark: #404958;
+
+    --border: #e1e5ec;
+    --border-strong: #cfd6e1;
+
+    --page-bg: #ffffff;
+    --soft-bg: #f7f8fa;
+    --card-bg: #ffffff;
+    --card-hover: #fbfbfc;
+
+    --note-bg: #f6f9ff;
+    --note-border: #bfd0ee;
+    --note-accent: #496da8;
+    --note-text: #244a86;
+
+    --font: "Source Sans 3", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    --mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+
+/* Base */
+
+html {
+    background: var(--page-bg);
+}
+
+body {
+    color: var(--text);
+    font-family: var(--font);
+    font-size: 1.1rem;
+    line-height: 1.5;
+    text-rendering: optimizeLegibility;
+}
+
+.main {
+    max-width: 58rem !important;
+}
+
+.main-content {
+    max-width: 100%;
+}
+
+.search,
+.search-input-wrap,
+.search-results {
+    display: none !important;
+}
+
+/* Typography */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li,
+strong,
+em,
+a,
+.site-button,
+.schedule-date,
+.schedule-legend,
+.session-type,
+.callout-title,
+.note-title,
+blockquote.note::before {
+    font-family: var(--font);
+}
+
 h1 {
-    color: #bf5700;
-    font-size: 1.85em !important;
+    margin-top: 3.1rem;
+    margin-bottom: 0.25rem;
+    color: var(--heading);
+    font-size: 2.05rem !important;
+    line-height: 1.15;
+    font-weight: 750;
+    letter-spacing: -0.025em;
 }
 
-ul {
-    margin-top: 0 !important;
+h2 {
+    margin-top: 2rem;
+    margin-bottom: 0.55rem;
+    color: #333945;
+    font-size: 1.42rem;
+    line-height: 1.23;
+    font-weight: 700;
+    letter-spacing: -0.015em;
 }
 
-li {
-    margin: 0;
+h3 {
+    margin-top: 1rem;
+    margin-bottom: 0.3rem;
+    color: #333945;
+    font-size: 1.12rem;
+    line-height: 1.28;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 0.55rem;
+}
+
+strong {
+    color: #303744;
+    font-weight: 700;
+}
+
+/* Main-content list spacing only.
+   Do not apply these globally, or they will affect the navbar. */
+
+.main-content ul,
+.main-content ol {
+    margin-top: 0;
+    margin-bottom: 0.55rem;
+    padding-left: 1.15rem;
+}
+
+.main-content li {
+    margin-top: 0;
+    margin-bottom: 0.04rem;
+    line-height: 1.33;
+}
+
+.main-content li > p {
+    margin-bottom: 0.12rem;
+}
+
+.main-content p + ul,
+.main-content p + ol {
+    margin-top: -0.18rem;
+}
+
+hr {
+    height: 1px;
+    margin: 1.75rem 0;
+    background: var(--border);
+}
+
+/* Links */
+
+a,
+.main-content a {
+    color: var(--ut-orange);
+    text-decoration-thickness: 0.06em;
+    text-decoration-color: rgba(163, 74, 0, 0.42);
+    text-underline-offset: 0.15em;
+}
+
+a:hover,
+.main-content a:hover {
+    color: var(--ut-orange-dark);
+    text-decoration-color: var(--ut-orange-dark);
+    text-decoration-thickness: 0.1em;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    border-color: var(--ut-orange);
+    box-shadow: 0 0 0 3px rgba(163, 74, 0, 0.14);
+}
+
+/* Helper classes */
+
+.ut-color {
+    color: var(--ut-orange);
+}
+
+.year-tag {
+    display: block;
+    margin-top: 0.35rem;
+    margin-left: 0.1rem;
+    color: var(--muted);
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.3;
 }
 
 li.allowed::before {
     content: "✔" !important;
-    color: green !important;
+    color: #1f7a3a !important;
 }
 
 li.blocked::before {
     content: "✗" !important;
-    color: red !important;
+    color: #b42318 !important;
 }
 
-.ut-color {
-    color: #bf5700
+/* Header / navigation */
+
+.main-header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    min-height: 3.25rem;
+    height: auto !important;
+    max-height: none !important;
+
+    /* Keep navbar aligned with the page content without narrowing the whole site */
+    margin: 0 2rem 1.9rem;
+    padding: 0.35rem 0 0.3rem;
+
+    border-bottom: 1px solid var(--border);
+    background: rgba(255, 255, 255, 0.96);
+    backdrop-filter: blur(8px);
+
+    overflow: visible !important;
+    overflow-x: visible !important;
+    overflow-y: visible !important;
 }
 
-.year-tag {
-    font-size: 1.4em;
-    color: rgb(128, 128, 128);
+.main-header > div:first-child {
+    display: none;
 }
 
-.main {
-    max-width: 60rem !important;
+.aux-nav {
+    width: 100%;
+    height: auto !important;
+    max-height: none !important;
+    overflow: visible !important;
+}
+
+.aux-nav-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 1.2rem;
+
+    margin: 0;
+    padding: 0;
+
+    height: auto !important;
+    max-height: none !important;
+    overflow: visible !important;
+
+    list-style: none;
+}
+
+.aux-nav-list-item {
+    margin: 0;
+    padding: 0;
 }
 
 .site-button {
-    font-size: medium;
+    font-size: 1rem;
+}
+
+.main-header .site-button {
+    display: inline-flex;
+    align-items: center;
+
+    min-height: 2.1rem;
+    padding: 0.18rem 0;
+
+    border: 0;
+    border-bottom: 2px solid transparent;
+    border-radius: 0;
+    background: transparent;
+
+    color: #202631;
+    font-size: 1.1rem;
+    font-weight: 500;
+    line-height: 1.2;
+    text-decoration: none;
+}
+
+.main-header .site-button:hover,
+.main-header .site-button:focus {
+    border-bottom-color: var(--ut-orange);
+    background: transparent;
+    color: var(--ut-orange);
+    text-decoration: none;
+}
+
+.site-nav .nav-list-link.active,
+.site-nav .nav-list-link:hover,
+.aux-nav a:hover {
+    color: var(--ut-orange);
+}
+
+.btn,
+.site-button {
+    color: var(--ut-orange);
+}
+
+.btn:hover,
+.site-button:hover {
+    color: var(--ut-orange-dark);
+}
+
+/* Callouts */
+
+blockquote.note,
+.callout,
+.note {
+    margin: 1.2rem 0;
+    padding: 0.78rem 0.95rem;
+
+    border: 1px solid var(--note-border);
+    border-left: 4px solid var(--note-accent);
+    border-radius: 5px;
+    background: var(--note-bg);
+    box-shadow: none;
+}
+
+blockquote.note p,
+.callout p,
+.note p {
+    margin-bottom: 0.28rem;
+}
+
+blockquote.note p:last-child,
+.callout p:last-child,
+.note p:last-child {
+    margin-bottom: 0;
+}
+
+.callout-title,
+.note-title,
+blockquote.note::before {
+    display: block;
+    margin-bottom: 0.3rem;
+
+    color: var(--note-text);
+    font-size: 0.92rem;
+    font-weight: 850;
+    letter-spacing: 0.01em;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+
+/* Schedule legend */
+
+.schedule-legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.85rem;
+    align-items: center;
+
+    margin: 1rem 0 1.35rem;
+
+    color: var(--muted-dark);
+    font-size: 1.1rem;
+    font-weight: 500;
+    line-height: 1.35;
+}
+
+.schedule-legend span {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.42rem;
+}
+
+.schedule-legend strong,
+.session-type {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 1.4rem;
+    height: 1.4rem;
+
+    border: 1px solid var(--ut-orange-soft-border);
+    border-radius: 999px;
+    background: var(--ut-orange-soft);
+    color: var(--ut-orange-dark);
+
+    font-size: 1rem;
+    font-weight: 900;
+    line-height: 1;
+}
+
+/* Schedule sections */
+
+.schedule-week {
+    margin: 1.9rem 0 2.05rem;
+    padding-top: 0.9rem;
+    border-top: 1px solid var(--border);
+}
+
+.schedule-week > h2 {
+    margin: 0 0 0.78rem;
+    color: #333945;
+    font-size: 1.38rem;
+    line-height: 1.23;
+    font-weight: 750;
+    letter-spacing: -0.015em;
+}
+
+/* Schedule cards */
+
+.schedule-day {
+    display: grid;
+    grid-template-columns: 4.4rem minmax(0, 1fr);
+    column-gap: 0.9rem;
+
+    margin: 0.55rem 0;
+    padding: 0.76rem 0.9rem;
+
+    border: 1px solid var(--border);
+    border-left: 4px solid var(--ut-orange-edge);
+    border-radius: 6px;
+
+    background: var(--card-bg);
+    box-shadow: none;
+    line-height: 1.38;
+}
+
+.schedule-day:hover {
+    background: var(--card-hover);
+}
+
+.schedule-day > :not(.schedule-date) {
+    grid-column: 2;
+}
+
+.schedule-date {
+    grid-column: 1;
+    grid-row: 1 / span 20;
+
+    margin-top: 0.14rem;
+
+    color: var(--muted-dark);
+    font-size: 1rem;
+    font-weight: 800;
+    letter-spacing: 0.01em;
+    line-height: 1.22;
+    text-transform: uppercase;
+}
+
+.schedule-day h3 {
+    display: flex;
+    align-items: center;
+    gap: 0.45rem;
+
+    margin: 0 0 0.26rem;
+
+    color: #252b36;
+    font-size: 1.15rem !important;
+    line-height: 1.23;
+    font-weight: 750;
+    letter-spacing: -0.01em;
+}
+
+.schedule-day p {
+    margin-top: 0;
+    margin-bottom: 0.2rem;
+    line-height: 1.38;
+}
+
+.main-content .schedule-day ul,
+.main-content .schedule-day ol {
+    margin-top: 0 !important;
+    margin-bottom: 0.22rem !important;
+    padding-left: 1rem;
+}
+
+.main-content .schedule-day p + ul,
+.main-content .schedule-day p + ol {
+    margin-top: -0.24rem !important;
+}
+
+.main-content .schedule-day li {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    line-height: 1.28;
+}
+
+.schedule-day p:last-child,
+.main-content .schedule-day ul:last-child,
+.main-content .schedule-day ol:last-child {
+    margin-bottom: 0 !important;
+}
+
+.schedule-day strong {
+    color: #3c4350;
+    font-weight: 750;
+}
+
+.schedule-full {
+    grid-template-columns: minmax(0, 1fr);
+}
+
+.schedule-full > :not(.schedule-date) {
+    grid-column: 1;
+}
+
+.schedule-break {
+    border-left-color: var(--border-strong);
+    background: var(--soft-bg);
+}
+
+.schedule-break h3 {
+    color: #252b36;
+}
+
+/* Tables, if still used elsewhere */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.98rem;
+    line-height: 1.38;
+}
+
+th {
+    color: #374151;
+    font-size: 0.84rem;
+    font-weight: 800;
+    letter-spacing: 0.015em;
+    text-align: left;
+    text-transform: uppercase;
+    background: #f8fafc;
+}
+
+td,
+th {
+    padding: 0.5rem 0.65rem;
+    border-top: 1px solid var(--border);
+    vertical-align: top;
+}
+
+tbody tr:nth-child(even) {
+    background: #fbfcfd;
+}
+
+/* Code */
+
+code,
+pre {
+    font-family: var(--mono);
+    font-size: 0.9em;
+}
+
+code {
+    padding: 0.08rem 0.22rem;
+    border-radius: 4px;
+    background: #f3f4f6;
+}
+
+pre code {
+    padding: 0;
+    background: transparent;
+}
+
+/* Mobile */
+
+@media (max-width: 640px) {
+    body {
+        font-size: 16.5px;
+        line-height: 1.46;
+    }
+
+    .main {
+        max-width: 100% !important;
+    }
+
+    h1 {
+        margin-top: 2.25rem;
+        font-size: 1.72rem !important;
+    }
+
+    h2 {
+        font-size: 1.22rem;
+    }
+
+    .year-tag {
+        font-size: 1.18rem;
+    }
+
+    .main-header {
+        justify-content: flex-start;
+        margin: 0 0 1.4rem;
+        padding: 0.3rem 0 0.25rem;
+
+        overflow-x: auto !important;
+        overflow-y: hidden !important;
+    }
+
+    .aux-nav {
+        overflow-x: auto !important;
+        overflow-y: hidden !important;
+    }
+
+    .aux-nav-list {
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        gap: 1rem;
+    }
+
+    .main-header .site-button {
+        font-size: 0.94rem;
+        white-space: nowrap;
+    }
+
+    .callout-title,
+    .note-title,
+    blockquote.note::before {
+        font-size: 0.86rem;
+    }
+
+    .schedule-legend {
+        gap: 0.65rem;
+        font-size: 0.96rem;
+    }
+
+    .schedule-legend strong,
+    .session-type {
+        width: 1.48rem;
+        height: 1.48rem;
+        font-size: 0.84rem;
+    }
+
+    .schedule-week {
+        margin: 1.7rem 0 1.9rem;
+    }
+
+    .schedule-day {
+        display: block;
+        padding: 0.8rem 0.86rem;
+        background: var(--card-bg);
+    }
+
+    .schedule-date {
+        display: block;
+        margin: 0 0 0.32rem;
+        font-size: 0.86rem;
+    }
+
+    .schedule-day h3 {
+        align-items: flex-start;
+        font-size: 1.02rem;
+    }
+}
+
+/* Home page top cards */
+
+/* Home page top cards */
+
+.home-logistics-card {
+    margin: 1.35rem 0 1.15rem;
+    padding: 1.04rem 1.15rem;
+    border: 1px solid var(--border);
+    border-left: 5px solid var(--ut-orange-edge);
+    border-radius: 7px;
+    background: var(--card-bg);
+    line-height: 1.42;
+}
+
+.home-card-title {
+    margin-bottom: 0.75rem;
+    color: var(--muted-dark);
+    font-size: 1.06rem;
+    font-weight: 850;
+    letter-spacing: 0.01em;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+
+.home-logistics-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 4fr) minmax(0, 6fr);
+    column-gap: 1.45rem;
+    row-gap: 0.86rem;
+}
+
+.home-logistics-item {
+    min-width: 0;
+}
+
+.home-logistics-label {
+    margin-bottom: 0.1rem;
+    color: #303744;
+    font-size: 1.09rem;
+    font-weight: 800;
+    line-height: 1.25;
+}
+
+.home-logistics-value {
+    min-width: 0;
+    color: var(--text);
+    font-size: 1.13rem;
+    line-height: 1.38;
+}
+
+.muted-text {
+    color: var(--muted);
+}
+
+.home-action-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 0.6rem;
+    margin: 1rem 0 1.55rem;
+}
+
+.home-action {
+    display: block;
+    padding: 0.65rem 0.75rem;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    background: #fff;
+    color: var(--text) !important;
+    text-decoration: none !important;
+}
+
+.home-action strong {
+    display: block;
+    margin-bottom: 0.08rem;
+    color: var(--ut-orange);
+    font-size: 1.05rem;
+    font-weight: 800;
+    line-height: 1.2;
+}
+
+.home-action span {
+    display: block;
+    color: var(--muted);
+    font-size: 0.95rem;
+    font-weight: 500;
+    line-height: 1.22;
+}
+
+.home-action:hover {
+    border-color: var(--ut-orange-soft-border);
+    background: #fffaf5;
+}
+
+.home-action.primary {
+    border-left: 4px solid var(--ut-orange-edge);
+}
+
+@media (max-width: 820px) {
+    .home-logistics-grid {
+        grid-template-columns: 1fr;
+        row-gap: 0.75rem;
+    }
+
+    .home-action-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 500px) {
+    .home-action-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .home-logistics-card {
+        padding: 0.95rem 1rem;
+    }
+
+    .home-logistics-label {
+        font-size: 1rem;
+    }
+
+    .home-logistics-value {
+        font-size: 1.03rem;
+    }
 }

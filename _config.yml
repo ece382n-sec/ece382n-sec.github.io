@@ -4,10 +4,29 @@ theme: just-the-docs
 
 url: https://ece382n-sec.github.io
 
+search_enabled: false
+
 aux_links:
   Home: /
   Schedule: /schedule
   Project: /project
+
+callouts:
+  important:
+    title: Important
+    color: yellow
+  note:
+    title: Note
+    color: blue
+  optional:
+    title: Optional
+    color: green
+  warning:
+    title: Warning
+    color: red
+  updated:
+    title: Updated
+    color: purple
 
 # sass:
 #   style: compressed
