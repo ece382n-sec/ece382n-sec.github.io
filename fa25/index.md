@@ -23,10 +23,10 @@ nav_enabled: false
 </div>
 
 <div class="home-action-grid">
-<a class="home-action primary" href="schedule"><strong>Schedule</strong><span>Readings, slides, and weekly plan</span></a>
-<a class="home-action" href="project"><strong>Term project</strong><span>Milestones and expectations</span></a>
-<a class="home-action" href="https://edstem.org/us/courses/83088/discussion"><strong>Ed discussion</strong><span>Course Q&amp;A and announcements</span></a>
-<a class="home-action" href="ack"><strong>Acknowledgements</strong><span>Prior materials and credits</span></a>
+<a class="home-action primary" href="schedule"><strong>Schedule</strong></a>
+<a class="home-action" href="project"><strong>Term project</strong></a>
+<a class="home-action" href="https://edstem.org/us/courses/83088/discussion"><strong>Ed discussion</strong></a>
+<a class="home-action" href="ack"><strong>Acknowledgements</strong></a>
 </div>
 
 <hr>
