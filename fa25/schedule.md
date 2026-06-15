@@ -3,8 +3,10 @@ title: Course Schedule, Reading List, and Slides
 layout: minimal
 ---
 
+<script src="nav.js"></script>
+
 # Course Schedule, Reading List, and Slides
-<p class="year-tag">Fall 2026</p>
+<p class="year-tag">Fall 2025</p>
 <hr>
 
 
@@ -16,28 +18,21 @@ layout: minimal
   <span><strong>D</strong> Paper discussion led by student presenters</span>
 </div>
 
-<div class="schedule-tools" data-schedule-tools hidden>
-  <button class="schedule-jump" type="button" data-schedule-jump>
-    <span class="schedule-jump-main">Next date</span>
-    <span class="schedule-jump-target" data-schedule-jump-target>Finding upcoming card</span>
-  </button>
-</div>
-
 <section class="schedule-week" id="week-1" markdown="1">
 ## Week 1: Bootstrap
 
 <div class="schedule-day" markdown="1">
-<div class="schedule-date">Aug 24<span>Mon</span></div>
+<div class="schedule-date">Aug 25</div>
 
 ### <span class="session-type">L</span> Course Logistics
 
-**Readings:** Please fill this [anonymous course-preparation survey](https://forms.gle/nX2kyiBxQmFPqetQ9){:target="_blank"} **after the first class** and before Aug 27 (Thu).
+**Readings:** Please fill this [anonymous course-preparation survey](https://forms.gle/nX2kyiBxQmFPqetQ9){:target="_blank"} **after the first class** and before Aug 28 (Thu).
 
 **Materials:** [Slides](https://docs.google.com/presentation/d/188onoHX-T-CbIo1eKGBL697aUNOY_zA5BTwOMLv4R9I/edit?usp=sharing){:target="_blank"}
 </div>
 
 <div class="schedule-day" markdown="1">
-<div class="schedule-date">Aug 26<span>Wed</span></div>
+<div class="schedule-date">Aug 27</div>
 
 ### <span class="session-type">L</span> Topic Overview and Project Ideas
 
@@ -48,8 +43,14 @@ layout: minimal
 <section class="schedule-week" id="week-2" markdown="1">
 ## Week 2: uArch Side Channels
 
+<div class="schedule-day schedule-break" markdown="1">
+<div class="schedule-date">Sep 1</div>
+
+### Labor Day
+</div>
+
 <div class="schedule-day" markdown="1">
-<div class="schedule-date">Aug 31<span>Mon</span></div>
+<div class="schedule-date">Sep 3</div>
 
 ### <span class="session-type">L</span> Cache-Based Side Channels (w/ Demo!)
 
@@ -59,11 +60,15 @@ layout: minimal
 - Last-Level Cache Side-Channel Attacks are Practical (SP &#39;15) [Link](https://yuval.yarom.org/pdfs/LiuYGHL15.pdf){:target="_blank"}
 - Theory and Practice of Finding Eviction Sets (SP &#39;19) [Link](https://www.computer.org/csdl/proceedings-article/sp/2019/666000a039/1dlwkwPrlCw){:target="_blank"}
 
-**Materials:** [Slides](files/L1%20-%20Cache%20Side%20Channels.pdf), [PoC](https://github.com/ece382n-sec/Example-PoCs){:target="_blank"}
+**Materials:** [Slides](../files/L1%20-%20Cache%20Side%20Channels.pdf), [PoC](https://github.com/ece382n-sec/Example-PoCs){:target="_blank"}
 </div>
+</section>
+
+<section class="schedule-week" id="week-3" markdown="1">
+## Week 3: uArch Side Channels
 
 <div class="schedule-day" markdown="1">
-<div class="schedule-date">Sep 2<span>Wed</span></div>
+<div class="schedule-date">Sep 8</div>
 
 ### <span class="session-type">L</span> Side Channels in Public Clouds (w/ Demo!)
 
@@ -71,21 +76,11 @@ layout: minimal
 
 **Post-lecture:** Everywhere All at Once: Co-Location Attacks on Public Cloud FaaS (ASPLOS &#39;24) [Link](https://zzrcxb.me/files/papers/ASPLOS24-Everywhere.pdf){:target="_blank"}
 
-**Materials:** [Slides](files/L2%20-%20Side%20Channels%20in%20Public%20Cloud.pdf)
-</div>
-</section>
-
-<section class="schedule-week" id="week-3" markdown="1">
-## Week 3: uArch Side Channels
-
-<div class="schedule-day schedule-break" markdown="1">
-<div class="schedule-date">Sep 7<span>Mon</span></div>
-
-### Labor Day
+**Materials:** [Slides](../files/L2%20-%20Side%20Channels%20in%20Public%20Cloud.pdf)
 </div>
 
 <div class="schedule-day" markdown="1">
-<div class="schedule-date">Sep 9<span>Wed</span></div>
+<div class="schedule-date">Sep 10</div>
 
 ### <span class="session-type">L</span> Partitioning, Randomization, and Detection
 
@@ -95,7 +90,7 @@ layout: minimal
 
 **Optional:** A Game of Cache Attacks and Defense by Moinuddin Qureshi at [MAD tutorial](https://sites.google.com/view/mad-isca22){:target="_blank"} (ISCA &#39;22) [Link](https://docs.google.com/presentation/d/1TezFuMWDTNXdEq-o2tuAN62myVBqD7To/edit?usp=sharing&ouid=109395281671520631390&rtpof=true&sd=true){:target="_blank"}
 
-**Materials:** [Slides](files/L3%20-%20Partitioning,%20Randomization,%20and%20Detection.pdf)
+**Materials:** [Slides](../files/L3%20-%20Partitioning,%20Randomization,%20and%20Detection.pdf)
 </div>
 </section>
 
@@ -103,7 +98,7 @@ layout: minimal
 ## Week 4: Data-Oblivious Computation and Speculation
 
 <div class="schedule-day" markdown="1">
-<div class="schedule-date">Sep 14<span>Mon</span></div>
+<div class="schedule-date">Sep 15</div>
 
 ### <span class="session-type">L</span> Data-Oblivious Computation
 
@@ -113,11 +108,11 @@ layout: minimal
 - Oblivious RAM by Elaine Shi [Link](https://elaineshi.com/docs/oramlecture.pdf){:target="_blank"}
 - Cryptocoding by Jean-Philippe Aumasson [Link](https://github.com/veorq/cryptocoding){:target="_blank"}
 
-**Materials:** [Slides](files/L4%20-%20Data-Oblivious%20Computation.pdf), [PoC](https://github.com/ece382n-sec/Example-PoCs/tree/main/Strcmp){:target="_blank"}
+**Materials:** [Slides](../files/L4%20-%20Data-Oblivious%20Computation.pdf), [PoC](https://github.com/ece382n-sec/Example-PoCs/tree/main/Strcmp){:target="_blank"}
 </div>
 
 <div class="schedule-day" markdown="1">
-<div class="schedule-date">Sep 16<span>Wed</span></div>
+<div class="schedule-date">Sep 17</div>
 
 ### <span class="session-type">L</span> Transient-Execution Attacks (w/ Demo!)
 
@@ -128,7 +123,7 @@ layout: minimal
 - Meltdown: Reading Kernel Memory from User Space [Link](https://meltdownattack.com/meltdown.pdf){:target="_blank"}
 - A Systematic Evaluation of Transient Execution Attacks and Defenses [Link](https://www.usenix.org/conference/usenixsecurity19/presentation/canella){:target="_blank"}
 
-**Materials:** [Slides](files/L5%20-%20Spectre%20and%20Meltdown.pdf), [PoC](https://github.com/ece382n-sec/Example-PoCs/tree/main/Spectre){:target="_blank"}
+**Materials:** [Slides](../files/L5%20-%20Spectre%20and%20Meltdown.pdf), [PoC](https://github.com/ece382n-sec/Example-PoCs/tree/main/Spectre){:target="_blank"}
 </div>
 </section>
 
@@ -136,7 +131,7 @@ layout: minimal
 ## Week 5: Speculation
 
 <div class="schedule-day" markdown="1">
-<div class="schedule-date">Sep 21<span>Mon</span></div>
+<div class="schedule-date">Sep 22</div>
 
 ### <span class="session-type">D</span> Advanced Spectre Attacks
 
@@ -151,7 +146,7 @@ layout: minimal
 </div>
 
 <div class="schedule-day" markdown="1">
-<div class="schedule-date">Sep 23<span>Wed</span></div>
+<div class="schedule-date">Sep 24</div>
 
 ### <span class="session-type">D</span> Hardware Defenses
 
@@ -169,17 +164,17 @@ layout: minimal
 ## Week 6: Trusted Execution Environments (TEEs)
 
 <div class="schedule-day" markdown="1">
-<div class="schedule-date">Sep 28<span>Mon</span></div>
+<div class="schedule-date">Sep 29</div>
 
 ### <span class="session-type">L</span> TEE Overview and Attestation
 
 **Optional:** Intel SGX Explained [Link](https://eprint.iacr.org/2016/086.pdf){:target="_blank"}
 
-**Materials:** [Slides](files/L6%20-%20TEE%20Overview%20and%20Attestation.pdf)
+**Materials:** [Slides](../files/L6%20-%20TEE%20Overview%20and%20Attestation.pdf)
 </div>
 
 <div class="schedule-day" markdown="1">
-<div class="schedule-date">Sep 30<span>Wed</span></div>
+<div class="schedule-date">Oct 1</div>
 
 ### <span class="session-type">L</span> Memory Encryption and Integrity Protection
 
@@ -187,7 +182,7 @@ layout: minimal
 - Efficient Memory Integrity Verification and Encryption for Secure Processors [Link](https://microarch.org/micro36/html/pdf/suh-EfficMemory.pdf){:target="_blank"}
 - Using Address Independent Seed Encryption and Bonsai Merkle Trees to Make Secure Processors OS- and Performance-Friendly [Link](https://faculty.cc.gatech.edu/~milos/rogers_micro07.pdf){:target="_blank"}
 
-**Materials:** [Slides](files/L7%20-%20Memory%20Encryption%20and%20Integrity%20Protection.pdf)
+**Materials:** [Slides](../files/L7%20-%20Memory%20Encryption%20and%20Integrity%20Protection.pdf)
 </div>
 </section>
 
@@ -195,17 +190,17 @@ layout: minimal
 ## Week 7: Trusted Execution Environments (TEEs)
 
 <div class="schedule-day" markdown="1">
-<div class="schedule-date">Oct 5<span>Mon</span></div>
+<div class="schedule-date">Oct 6</div>
 
 ### <span class="session-type">L</span> TEE Designs
 
 **Pre-lecture:** (Presentation) Keystone: An Open Framework for Architecting Trusted Execution Environments [Link](https://www.youtube.com/watch?v=lQu95We1Lmc){:target="_blank"}
 
-**Materials:** [Slides](files/L8%20-%20TEE%20Designs.pdf)
+**Materials:** [Slides](../files/L8%20-%20TEE%20Designs.pdf)
 </div>
 
 <div class="schedule-day" markdown="1">
-<div class="schedule-date">Oct 7<span>Wed</span></div>
+<div class="schedule-date">Oct 8</div>
 
 ### <span class="session-type">D</span> Attacks on TEEs
 
@@ -219,7 +214,7 @@ layout: minimal
 ## Week 8: Isolation and Memory Safety
 
 <div class="schedule-day" markdown="1">
-<div class="schedule-date">Oct 12<span>Mon</span></div>
+<div class="schedule-date">Oct 13</div>
 
 ### <span class="session-type">L</span> OS and VM Isolation
 
@@ -230,11 +225,11 @@ layout: minimal
 - Firecracker: Lightweight Virtualization for Serverless Applications [Link](https://www.usenix.org/system/files/nsdi20-paper-agache.pdf){:target="_blank"}
 - Blending Containers and Virtual Machines: A Study of Firecracker and gVisor [Link](https://pages.cs.wisc.edu/~swift/papers/vee20-isolation.pdf){:target="_blank"}
 
-**Materials:** [Slides](files/L9%20-%20OS%20and%20VM%20Isolation.pdf)
+**Materials:** [Slides](../files/L9%20-%20OS%20and%20VM%20Isolation.pdf)
 </div>
 
 <div class="schedule-day" markdown="1">
-<div class="schedule-date">Oct 14<span>Wed</span></div>
+<div class="schedule-date">Oct 15</div>
 
 ### <span class="session-type">L</span> Memory Safety
 
@@ -246,7 +241,7 @@ layout: minimal
 - No-FAT: Architectural Support for Low Overhead Memory Safety Checks [Link](https://www.cs.columbia.edu/~mtarek/files/preprint_ISCA21_NoFAT.pdf){:target="_blank"}
 - SPECCFI: Mitigating Spectre Attacks using CFI Informed Speculation [Link](https://www.cs.ucr.edu/~csong/oakland20-speccfi.pdf){:target="_blank"}
 
-**Materials:** [Slides](files/L10%20-%20Memory%20Safety.pdf)
+**Materials:** [Slides](../files/L10%20-%20Memory%20Safety.pdf)
 </div>
 </section>
 
@@ -254,7 +249,7 @@ layout: minimal
 ## Week 9: Isolation and Memory Safety
 
 <div class="schedule-day" markdown="1">
-<div class="schedule-date">Oct 19<span>Mon</span></div>
+<div class="schedule-date">Oct 20</div>
 
 ### <span class="session-type">D</span> In-Process Isolation
 
@@ -264,7 +259,7 @@ layout: minimal
 </div>
 
 <div class="schedule-day" markdown="1">
-<div class="schedule-date">Oct 21<span>Wed</span></div>
+<div class="schedule-date">Oct 22</div>
 
 ### <span class="session-type">D</span> Transient Execution + Memory Safety
 
@@ -278,7 +273,7 @@ layout: minimal
 ## Week 10: RowHammer and Inspiring Papers/Ideas
 
 <div class="schedule-day" markdown="1">
-<div class="schedule-date">Oct 26<span>Mon</span></div>
+<div class="schedule-date">Oct 27</div>
 
 ### <span class="session-type">L</span> RowHammer
 
@@ -288,11 +283,11 @@ layout: minimal
 - Graphene: Strong yet Lightweight RowHammer Protection [Link](https://microarch.org/micro53/papers/738300a001.pdf){:target="_blank"}
 - ProTRR: Principled yet Optimal In-DRAM Target Row Refresh [Link](https://ieeexplore.ieee.org/document/9833664/){:target="_blank"}
 
-**Materials:** [Slides](files/L11%20-%20RowHammer.pdf)
+**Materials:** [Slides](../files/L11%20-%20RowHammer.pdf)
 </div>
 
 <div class="schedule-day" markdown="1">
-<div class="schedule-date">Oct 28<span>Wed</span></div>
+<div class="schedule-date">Oct 29</div>
 
 ### <span class="session-type">D</span> Attacking AI Systems
 
@@ -306,7 +301,7 @@ layout: minimal
 ## Week 11: Inspiring Papers/Ideas
 
 <div class="schedule-day" markdown="1">
-<div class="schedule-date">Nov 2<span>Mon</span></div>
+<div class="schedule-date">Nov 3</div>
 
 ### <span class="session-type">D</span> Emerging TEE Designs
 
@@ -321,7 +316,7 @@ layout: minimal
 </div>
 
 <div class="schedule-day" markdown="1">
-<div class="schedule-date">Nov 4<span>Wed</span></div>
+<div class="schedule-date">Nov 5</div>
 
 ### <span class="session-type">D</span> uArch Weird Machines
 
@@ -335,7 +330,7 @@ layout: minimal
 ## Week 12: Inspiring Papers/Ideas
 
 <div class="schedule-day" markdown="1">
-<div class="schedule-date">Nov 9<span>Mon</span></div>
+<div class="schedule-date">Nov 10</div>
 
 ### <span class="session-type">L</span> Information-Flow Tracking in Hardware
 
@@ -343,11 +338,11 @@ layout: minimal
 - Complete Information Flow Tracking from the Gates Up (ASPLOS &#39;09) [Link](https://dl.acm.org/doi/10.1145/1508244.1508258){:target="_blank"}
 - Speculative Privacy Tracking (SPT): Leaking Information From Speculative Execution Without Compromising Privacy (MICRO &#39;21) [Link](https://cwfletcher.github.io/content/research/2021.micro.spt.paper.pdf){:target="_blank"}
 
-**Materials:** [Slides](files/L12%20-%20Information-Flow%20Tracking%20in%20Hardware.pdf)
+**Materials:** [Slides](../files/L12%20-%20Information-Flow%20Tracking%20in%20Hardware.pdf)
 </div>
 
 <div class="schedule-day" markdown="1">
-<div class="schedule-date">Nov 11<span>Wed</span></div>
+<div class="schedule-date">Nov 12</div>
 
 ### <span class="session-type">D</span> Fun Side Channels
 
@@ -366,7 +361,7 @@ layout: minimal
 ## Week 13: Inspiring Papers/Ideas
 
 <div class="schedule-day" markdown="1">
-<div class="schedule-date">Nov 16<span>Mon</span></div>
+<div class="schedule-date">Nov 17</div>
 
 ### <span class="session-type">D</span> Attacks on GPU
 
@@ -380,7 +375,7 @@ layout: minimal
 </div>
 
 <div class="schedule-day" markdown="1">
-<div class="schedule-date">Nov 18<span>Wed</span></div>
+<div class="schedule-date">Nov 19</div>
 
 ### <span class="session-type">D</span> SW & HW Fuzzing
 
@@ -397,9 +392,7 @@ layout: minimal
 <section class="schedule-week" id="week-14" markdown="1">
 ## Week 14: Fall Break
 
-<div class="schedule-day schedule-break" markdown="1">
-<div class="schedule-date">Nov 23-Nov 28<span>Mon-Sat</span></div>
-
+<div class="schedule-day schedule-break schedule-full" markdown="1">
 ### Fall Break
 
 **Optional reading:** *Why We Sleep* by Matthew Walker
@@ -410,13 +403,13 @@ layout: minimal
 ## Week 15: Summary and Project Presentations
 
 <div class="schedule-day" markdown="1">
-<div class="schedule-date">Nov 30<span>Mon</span></div>
+<div class="schedule-date">Dec 1</div>
 
 ### Reflect and Chat (with free food!)
 </div>
 
 <div class="schedule-day" markdown="1">
-<div class="schedule-date">Dec 2<span>Wed</span></div>
+<div class="schedule-date">Dec 3</div>
 
 ### Final Presentation (1)
 </div>
@@ -426,108 +419,8 @@ layout: minimal
 ## Week 16: Project Presentations
 
 <div class="schedule-day" markdown="1">
-<div class="schedule-date">Dec 7<span>Mon</span></div>
+<div class="schedule-date">Dec 8</div>
 
 ### Final Presentation (2)
 </div>
 </section>
-
-<script>
-(function () {
-  var button = document.querySelector("[data-schedule-jump]");
-  if (!button) return;
-
-  var tools = button.closest("[data-schedule-tools]");
-  var targetLabel = button.querySelector("[data-schedule-jump-target]");
-  var yearTag = document.querySelector(".year-tag");
-  var yearMatch = yearTag && yearTag.textContent.match(/20\d{2}/);
-  var courseYear = yearMatch ? Number(yearMatch[0]) : new Date().getFullYear();
-  var months = {
-    Jan: 0,
-    Feb: 1,
-    Mar: 2,
-    Apr: 3,
-    May: 4,
-    Jun: 5,
-    Jul: 6,
-    Aug: 7,
-    Sep: 8,
-    Oct: 9,
-    Nov: 10,
-    Dec: 11
-  };
-
-  function dateText(dateElement) {
-    return (dateElement.childNodes[0] && dateElement.childNodes[0].nodeValue || "").trim();
-  }
-
-  function parseMonthDay(value, fallbackMonth) {
-    var match = value.trim().match(/^([A-Za-z]{3})?\s*(\d{1,2})$/);
-    if (!match) return null;
-    var monthName = match[1] || fallbackMonth;
-    if (!Object.prototype.hasOwnProperty.call(months, monthName)) return null;
-    return { monthName: monthName, month: months[monthName], day: Number(match[2]) };
-  }
-
-  function parseRange(value) {
-    var parts = value.split("-").map(function (part) { return part.trim(); });
-    var start = parseMonthDay(parts[0]);
-    if (!start) return null;
-    var end = parts[1] ? parseMonthDay(parts[1], start.monthName) : start;
-    if (!end) return null;
-    return {
-      start: new Date(courseYear, start.month, start.day),
-      end: new Date(courseYear, end.month, end.day)
-    };
-  }
-
-  var cards = Array.prototype.slice.call(document.querySelectorAll(".schedule-day")).map(function (card) {
-    var dateElement = card.querySelector(".schedule-date");
-    if (!dateElement) return null;
-    var text = dateText(dateElement);
-    var weekday = dateElement.querySelector("span");
-    return {
-      card: card,
-      date: text,
-      weekday: weekday ? weekday.textContent.trim() : "",
-      range: parseRange(text)
-    };
-  }).filter(function (entry) {
-    return entry && entry.range;
-  });
-
-  var today = new Date();
-  today.setHours(0, 0, 0, 0);
-
-  var upcoming = cards.find(function (entry) {
-    return entry.range.end >= today;
-  });
-
-  if (!upcoming) {
-    button.disabled = true;
-    targetLabel.textContent = "Semester complete";
-    button.setAttribute("aria-label", "No upcoming schedule cards");
-    if (tools) tools.hidden = false;
-    return;
-  }
-
-  var displayDate = upcoming.date + (upcoming.weekday ? " " + upcoming.weekday : "");
-  targetLabel.textContent = displayDate;
-  button.setAttribute("aria-label", "Jump to upcoming schedule card: " + displayDate);
-  if (tools) tools.hidden = false;
-
-  button.addEventListener("click", function () {
-    var prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-    upcoming.card.scrollIntoView({
-      behavior: prefersReducedMotion ? "auto" : "smooth",
-      block: "start"
-    });
-    upcoming.card.setAttribute("tabindex", "-1");
-    upcoming.card.focus({ preventScroll: true });
-    upcoming.card.classList.add("schedule-day-target");
-    window.setTimeout(function () {
-      upcoming.card.classList.remove("schedule-day-target");
-    }, 1800);
-  });
-}());
-</script>

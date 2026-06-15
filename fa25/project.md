@@ -3,8 +3,10 @@ title: Term Project
 layout: minimal
 ---
 
+<script src="nav.js"></script>
+
 # Term Project
-<p class="year-tag">Fall 2026</p>
+<p class="year-tag">Fall 2025</p>
 <hr>
 
 ## Overview

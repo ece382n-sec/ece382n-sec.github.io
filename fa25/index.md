@@ -4,33 +4,29 @@ layout: home
 nav_enabled: false
 ---
 
+<script src="nav.js"></script>
+
 # ECE 382N: Security at the Hardware-Software Interface
-<p class="year-tag">Fall 2026</p>
+<p class="year-tag">Fall 2025</p>
 <hr>
 
 <div class="home-logistics-card">
 <div class="home-card-title">Course logistics</div>
 <div class="home-logistics-grid">
-<div class="home-logistics-item"><div class="home-logistics-label">Time &amp; place</div><div class="home-logistics-value">🕒 Mon &amp; Weds, 3pm–4:30pm<br>📍 BUR 134</div></div>
+<div class="home-logistics-item"><div class="home-logistics-label">Time &amp; place</div><div class="home-logistics-value">🕒 Mon &amp; Weds, 3pm–4:30pm<br>📍 <del>PMA 7.114</del> → <strong>WAG 214</strong></div></div>
 <div class="home-logistics-item"><div class="home-logistics-label">Format</div><div class="home-logistics-value">Lectures, paper readings, student discussions, and a research-oriented term project</div></div>
 <div class="home-logistics-item"><div class="home-logistics-label">Instructor</div><div class="home-logistics-value"> <a href="https://zzrcxb.me">Neil Zhao</a> &lt;<a href="mailto:neil.zhao@utexas.edu">neil.zhao@utexas.edu</a>&gt;<br><span class="muted-text">Please just call him Neil.</span></div></div>
-<div class="home-logistics-item"><div class="home-logistics-label">Instructor office hour</div><div class="home-logistics-value">Time TBA<br><span class="muted-text">EER 5.890</span></div></div>
-<div class="home-logistics-item"><div class="home-logistics-label">TA</div><div class="home-logistics-value">TBA</div></div>
-<div class="home-logistics-item"><div class="home-logistics-label">TA office hour</div><div class="home-logistics-value">Time TBA<br><span class="muted-text">Location TBA</span></div></div>
+<div class="home-logistics-item"><div class="home-logistics-label">Instructor office hour</div><div class="home-logistics-value">Tue 2pm–3pm, Thu 11am–12pm, or by appointment<br><span class="muted-text">EER 5.890</span></div></div>
+<div class="home-logistics-item"><div class="home-logistics-label">TA</div><div class="home-logistics-value">Ethan Jiang &lt;<a href="mailto:zx.jiang@utexas.edu">zx.jiang@utexas.edu</a>&gt;</div></div>
+<div class="home-logistics-item"><div class="home-logistics-label">TA office hour</div><div class="home-logistics-value">Tue 3pm–4pm<br><span class="muted-text">EER 5.652, for logistical questions</span></div></div>
 </div>
 </div>
 
 <div class="home-action-grid">
-<a class="home-action primary" href="schedule"><strong class="home-action-label">Schedule</strong></a>
-<a class="home-action" href="project"><strong class="home-action-label">Term project</strong></a>
-<a class="home-action" href="https://edstem.org/us/courses/83088/discussion"><strong class="home-action-label">Ed discussion</strong></a>
-<a class="home-action" href="ack"><strong class="home-action-label">Acknowledgements</strong></a>
-<div class="home-action home-action-menu">
-<div class="home-action-menu-trigger"><strong class="home-action-label">Past Offerings</strong><span class="home-action-menu-chevron" aria-hidden="true"></span></div>
-<div class="home-action-menu-list">
-<a href="fa25/"><span>Fall 2025</span></a>
-</div>
-</div>
+<a class="home-action primary" href="schedule"><strong>Schedule</strong><span>Readings, slides, and weekly plan</span></a>
+<a class="home-action" href="project"><strong>Term project</strong><span>Milestones and expectations</span></a>
+<a class="home-action" href="https://edstem.org/us/courses/83088/discussion"><strong>Ed discussion</strong><span>Course Q&amp;A and announcements</span></a>
+<a class="home-action" href="ack"><strong>Acknowledgements</strong><span>Prior materials and credits</span></a>
 </div>
 
 <hr>
