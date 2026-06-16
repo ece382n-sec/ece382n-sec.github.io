@@ -1,0 +1,10 @@
+{% assign latest_url = page.url | remove_first: "/fa25" | replace: ".html", "" %}
+{% if latest_url == "" or latest_url == "/index" %}
+  {% assign latest_url = "/" %}
+{% endif %}
+
+<div class="archive-notice" role="note">
+  <strong>Archived offering:</strong>
+  You are viewing the Fall 2025 version of this course.
+  For the current Fall 2026 course, see the <a href="{{ latest_url | relative_url }}">latest site</a>.
+</div>

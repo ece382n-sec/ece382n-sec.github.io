@@ -17,7 +17,7 @@
   button.className = "site-button nav-menu-toggle";
   button.setAttribute("aria-haspopup", "true");
   button.setAttribute("aria-expanded", "false");
-  button.textContent = "Past offerings";
+  button.textContent = "Past Offerings";
 
   var menu = document.createElement("ul");
   menu.className = "nav-menu-list";
@@ -31,6 +31,7 @@
   menu.appendChild(fall2025Item);
 
   var closeTimer;
+  var clickOpened = false;
 
   function clearCloseTimer() {
     if (closeTimer) {
@@ -42,6 +43,8 @@
   function setOpen(isOpen) {
     if (isOpen) {
       clearCloseTimer();
+    } else {
+      clickOpened = false;
     }
     item.classList.toggle("is-open", isOpen);
     if (header) {
@@ -58,8 +61,11 @@
     }, 180);
   }
 
-  button.addEventListener("click", function () {
-    setOpen(!item.classList.contains("is-open"));
+  button.addEventListener("click", function (event) {
+    event.preventDefault();
+    var shouldClose = item.classList.contains("is-open") && clickOpened;
+    clickOpened = !shouldClose;
+    setOpen(!shouldClose);
   });
 
   item.addEventListener("mouseenter", function () {

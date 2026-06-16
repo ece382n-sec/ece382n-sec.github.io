@@ -7,6 +7,8 @@ layout: minimal
 
 # Course Acknowledgements
 <p class="year-tag">Fall 2025</p>
+
+{% include archive_notice.html %}
 <hr>
 
 This course was developed with significant inspiration from a variety of excellent courses.

@@ -7,6 +7,8 @@ layout: minimal
 
 # Course Schedule, Reading List, and Slides
 <p class="year-tag">Fall 2025</p>
+
+{% include archive_notice.html %}
 <hr>
 
 

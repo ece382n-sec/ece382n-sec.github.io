@@ -8,6 +8,8 @@ nav_enabled: false
 
 # ECE 382N: Security at the Hardware-Software Interface
 <p class="year-tag">Fall 2025</p>
+
+{% include archive_notice.html %}
 <hr>
 
 <div class="home-logistics-card">
