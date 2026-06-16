@@ -127,7 +127,7 @@ strong {
 .main-content ol {
     margin-top: 0;
     margin-bottom: 0.55rem;
-    padding-left: 1.15rem;
+    // padding-left: 1.15rem;
 }
 
 .main-content li {
@@ -284,12 +284,81 @@ li.blocked::before {
     text-decoration: none;
 }
 
+.main-header .site-button[href="/"]:not(.current-year-button),
+.main-header .home-button {
+    font-weight: 650;
+}
+
+.main-header .current-year-button {
+    color: var(--ut-orange);
+    font-weight: 500;
+}
+
 .main-header .site-button:hover,
 .main-header .site-button:focus {
     border-bottom-color: var(--ut-orange);
     background: transparent;
     color: var(--ut-orange);
     text-decoration: none;
+}
+
+.nav-menu {
+    position: relative;
+}
+
+.nav-menu-toggle {
+    cursor: pointer;
+    gap: 0.36rem;
+}
+
+.nav-menu-list {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    z-index: 120;
+
+    min-width: 6.4rem;
+    margin: 0;
+    padding: 0.4rem;
+
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    background: #fff;
+    box-shadow: 0 12px 28px rgba(25, 31, 42, 0.12);
+    list-style: none;
+}
+
+.nav-menu-list[hidden] {
+    display: none !important;
+}
+
+.nav-menu-list li {
+    margin: 0;
+}
+
+.nav-menu-list a {
+    display: block;
+    padding: 0.45rem 0.6rem;
+    border-radius: 4px;
+    color: #202631;
+    font-family: var(--sans) !important;
+    font-size: 0.98rem;
+    font-weight: 500;
+    line-height: 1.25;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.nav-menu-list a:hover,
+.nav-menu-list a:focus {
+    background: #f8fafc;
+    color: var(--ut-orange);
+    text-decoration: none;
+}
+
+.main-header.has-open-nav-menu,
+.main-header.has-open-nav-menu .aux-nav {
+    overflow: visible !important;
 }
 
 .site-nav .nav-list-link.active,
@@ -412,15 +481,6 @@ blockquote.note::before {
     font: inherit;
     line-height: 1;
     text-align: left;
-}
-
-.schedule-jump::after {
-    width: 0.42rem;
-    height: 0.42rem;
-    border-right: 2px solid currentColor;
-    border-bottom: 2px solid currentColor;
-    content: "";
-    transform: rotate(45deg) translateY(-0.1rem);
 }
 
 .schedule-jump:hover,
@@ -705,6 +765,11 @@ pre code {
         white-space: nowrap;
     }
 
+    .nav-menu-list {
+        right: auto;
+        left: 0;
+    }
+
     .callout-title,
     .note-title,
     blockquote.note::before {
@@ -844,7 +909,7 @@ pre code {
     gap: 0.38rem;
     color: var(--ut-orange);
     font-size: 1rem;
-    font-weight: 800;
+    font-weight: 600;
     line-height: 1;
     white-space: nowrap;
 }

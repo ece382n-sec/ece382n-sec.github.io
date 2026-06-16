@@ -25,12 +25,6 @@ nav_enabled: false
 <a class="home-action" href="project"><strong class="home-action-label">Term project</strong></a>
 <a class="home-action" href="https://edstem.org/us/courses/83088/discussion"><strong class="home-action-label">Ed discussion</strong></a>
 <a class="home-action" href="ack"><strong class="home-action-label">Acknowledgements</strong></a>
-<div class="home-action home-action-menu">
-<div class="home-action-menu-trigger"><strong class="home-action-label">Past Offerings</strong><span class="home-action-menu-chevron" aria-hidden="true"></span></div>
-<div class="home-action-menu-list">
-<a href="fa25/"><span>Fall 2025</span></a>
-</div>
-</div>
 </div>
 
 <hr>

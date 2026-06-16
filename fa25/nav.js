@@ -10,6 +10,7 @@
 
   document.querySelectorAll(".aux-nav a[href]").forEach(function (link) {
     var url;
+    var isHomeLink = link.textContent.trim() === "Home";
 
     try {
       url = new URL(link.getAttribute("href"), window.location.origin);
@@ -25,6 +26,10 @@
     if (fa25Links[path]) {
       link.setAttribute("href", fa25Links[path]);
     }
+
+    if (isHomeLink) {
+      link.classList.add("home-button");
+    }
   });
 
   var navList = document.querySelector(".aux-nav-list");
@@ -37,7 +42,7 @@
 
   var currentYearLink = document.createElement("a");
   currentYearLink.href = "/";
-  currentYearLink.className = "site-button";
+  currentYearLink.className = "site-button current-year-button";
   currentYearLink.textContent = "Back to Current Year";
 
   currentYearItem.appendChild(currentYearLink);

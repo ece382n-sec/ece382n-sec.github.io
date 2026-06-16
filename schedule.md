@@ -7,10 +7,6 @@ layout: minimal
 <p class="year-tag">Fall 2026</p>
 <hr>
 
-
-> Please find the paper-discussion sign-up sheet on Canvas, under the "Home" tab.
-{: .note }
-
 <div class="schedule-legend" aria-label="Schedule legend">
   <span><strong>L</strong> Lecture given by the instructor</span>
   <span><strong>D</strong> Paper discussion led by student presenters</span>
@@ -18,7 +14,7 @@ layout: minimal
 
 <div class="schedule-tools" data-schedule-tools hidden>
   <button class="schedule-jump" type="button" data-schedule-jump>
-    <span class="schedule-jump-main">Next date</span>
+    <span class="schedule-jump-main">Jump to next date</span>
     <span class="schedule-jump-target" data-schedule-jump-target>Finding upcoming card</span>
   </button>
 </div>
@@ -516,11 +512,18 @@ layout: minimal
   button.setAttribute("aria-label", "Jump to upcoming schedule card: " + displayDate);
   if (tools) tools.hidden = false;
 
+  function stickyHeaderOffset() {
+    var header = document.querySelector(".main-header");
+    var headerHeight = header ? header.getBoundingClientRect().height : 0;
+    return headerHeight + 16;
+  }
+
   button.addEventListener("click", function () {
     var prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-    upcoming.card.scrollIntoView({
-      behavior: prefersReducedMotion ? "auto" : "smooth",
-      block: "start"
+    var targetTop = upcoming.card.getBoundingClientRect().top + window.pageYOffset - stickyHeaderOffset();
+    window.scrollTo({
+      top: Math.max(targetTop, 0),
+      behavior: prefersReducedMotion ? "auto" : "smooth"
     });
     upcoming.card.setAttribute("tabindex", "-1");
     upcoming.card.focus({ preventScroll: true });

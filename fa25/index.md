@@ -23,10 +23,10 @@ nav_enabled: false
 </div>
 
 <div class="home-action-grid">
-<a class="home-action primary" href="schedule"><strong>Schedule</strong></a>
-<a class="home-action" href="project"><strong>Term project</strong></a>
-<a class="home-action" href="https://edstem.org/us/courses/83088/discussion"><strong>Ed discussion</strong></a>
-<a class="home-action" href="ack"><strong>Acknowledgements</strong></a>
+<a class="home-action primary" href="schedule"><strong class="home-action-label">Schedule</strong></a>
+<a class="home-action" href="project"><strong class="home-action-label">Term project</strong></a>
+<a class="home-action" href="https://edstem.org/us/courses/83088/discussion"><strong class="home-action-label">Ed discussion</strong></a>
+<a class="home-action" href="ack"><strong class="home-action-label">Acknowledgements</strong></a>
 </div>
 
 <hr>
