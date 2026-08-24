@@ -27,8 +27,8 @@ The instructor will advise each individual or team throughout the semester as ne
 ## Milestones
 
 * **Sep 5:** Form a team and send your team information to TA
-* **Sep 18:** Project proposal due
-* **Nov 4:** Midpoint report due
+* **Sep 25:** Project proposal due
+* **Nov 6:** Midpoint report due
 * **Dec 2 & 7:** Final project presentation (during the classes)
 * **Dec 11:** Final report due
 
@@ -38,7 +38,7 @@ The instructor will advise each individual or team throughout the semester as ne
 
 **Proposal (~1 page):**
 Before submitting the proposal,
-you or your team will schedule a 15-min meeting
+your team is encouraged to schedule a 15-min meeting
 with the instructor to discuss the project you plan to work on.
 
 The project proposal should be about 1-page long and briefly describe:

@@ -29,7 +29,7 @@ layout: minimal
 
 **Readings:** Please fill this [anonymous course-preparation survey](https://forms.gle/spe4sKf9ng72M3d77){:target="_blank"} **after the first class** and before Aug 28 (Fri). You need to sign into your UTMail account.
 
-**Materials:** [Slides](https://docs.google.com/presentation/d/188onoHX-T-CbIo1eKGBL697aUNOY_zA5BTwOMLv4R9I/edit?usp=sharing){:target="_blank"}
+**Materials:** [Slides](files/L0%20-%20Course%20Overview.pdf)
 </div>
 
 <div class="schedule-day" markdown="1">

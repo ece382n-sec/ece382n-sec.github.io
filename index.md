@@ -16,7 +16,7 @@ nav_enabled: false
 <div class="home-logistics-item"><div class="home-logistics-label">Instructor</div><div class="home-logistics-value"> <a href="https://zzrcxb.me">Neil Zhao</a> &lt;<a href="mailto:neil.zhao@utexas.edu">neil.zhao@utexas.edu</a>&gt;<br><span class="muted-text">Please just call him Neil.</span></div></div>
 <div class="home-logistics-item"><div class="home-logistics-label">Instructor office hour</div><div class="home-logistics-value">Tue 2pm-3pm, Thu 11am-12pm, or by appointment<br><span class="muted-text">EER 5.890</span></div></div>
 <div class="home-logistics-item"><div class="home-logistics-label">TA</div><div class="home-logistics-value">Zhen Tang &lt;<a href="mailto:tang.zhen@utexas.edu">tang.zhen@utexas.edu</a>&gt;</div></div>
-<div class="home-logistics-item"><div class="home-logistics-label">TA office hour</div><div class="home-logistics-value">Time TBA<br><span class="muted-text">Location TBA</span></div></div>
+<div class="home-logistics-item"><div class="home-logistics-label">TA office hour</div><div class="home-logistics-value">Fri 1pm-2pm<br><span class="muted-text">EER 5.652</span></div></div>
 </div>
 </div>
 
