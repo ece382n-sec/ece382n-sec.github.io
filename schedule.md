@@ -27,7 +27,7 @@ layout: minimal
 
 ### <span class="session-type">L</span> Course Logistics
 
-**Readings:** Please fill this [anonymous course-preparation survey](https://forms.gle/nX2kyiBxQmFPqetQ9){:target="_blank"} **after the first class** and before Aug 27 (Thu).
+**Readings:** Please fill this [anonymous course-preparation survey](https://forms.gle/spe4sKf9ng72M3d77){:target="_blank"} **after the first class** and before Aug 28 (Fri). You need to sign into your UTMail account.
 
 **Materials:** [Slides](https://docs.google.com/presentation/d/188onoHX-T-CbIo1eKGBL697aUNOY_zA5BTwOMLv4R9I/edit?usp=sharing){:target="_blank"}
 </div>
@@ -37,25 +37,25 @@ layout: minimal
 
 ### <span class="session-type">L</span> Topic Overview and Project Ideas
 
-**Materials:** [Slides](https://utexas-my.sharepoint.com/:p:/g/personal/zz9427_eid_utexas_edu/EVFPHPN0hvhBlwCDUoXud4cBcAiRqi82pCe8e9sDfqMJHg?e=NPQf9r){:target="_blank"}
+**Materials:** TBA
 </div>
 </section>
 
 <section class="schedule-week" id="week-2" markdown="1">
-## Week 2: uArch Side Channels
+## Week 2: Microarchitectural Side Channels
 
 <div class="schedule-day" markdown="1">
 <div class="schedule-date">Aug 31<span>Mon</span></div>
 
 ### <span class="session-type">L</span> Cache-Based Side Channels (w/ Demo!)
 
-**Pre-lecture:** Flush+Reload: A High Resolution, Low Noise, L3 Cache Side-Channel Attack (USENIX Sec &#39;14, Sections 1-3) [Link](https://www.usenix.org/conference/usenixsecurity14/technical-sessions/presentation/yarom){:target="_blank"}
+**Pre-lecture:** TBA
 
 **Post-lecture:** Choose one to review:
 - Last-Level Cache Side-Channel Attacks are Practical (SP &#39;15) [Link](https://yuval.yarom.org/pdfs/LiuYGHL15.pdf){:target="_blank"}
 - Theory and Practice of Finding Eviction Sets (SP &#39;19) [Link](https://www.computer.org/csdl/proceedings-article/sp/2019/666000a039/1dlwkwPrlCw){:target="_blank"}
 
-**Materials:** [Slides](files/L1%20-%20Cache%20Side%20Channels.pdf), [PoC](https://github.com/ece382n-sec/Example-PoCs){:target="_blank"}
+**Materials:** TBA
 </div>
 
 <div class="schedule-day" markdown="1">
@@ -63,16 +63,14 @@ layout: minimal
 
 ### <span class="session-type">L</span> Side Channels in Public Clouds (w/ Demo!)
 
-**Pre-lecture:** Hey, You, Get Off of My Cloud: Exploring Information Leakage in Third-Party Compute Clouds (CCS &#39;09, Sections 1-3, 6) [Link](https://rist.tech.cornell.edu/papers/cloudsec.pdf){:target="_blank"}
+**Pre-lecture:** TBA
 
-**Post-lecture:** Everywhere All at Once: Co-Location Attacks on Public Cloud FaaS (ASPLOS &#39;24) [Link](https://zzrcxb.me/files/papers/ASPLOS24-Everywhere.pdf){:target="_blank"}
-
-**Materials:** [Slides](files/L2%20-%20Side%20Channels%20in%20Public%20Cloud.pdf)
+**Materials:** TBA
 </div>
 </section>
 
 <section class="schedule-week" id="week-3" markdown="1">
-## Week 3: uArch Side Channels
+## Week 3: Transient Execution Attacks
 
 <div class="schedule-day schedule-break" markdown="1">
 <div class="schedule-date">Sep 7<span>Mon</span></div>
@@ -82,21 +80,21 @@ layout: minimal
 
 <div class="schedule-day" markdown="1">
 <div class="schedule-date">Sep 9<span>Wed</span></div>
+### <span class="session-type">L</span> Spectre and Meltdown (w/ Demo!)
 
-### <span class="session-type">L</span> Partitioning, Randomization, and Detection
+**Pre-lecture:** Conference presentation of Spectre Attacks [Link](https://www.youtube.com/watch?v=zOvBHxMjNls){:target="_blank"}
 
-**Pre-lecture:** CATalyst: Defeating Last-Level Cache Side Channel Attacks in Cloud Computing (HPCA &#39;16, Sections 1-3) [Link](https://class.ece.iastate.edu/tyagi/cpre581/papers/HPCA16Catalyst.pdf){:target="_blank"}
 
-**Note:** No post-lecture reading; please focus on your term project proposal.
+**Post-lecture:** Choose one to review:
+- An Analysis of Speculative Type Confusion Vulnerabilities in the Wild (USENIX Sec &#39;21) [Link](https://www.usenix.org/conference/usenixsecurity21/presentation/kirzner){:target="_blank"}
+- A Systematic Evaluation of Transient Execution Attacks and Defenses [Link](https://www.usenix.org/conference/usenixsecurity19/presentation/canella){:target="_blank"}
 
-**Optional:** A Game of Cache Attacks and Defense by Moinuddin Qureshi at [MAD tutorial](https://sites.google.com/view/mad-isca22){:target="_blank"} (ISCA &#39;22) [Link](https://docs.google.com/presentation/d/1TezFuMWDTNXdEq-o2tuAN62myVBqD7To/edit?usp=sharing&ouid=109395281671520631390&rtpof=true&sd=true){:target="_blank"}
-
-**Materials:** [Slides](files/L3%20-%20Partitioning,%20Randomization,%20and%20Detection.pdf)
+**Materials:** TBA
 </div>
 </section>
 
 <section class="schedule-week" id="week-4" markdown="1">
-## Week 4: Data-Oblivious Computation and Speculation
+## Week 4: Side-Channel Defenses
 
 <div class="schedule-day" markdown="1">
 <div class="schedule-date">Sep 14<span>Mon</span></div>
@@ -115,41 +113,25 @@ layout: minimal
 <div class="schedule-day" markdown="1">
 <div class="schedule-date">Sep 16<span>Wed</span></div>
 
-### <span class="session-type">L</span> Transient-Execution Attacks (w/ Demo!)
+### <span class="session-type">L</span> Partitioning and Randomization
 
-**Pre-lecture:** Conference presentation of Spectre Attacks [Link](https://www.youtube.com/watch?v=zOvBHxMjNls){:target="_blank"}
+**Pre-lecture:** TBA
 
-**Optional:**
-- Spectre Attacks: Exploiting Speculative Execution [Link](https://spectreattack.com/spectre.pdf){:target="_blank"}
-- Meltdown: Reading Kernel Memory from User Space [Link](https://meltdownattack.com/meltdown.pdf){:target="_blank"}
-- A Systematic Evaluation of Transient Execution Attacks and Defenses [Link](https://www.usenix.org/conference/usenixsecurity19/presentation/canella){:target="_blank"}
+**Note:** No post-lecture reading; please focus on your term project proposal.
 
-**Materials:** [Slides](files/L5%20-%20Spectre%20and%20Meltdown.pdf), [PoC](https://github.com/ece382n-sec/Example-PoCs/tree/main/Spectre){:target="_blank"}
+**Optional:** A Game of Cache Attacks and Defense by Moinuddin Qureshi at [MAD tutorial](https://sites.google.com/view/mad-isca22){:target="_blank"} (ISCA &#39;22) [Link](https://docs.google.com/presentation/d/1TezFuMWDTNXdEq-o2tuAN62myVBqD7To/edit?usp=sharing&ouid=109395281671520631390&rtpof=true&sd=true){:target="_blank"}
+
+**Materials:** TBA
 </div>
 </section>
 
 <section class="schedule-week" id="week-5" markdown="1">
-## Week 5: Speculation
+## Week 5: Spectre Defenses and Information-Flow Tracking
 
 <div class="schedule-day" markdown="1">
 <div class="schedule-date">Sep 21<span>Mon</span></div>
 
-### <span class="session-type">D</span> Advanced Spectre Attacks
-
-**Papers to discuss:** Choose one to review:
-- An Analysis of Speculative Type Confusion Vulnerabilities in the Wild (USENIX Sec &#39;21) [Link](https://www.usenix.org/conference/usenixsecurity21/presentation/kirzner){:target="_blank"}
-- Branch History Injection: On the Effectiveness of Hardware Mitigations Against Cross-Privilege Spectre-v2 Attacks (USENIX Sec &#39;22) [Link](https://www.usenix.org/conference/usenixsecurity22/presentation/barberis){:target="_blank"}
-
-**Optional:**
-- Retpoline: a software construct for preventing branch-target-injection [Link](https://support.google.com/faqs/answer/7625886){:target="_blank"}
-- RETBLEED: Arbitrary Speculative Code Execution with Return Instructions [Link](https://www.usenix.org/conference/usenixsecurity22/presentation/wikner){:target="_blank"}
-- The AMD Branch (Mis)predictor: Just Set it and Forget it! ([Part 1](https://grsecurity.net/amd_branch_mispredictor_just_set_it_and_forget_it){:target="_blank"}, [Part 2](https://grsecurity.net/amd_branch_mispredictor_part_2_where_no_cpu_has_gone_before){:target="_blank"})
-</div>
-
-<div class="schedule-day" markdown="1">
-<div class="schedule-date">Sep 23<span>Wed</span></div>
-
-### <span class="session-type">D</span> Hardware Defenses
+### <span class="session-type">D</span> A Tale of Two Spectre Defenses
 
 **Papers to discuss:** Choose one to review:
 - Efficient Invisible Speculative Execution through Selective Delay and Value Prediction (ISCA &#39;19) [Link](https://dl.acm.org/doi/10.1145/3307650.3322216){:target="_blank"}
@@ -158,6 +140,20 @@ layout: minimal
 **Optional:**
 - Speculative interference attacks: breaking invisible speculation schemes [Link](https://dl.acm.org/doi/10.1145/3445814.3446708){:target="_blank"}
 - Speculative Data-Oblivious Execution: Mobilizing Safe Prediction For Safe and Efficient Speculative Execution [Link](https://ieeexplore.ieee.org/document/9138997){:target="_blank"}
+- Retpoline: a software construct for preventing branch-target-injection [Link](https://support.google.com/faqs/answer/7625886){:target="_blank"}
+- RETBLEED: Arbitrary Speculative Code Execution with Return Instructions [Link](https://www.usenix.org/conference/usenixsecurity22/presentation/wikner){:target="_blank"}
+- The AMD Branch (Mis)predictor: Just Set it and Forget it! ([Part 1](https://grsecurity.net/amd_branch_mispredictor_just_set_it_and_forget_it){:target="_blank"}, [Part 2](https://grsecurity.net/amd_branch_mispredictor_part_2_where_no_cpu_has_gone_before){:target="_blank"})
+</div>
+
+<div class="schedule-day" markdown="1">
+<div class="schedule-date">Sep 23<span>Wed</span></div>
+
+### <span class="session-type">D</span> Information-Flow Tracking
+
+**Papers to discuss:** Choose one to review:
+- Complete Information Flow Tracking from the Gates Up (ASPLOS &#39;09) [Link](https://dl.acm.org/doi/10.1145/1508244.1508258){:target="_blank"}
+- Speculative Privacy Tracking (SPT): Leaking Information From Speculative Execution Without Compromising Privacy (MICRO &#39;21) [Link](https://cwfletcher.github.io/content/research/2021.micro.spt.paper.pdf){:target="_blank"}
+
 </div>
 </section>
 
@@ -167,7 +163,7 @@ layout: minimal
 <div class="schedule-day" markdown="1">
 <div class="schedule-date">Sep 28<span>Mon</span></div>
 
-### <span class="session-type">L</span> TEE Overview and Attestation
+### <span class="session-type">L</span> TEE Overview and Software Attestation
 
 **Optional:** Intel SGX Explained [Link](https://eprint.iacr.org/2016/086.pdf){:target="_blank"}
 
@@ -333,13 +329,8 @@ layout: minimal
 <div class="schedule-day" markdown="1">
 <div class="schedule-date">Nov 9<span>Mon</span></div>
 
-### <span class="session-type">L</span> Information-Flow Tracking in Hardware
+### <span class="session-type">L</span> Physical Attacks
 
-**Paper to discuss:** Choose one to review:
-- Complete Information Flow Tracking from the Gates Up (ASPLOS &#39;09) [Link](https://dl.acm.org/doi/10.1145/1508244.1508258){:target="_blank"}
-- Speculative Privacy Tracking (SPT): Leaking Information From Speculative Execution Without Compromising Privacy (MICRO &#39;21) [Link](https://cwfletcher.github.io/content/research/2021.micro.spt.paper.pdf){:target="_blank"}
-
-**Materials:** [Slides](files/L12%20-%20Information-Flow%20Tracking%20in%20Hardware.pdf)
 </div>
 
 <div class="schedule-day" markdown="1">

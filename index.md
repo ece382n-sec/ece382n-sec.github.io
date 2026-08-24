@@ -14,8 +14,8 @@ nav_enabled: false
 <div class="home-logistics-item"><div class="home-logistics-label">Time &amp; place</div><div class="home-logistics-value">🕒 Mon &amp; Weds, 3pm–4:30pm<br>📍 BUR 134</div></div>
 <div class="home-logistics-item"><div class="home-logistics-label">Format</div><div class="home-logistics-value">Lectures, paper readings, student discussions, and a research-oriented term project</div></div>
 <div class="home-logistics-item"><div class="home-logistics-label">Instructor</div><div class="home-logistics-value"> <a href="https://zzrcxb.me">Neil Zhao</a> &lt;<a href="mailto:neil.zhao@utexas.edu">neil.zhao@utexas.edu</a>&gt;<br><span class="muted-text">Please just call him Neil.</span></div></div>
-<div class="home-logistics-item"><div class="home-logistics-label">Instructor office hour</div><div class="home-logistics-value">Time TBA<br><span class="muted-text">EER 5.890</span></div></div>
-<div class="home-logistics-item"><div class="home-logistics-label">TA</div><div class="home-logistics-value">TBA</div></div>
+<div class="home-logistics-item"><div class="home-logistics-label">Instructor office hour</div><div class="home-logistics-value">Tue 2pm-3pm, Thu 11am-12pm, or by appointment<br><span class="muted-text">EER 5.890</span></div></div>
+<div class="home-logistics-item"><div class="home-logistics-label">TA</div><div class="home-logistics-value">Zhen Tang &lt;<a href="mailto:tang.zhen@utexas.edu">tang.zhen@utexas.edu</a>&gt;</div></div>
 <div class="home-logistics-item"><div class="home-logistics-label">TA office hour</div><div class="home-logistics-value">Time TBA<br><span class="muted-text">Location TBA</span></div></div>
 </div>
 </div>
@@ -23,7 +23,7 @@ nav_enabled: false
 <div class="home-action-grid">
 <a class="home-action primary" href="schedule"><strong class="home-action-label">Schedule</strong></a>
 <a class="home-action" href="project"><strong class="home-action-label">Term project</strong></a>
-<a class="home-action" href="https://edstem.org/us/courses/83088/discussion"><strong class="home-action-label">Ed discussion</strong></a>
+<a class="home-action" href="https://edstem.org/us/courses/103074/discussion"><strong class="home-action-label">Ed discussion</strong></a>
 <a class="home-action" href="ack"><strong class="home-action-label">Acknowledgements</strong></a>
 </div>
 
@@ -36,11 +36,11 @@ This course studies how secure computer systems are built, how they fail, and ho
 **Topics include:**
 
 * Side-channel attacks and defenses
-* Transient-execution attacks and defenses
 * Trusted-execution environments
+* Memory safety
 * Sandboxing and isolation
-* Memory safety techniques
-* System-level attacks in AI systems
+* Physical attacks
+* Security of AI systems
 * Other emerging threats to computer systems
 
 ### Prerequisites
@@ -54,29 +54,36 @@ This course studies how secure computer systems are built, how they fail, and ho
 
 ### Read
 
-Before lectures, you will complete assigned readings and a mini quiz. After lectures, you will read an additional paper and submit a short conference-style review.
+Before lectures, you will complete assigned readings and a mini quiz.
+After lectures, you will read an additional paper every week
+and submit a short conference-style review.
 
 - Mini quizzes are due two hours before lecture.
 - Paper reviews are due by Sunday of that week.
-- For paper discussions, reviews are due one day before discussion.
+- For paper discussions, reviews are due 24 hours before discussion.
 
 > **Policy:** You may skip one pre-lecture reading and mini quiz, and two paper reviews without grade penalty.
 {: .note }
 
 ### Participate
 
-You are expected to attend class and participate in discussions. Questions are welcome during and after lecture. Pop quizzes may be given during lectures and count toward participation.
+You are expected to attend class and participate in discussions.
+Questions are welcome during and after lecture.
+Pop quizzes may be given during lectures and count toward participation.
 
 > **Policy:** You may skip two lectures or discussions without grade penalty.
 {: .note }
 
 ### Present
 
-You will present research papers and lead discussion during paper discussion sessions. Presentation guidelines will be discussed in class.
+You will present research papers and lead discussion during paper discussion sessions.
+Presentation guidelines will be discussed in class.
 
 ### Research
 
-You will conduct a term research project in system security. Both attack and defense projects are welcome. More details are available on the [term project page](project).
+You will conduct a term research project in system security.
+Both attack and defense projects are welcome.
+More details are available on the [term project page](project).
 
 ## Grading
 
@@ -89,8 +96,8 @@ There are no exams. The final grade is based on:
 * 60%: Term project
     * 3%: Project proposal
     * 7%: Midpoint report
-    * 15%: Final presentation
-    * 35%: Final report
+    * 20%: Final presentation
+    * 30%: Final report
 
 ## Other Course Policies
 
