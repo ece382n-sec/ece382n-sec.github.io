@@ -37,7 +37,7 @@ layout: minimal
 
 ### <span class="session-type">L</span> Topic Overview and Project Ideas
 
-**Materials:** TBA
+**Materials:** [Slides](files/L1%20-%20Course%20Speedrun.pdf)
 </div>
 </section>
 
