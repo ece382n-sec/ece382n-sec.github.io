@@ -49,7 +49,7 @@ layout: minimal
 
 ### <span class="session-type">L</span> Cache-Based Side Channels (w/ Demo!)
 
-**Pre-lecture:** TBA
+**Pre-lecture:** Please watch this conference presentation [Link](https://www.youtube.com/watch?v=px7Fy6Ehj2s){:target="_blank"}
 
 **Post-lecture:** Choose one to review:
 - Last-Level Cache Side-Channel Attacks are Practical (SP &#39;15) [Link](https://yuval.yarom.org/pdfs/LiuYGHL15.pdf){:target="_blank"}
