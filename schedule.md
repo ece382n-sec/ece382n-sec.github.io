@@ -55,7 +55,7 @@ layout: minimal
 - Last-Level Cache Side-Channel Attacks are Practical (SP &#39;15) [Link](https://yuval.yarom.org/pdfs/LiuYGHL15.pdf){:target="_blank"}
 - Theory and Practice of Finding Eviction Sets (SP &#39;19) [Link](https://www.computer.org/csdl/proceedings-article/sp/2019/666000a039/1dlwkwPrlCw){:target="_blank"}
 
-**Materials:** TBA
+**Materials:** [Slides](files/L2%20-%20Cache%20Side%20Channels.pdf)
 </div>
 
 <div class="schedule-day" markdown="1">
@@ -63,7 +63,7 @@ layout: minimal
 
 ### <span class="session-type">L</span> Side Channels in Public Clouds (w/ Demo!)
 
-**Pre-lecture:** TBA
+**Pre-lecture:** Please read this short article on serverless computing [Link](https://aws.amazon.com/what-is/serverless-computing/){:target="_blank"}
 
 **Materials:** TBA
 </div>
