@@ -65,6 +65,10 @@ layout: minimal
 
 **Pre-lecture:** Please read this short article on serverless computing [Link](https://aws.amazon.com/what-is/serverless-computing/){:target="_blank"}
 
+**Optional:**
+- Hey, you, get off of my cloud: exploring information leakage in third-party compute clouds (CCS &#39;09) [Link](https://dl.acm.org/doi/10.1145/1653662.1653687){:target="_blank"}
+- Everywhere All at Once: Co-Location Attacks on Public Cloud FaaS (ASPLOS &#39;24) [Link](https://zzrcxb.me/files/papers/ASPLOS24-Everywhere.pdf){:target="_blank"}
+
 **Materials:** [Slides](files/L3%20-%20Side%20Channels%20in%20Public%20Cloud.pdf)
 </div>
 </section>
