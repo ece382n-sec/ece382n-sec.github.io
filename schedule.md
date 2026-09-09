@@ -93,7 +93,7 @@ layout: minimal
 - An Analysis of Speculative Type Confusion Vulnerabilities in the Wild (USENIX Sec &#39;21) [Link](https://www.usenix.org/conference/usenixsecurity21/presentation/kirzner){:target="_blank"}
 - A Systematic Evaluation of Transient Execution Attacks and Defenses [Link](https://www.usenix.org/conference/usenixsecurity19/presentation/canella){:target="_blank"}
 
-**Materials:** TBA
+**Materials:** [Slides](files/L4%20-%20Spectre%20and%20Meltdown.pdf), [PoC](https://github.com/ece382n-sec/Example-PoCs){:target="_blank"}
 </div>
 </section>
 
