@@ -111,277 +111,183 @@ layout: minimal
 - Oblivious RAM by Elaine Shi [Link](https://elaineshi.com/docs/oramlecture.pdf){:target="_blank"}
 - Cryptocoding by Jean-Philippe Aumasson [Link](https://github.com/veorq/cryptocoding){:target="_blank"}
 
-**Materials:** [Slides](files/L4%20-%20Data-Oblivious%20Computation.pdf), [PoC](https://github.com/ece382n-sec/Example-PoCs/tree/main/Strcmp){:target="_blank"}
+**Materials:**
 </div>
 
 <div class="schedule-day" markdown="1">
 <div class="schedule-date">Sep 16<span>Wed</span></div>
 
-### <span class="session-type">L</span> Partitioning and Randomization
+### <span class="session-type">L</span> Spectre Defenses
 
-**Pre-lecture:** TBA
+**Pre-lecture:** How Linux patches Spectre v1 gadgets (please read Links 1–3 in order) [Link 1](https://www.kernel.org/doc/html/v6.0/staging/speculation.html){:target="_blank"}, [Link 2](https://github.com/torvalds/linux/blob/2f0c1cf72f4682178506f513bbf015e591b1aa4a/include/linux/nospec.h#L55){:target="_blank"}, [Link 3](https://lwn.net/Articles/752408/){:target="_blank"}
 
-**Note:** No post-lecture reading; please focus on your term project proposal.
-
-**Optional:** A Game of Cache Attacks and Defense by Moinuddin Qureshi at [MAD tutorial](https://sites.google.com/view/mad-isca22){:target="_blank"} (ISCA &#39;22) [Link](https://docs.google.com/presentation/d/1TezFuMWDTNXdEq-o2tuAN62myVBqD7To/edit?usp=sharing&ouid=109395281671520631390&rtpof=true&sd=true){:target="_blank"}
+**Post-lecture:** Choose one to review:
+- Efficient Invisible Speculative Execution through Selective Delay and Value Prediction (ISCA &#39;19) [Link](https://dl.acm.org/doi/10.1145/3307650.3322216){:target="_blank"}
+- Speculative Taint Tracking (STT): A Comprehensive Protection for Speculatively Accessed Data (MICRO &#39;19) [Link](https://dl.acm.org/doi/10.1145/3352460.3358274){:target="_blank"}
 
 **Materials:** TBA
 </div>
 </section>
 
 <section class="schedule-week" id="week-5" markdown="1">
-## Week 5: Spectre Defenses and Information-Flow Tracking
+## Week 5: Trusted Execution Environments (TEEs)
 
 <div class="schedule-day" markdown="1">
 <div class="schedule-date">Sep 21<span>Mon</span></div>
 
-### <span class="session-type">D</span> A Tale of Two Spectre Defenses
+### <span class="session-type">L</span> Hardware Security Modules
 
-**Papers to discuss:** Choose one to review:
-- Efficient Invisible Speculative Execution through Selective Delay and Value Prediction (ISCA &#39;19) [Link](https://dl.acm.org/doi/10.1145/3307650.3322216){:target="_blank"}
-- Speculative Taint Tracking (STT): A Comprehensive Protection for Speculatively Accessed Data (MICRO &#39;19) [Link](https://dl.acm.org/doi/10.1145/3352460.3358274){:target="_blank"}
-
-**Optional:**
-- Speculative interference attacks: breaking invisible speculation schemes [Link](https://dl.acm.org/doi/10.1145/3445814.3446708){:target="_blank"}
-- Speculative Data-Oblivious Execution: Mobilizing Safe Prediction For Safe and Efficient Speculative Execution [Link](https://ieeexplore.ieee.org/document/9138997){:target="_blank"}
-- Retpoline: a software construct for preventing branch-target-injection [Link](https://support.google.com/faqs/answer/7625886){:target="_blank"}
-- RETBLEED: Arbitrary Speculative Code Execution with Return Instructions [Link](https://www.usenix.org/conference/usenixsecurity22/presentation/wikner){:target="_blank"}
-- The AMD Branch (Mis)predictor: Just Set it and Forget it! ([Part 1](https://grsecurity.net/amd_branch_mispredictor_just_set_it_and_forget_it){:target="_blank"}, [Part 2](https://grsecurity.net/amd_branch_mispredictor_part_2_where_no_cpu_has_gone_before){:target="_blank"})
 </div>
 
 <div class="schedule-day" markdown="1">
 <div class="schedule-date">Sep 23<span>Wed</span></div>
 
-### <span class="session-type">D</span> Information-Flow Tracking
-
-**Papers to discuss:** Choose one to review:
-- Complete Information Flow Tracking from the Gates Up (ASPLOS &#39;09) [Link](https://dl.acm.org/doi/10.1145/1508244.1508258){:target="_blank"}
-- Speculative Privacy Tracking (SPT): Leaking Information From Speculative Execution Without Compromising Privacy (MICRO &#39;21) [Link](https://cwfletcher.github.io/content/research/2021.micro.spt.paper.pdf){:target="_blank"}
+### <span class="session-type">L</span> Trusted Execution Environments
 
 </div>
 </section>
 
 <section class="schedule-week" id="week-6" markdown="1">
-## Week 6: Trusted Execution Environments (TEEs)
+## Week 6: TEEs and Memory Safety
 
 <div class="schedule-day" markdown="1">
 <div class="schedule-date">Sep 28<span>Mon</span></div>
 
-### <span class="session-type">L</span> TEE Overview and Software Attestation
-
-**Optional:** Intel SGX Explained [Link](https://eprint.iacr.org/2016/086.pdf){:target="_blank"}
-
-**Materials:** [Slides](files/L6%20-%20TEE%20Overview%20and%20Attestation.pdf)
+### <span class="session-type">L</span> Memory Encryption and Integrity Protection
 </div>
 
 <div class="schedule-day" markdown="1">
 <div class="schedule-date">Sep 30<span>Wed</span></div>
 
-### <span class="session-type">L</span> Memory Encryption and Integrity Protection
+### <span class="session-type">L</span> Memory Safety--Attacks
 
-**Optional:**
-- Efficient Memory Integrity Verification and Encryption for Secure Processors [Link](https://microarch.org/micro36/html/pdf/suh-EfficMemory.pdf){:target="_blank"}
-- Using Address Independent Seed Encryption and Bonsai Merkle Trees to Make Secure Processors OS- and Performance-Friendly [Link](https://faculty.cc.gatech.edu/~milos/rogers_micro07.pdf){:target="_blank"}
-
-**Materials:** [Slides](files/L7%20-%20Memory%20Encryption%20and%20Integrity%20Protection.pdf)
 </div>
 </section>
 
 <section class="schedule-week" id="week-7" markdown="1">
-## Week 7: Trusted Execution Environments (TEEs)
+## Week 7: Memory Safety and Physical Attacks
 
 <div class="schedule-day" markdown="1">
 <div class="schedule-date">Oct 5<span>Mon</span></div>
 
-### <span class="session-type">L</span> TEE Designs
+### <span class="session-type">L</span> Memory Safety--Defense
 
-**Pre-lecture:** (Presentation) Keystone: An Open Framework for Architecting Trusted Execution Environments [Link](https://www.youtube.com/watch?v=lQu95We1Lmc){:target="_blank"}
-
-**Materials:** [Slides](files/L8%20-%20TEE%20Designs.pdf)
 </div>
 
 <div class="schedule-day" markdown="1">
 <div class="schedule-date">Oct 7<span>Wed</span></div>
 
-### <span class="session-type">D</span> Attacks on TEEs
+### <span class="session-type">D</span> Physical Attacks
 
-**Papers to discuss:** Choose one to review:
-- Controlled-Channel Attacks: Deterministic Side Channels for Untrusted Operating Systems (SP &#39;15) [Link](https://www.ieee-security.org/TC/SP2015/papers-archived/6949a640.pdf){:target="_blank"}
-- MicroScope: Enabling Microarchitectural Replay Attacks (ISCA &#39;19) [Link](https://www.cs.cmu.edu/~dskarlat/publications/microScope_isca19.pdf){:target="_blank"}
 </div>
 </section>
 
 <section class="schedule-week" id="week-8" markdown="1">
-## Week 8: Isolation and Memory Safety
+## Week 8: Paper Discussion
 
 <div class="schedule-day" markdown="1">
 <div class="schedule-date">Oct 12<span>Mon</span></div>
 
-### <span class="session-type">L</span> OS and VM Isolation
-
-**Optional:**
-- Performance Evaluation of Intel EPT Hardware Assist [Link](https://www.vmware.com/docs/perf_esx_intel-ept-eval){:target="_blank"}
-- A Comparison of Software and Hardware Techniques for x86 Virtualization [Link](https://web.stanford.edu/class/cs240/readings/hwsw.pdf){:target="_blank"}
-- My VM is Lighter (and Safer) than your Container [Link](https://dl.acm.org/doi/10.1145/3132747.3132763){:target="_blank"}
-- Firecracker: Lightweight Virtualization for Serverless Applications [Link](https://www.usenix.org/system/files/nsdi20-paper-agache.pdf){:target="_blank"}
-- Blending Containers and Virtual Machines: A Study of Firecracker and gVisor [Link](https://pages.cs.wisc.edu/~swift/papers/vee20-isolation.pdf){:target="_blank"}
-
-**Materials:** [Slides](files/L9%20-%20OS%20and%20VM%20Isolation.pdf)
+### <span class="session-type">D</span> TBA
 </div>
 
 <div class="schedule-day" markdown="1">
 <div class="schedule-date">Oct 14<span>Wed</span></div>
 
-### <span class="session-type">L</span> Memory Safety
+### <span class="session-type">D</span> TBA
 
-**Pre-lecture:** Running a Buffer Overflow Attack - Computerphile [Link](https://www.youtube.com/watch?v=1S0aBV-Waeo){:target="_blank"}
-
-**Optional:**
-- SoK: Eternal War in Memory [Link](https://people.eecs.berkeley.edu/~dawnsong/papers/Oakland13-SoK-CR.pdf){:target="_blank"}
-- An Introduction to CHERI [Link](https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-941.pdf){:target="_blank"}
-- No-FAT: Architectural Support for Low Overhead Memory Safety Checks [Link](https://www.cs.columbia.edu/~mtarek/files/preprint_ISCA21_NoFAT.pdf){:target="_blank"}
-- SPECCFI: Mitigating Spectre Attacks using CFI Informed Speculation [Link](https://www.cs.ucr.edu/~csong/oakland20-speccfi.pdf){:target="_blank"}
-
-**Materials:** [Slides](files/L10%20-%20Memory%20Safety.pdf)
 </div>
 </section>
 
 <section class="schedule-week" id="week-9" markdown="1">
-## Week 9: Isolation and Memory Safety
+## Week 9: Paper Discussion
 
 <div class="schedule-day" markdown="1">
 <div class="schedule-date">Oct 19<span>Mon</span></div>
 
-### <span class="session-type">D</span> In-Process Isolation
+### <span class="session-type">D</span> TBA
 
-**Papers to discuss:** Choose one to review:
-- Donky: Domain Keys--Efficient In-Process Isolation for RISC-V and x86 (USENIX &#39;20) [Link](https://www.usenix.org/system/files/sec20-schrammel.pdf){:target="_blank"}
-- Going beyond the Limits of SFI: Flexible and Secure Hardware-Assisted In-Process Isolation with HFI (ASPLOS &#39;23) [Link](https://dl.acm.org/doi/10.1145/3582016.3582023){:target="_blank"}
 </div>
 
 <div class="schedule-day" markdown="1">
 <div class="schedule-date">Oct 21<span>Wed</span></div>
 
-### <span class="session-type">D</span> Transient Execution + Memory Safety
+### <span class="session-type">D</span> TBA
 
-**Papers to discuss:** Choose one to review:
-- Speculative Probing: Hacking Blind in the Spectre Era (CCS &#39;20) [Link](https://download.vusec.net/papers/blindside_ccs20.pdf){:target="_blank"}
-- PACMAN: Attacking ARM Pointer Authentication with Speculative Execution (ISCA &#39;22) [Link](https://pacmanattack.com/paper.pdf){:target="_blank"}
 </div>
 </section>
 
 <section class="schedule-week" id="week-10" markdown="1">
-## Week 10: RowHammer and Inspiring Papers/Ideas
+## Week 10: Paper Discussion
 
 <div class="schedule-day" markdown="1">
 <div class="schedule-date">Oct 26<span>Mon</span></div>
 
-### <span class="session-type">L</span> RowHammer
+### <span class="session-type">D</span> TBA
 
-**Optional:**
-- The Story of Rowhammer [Link](https://www.youtube.com/watch?v=sgd7PHQQ1AI){:target="_blank"}
-- Flipping Bits in Memory Without Accessing Them: An Experimental Study of DRAM Disturbance Errors [Link](https://users.ece.cmu.edu/~yoonguk/papers/kim-isca14.pdf){:target="_blank"}
-- Graphene: Strong yet Lightweight RowHammer Protection [Link](https://microarch.org/micro53/papers/738300a001.pdf){:target="_blank"}
-- ProTRR: Principled yet Optimal In-DRAM Target Row Refresh [Link](https://ieeexplore.ieee.org/document/9833664/){:target="_blank"}
 
-**Materials:** [Slides](files/L11%20-%20RowHammer.pdf)
 </div>
 
 <div class="schedule-day" markdown="1">
 <div class="schedule-date">Oct 28<span>Wed</span></div>
 
-### <span class="session-type">D</span> Attacking AI Systems
+### <span class="session-type">D</span> TBA
 
-**Papers to discuss:** Choose one to review:
-- MoEcho: Exploiting Side-Channel Attacks to Compromise User Privacy in Mixture-of-Experts LLMs (CCS &#39;25) [Link](https://arxiv.org/abs/2508.15036){:target="_blank"}
-- I Know What You Asked: Prompt Leakage via KV-Cache Sharing in Multi-Tenant LLM Serving (NDSS &#39;25) [Link](https://www.ndss-symposium.org/ndss-paper/i-know-what-you-asked-prompt-leakage-via-kv-cache-sharing-in-multi-tenant-llm-serving/){:target="_blank"}
+
 </div>
 </section>
 
 <section class="schedule-week" id="week-11" markdown="1">
-## Week 11: Inspiring Papers/Ideas
+## Week 11: Paper Discussion
 
 <div class="schedule-day" markdown="1">
 <div class="schedule-date">Nov 2<span>Mon</span></div>
 
-### <span class="session-type">D</span> Emerging TEE Designs
+### <span class="session-type">D</span> TBA
 
-**Papers to discuss:** Choose one to review:
-- Graviton: Trusted Execution Environments on GPUs (OSDI &#39;18) [Link](https://www.usenix.org/conference/osdi18/presentation/volos){:target="_blank"}
-- Sequestered Encryption: A Hardware Technique for Comprehensive Data Privacy (SEED &#39;22) [Link](https://ieeexplore.ieee.org/document/9935044){:target="_blank"}
-
-**Optional:**
-- Creating the First Confidential GPUs [Link](https://cacm.acm.org/practice/creating-the-first-confidential-gpus/){:target="_blank"}
-- Security Verification of Low-Trust Architectures (CCS &#39;23) [Link](https://dl.acm.org/doi/10.1145/3576915.3616643){:target="_blank"}
-- Privacy-enhanced computation via sequestered encryption (US Patent) [Link](https://patentimages.storage.googleapis.com/f1/da/9f/89cc38c496264c/US12105855.pdf){:target="_blank"}
 </div>
 
 <div class="schedule-day" markdown="1">
 <div class="schedule-date">Nov 4<span>Wed</span></div>
 
-### <span class="session-type">D</span> uArch Weird Machines
+### <span class="session-type">D</span> TBA
 
-**Papers to discuss:** Choose one to review:
-- Computing with Time: Microarchitectural Weird Machines (ASPLOS &#39;21) [Link](https://dl.acm.org/doi/10.1145/3445814.3446729){:target="_blank"}
-- The Gates of Time: Improving Cache Attacks with Transient Execution (USENIX Sec &#39;23) [Link](https://www.usenix.org/conference/usenixsecurity23/presentation/katzman){:target="_blank"}
 </div>
 </section>
 
 <section class="schedule-week" id="week-12" markdown="1">
-## Week 12: Inspiring Papers/Ideas
+## Week 12: Paper Discussion
 
 <div class="schedule-day" markdown="1">
 <div class="schedule-date">Nov 9<span>Mon</span></div>
 
-### <span class="session-type">L</span> Physical Attacks
+### <span class="session-type">D</span> TBA
 
 </div>
 
 <div class="schedule-day" markdown="1">
 <div class="schedule-date">Nov 11<span>Wed</span></div>
 
-### <span class="session-type">D</span> Fun Side Channels
+### <span class="session-type">D</span> TBA
 
-**Papers to discuss:** Choose one to review:
-- Hertzbleed: Turning Power Side-Channel Attacks Into Remote Timing Attacks on x86 (USENIX Sec &#39;22) [Link](https://www.usenix.org/conference/usenixsecurity22/presentation/wang-yingchen){:target="_blank"}
-- Pentimento: Data Remanence in Cloud FPGAs (ASPLOS &#39;24) [Link](https://dl.acm.org/doi/10.1145/3620665.3640355){:target="_blank"}
-
-**Optional:**
-- DVFS Frequently Leaks Secrets: Hertzbleed Attacks Beyond SIKE, Cryptography, and CPU-Only Data [Link](https://www.hertzbleed.com/2h2b.pdf){:target="_blank"}
-- Hot Pixels: Frequency, Power, and Temperature Attacks on GPUs and Arm SoCs [Link](https://www.usenix.org/system/files/usenixsecurity23-taneja.pdf){:target="_blank"}
-- Advice from DJB [Link](https://timing.attacks.cr.yp.to/overclocking.html){:target="_blank"}
 </div>
 </section>
 
 <section class="schedule-week" id="week-13" markdown="1">
-## Week 13: Inspiring Papers/Ideas
+## Week 13: Paper Discussion
 
 <div class="schedule-day" markdown="1">
 <div class="schedule-date">Nov 16<span>Mon</span></div>
 
-### <span class="session-type">D</span> Attacks on GPU
+### <span class="session-type">D</span> TBA
 
-**Paper to discuss:**
-- BarraCUDA: Edge GPUs do Leak DNN Weights (USENIX Sec &#39;25) [Link](https://www.usenix.org/conference/usenixsecurity25/presentation/horvath){:target="_blank"}
-- GPU.zip: On the Side-Channel Implications of Hardware-Based Graphical Data Compression (SP &#39;24) [Link](https://www.computer.org/csdl/proceedings-article/sp/2024/313000a084/1RjEaSnpO3m){:target="_blank"}
-
-**Optional:**
-- On Subnormal Floating Point and Abnormal Timing [Link](https://homes.cs.washington.edu/~dkohlbre/papers/subnormal.pdf){:target="_blank"}
-- Pixnapping Attack [Link](https://www.pixnapping.com/){:target="_blank"}
 </div>
 
 <div class="schedule-day" markdown="1">
 <div class="schedule-date">Nov 18<span>Wed</span></div>
 
-### <span class="session-type">D</span> SW & HW Fuzzing
+### <span class="session-type">D</span> TBA
 
-**Papers to discuss:** Choose one to review:
-- SpecFuzz: Bringing Spectre-Type Vulnerabilities to the Surface (USENIX Sec &#39;20) [Link](https://www.usenix.org/conference/usenixsecurity20/presentation/oleksenko){:target="_blank"}
-- Cascade: CPU Fuzzing via Intricate Program Generation (USENIX Sec &#39;24) [Link](https://www.usenix.org/conference/usenixsecurity24/presentation/solt){:target="_blank"}
-
-**Optional videos on hardware fuzzing:**
-- The Discovery of Zenbleed ft. Tavis Ormandy by LiveOverflow [Link](https://www.youtube.com/watch?v=neWc0H1k2Lc){:target="_blank"}
-- Breaking the x86 Instruction Set by Christopher Domas at BlackHat &#39;17 [Link](https://www.youtube.com/watch?v=KrksBdWcZgQ){:target="_blank"}
 </div>
 </section>
 
@@ -389,11 +295,11 @@ layout: minimal
 ## Week 14: Fall Break
 
 <div class="schedule-day schedule-break" markdown="1">
-<div class="schedule-date">Nov 23-Nov 28<span>Mon-Sat</span></div>
+<div class="schedule-date">Nov 23-Nov 27<span></span></div>
 
 ### Fall Break
 
-**Optional reading:** *Why We Sleep* by Matthew Walker
+**Optional:** Watch "WarGames (1983)"
 </div>
 </section>
 
