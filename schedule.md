@@ -111,7 +111,7 @@ layout: minimal
 - Oblivious RAM by Elaine Shi [Link](https://elaineshi.com/docs/oramlecture.pdf){:target="_blank"}
 - Cryptocoding by Jean-Philippe Aumasson [Link](https://github.com/veorq/cryptocoding){:target="_blank"}
 
-**Materials:**
+**Materials:** [Slides](files/L5%20-%20Data-Oblivious%20Computation.pdf)
 </div>
 
 <div class="schedule-day" markdown="1">
