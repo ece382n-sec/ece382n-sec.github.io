@@ -125,7 +125,7 @@ layout: minimal
 - Efficient Invisible Speculative Execution through Selective Delay and Value Prediction (ISCA &#39;19) [Link](https://dl.acm.org/doi/10.1145/3307650.3322216){:target="_blank"}
 - Speculative Taint Tracking (STT): A Comprehensive Protection for Speculatively Accessed Data (MICRO &#39;19) [Link](https://dl.acm.org/doi/10.1145/3352460.3358274){:target="_blank"}
 
-**Materials:** TBA
+**Materials:** [Slides](files/L6%20-%20Spectre%20Defense.pdf)
 </div>
 </section>
 
