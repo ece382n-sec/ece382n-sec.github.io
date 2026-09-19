@@ -130,25 +130,35 @@ layout: minimal
 </section>
 
 <section class="schedule-week" id="week-5" markdown="1">
-## Week 5: Trusted Execution Environments (TEEs)
+## Week 5: Trusted Computing
 
 <div class="schedule-day" markdown="1">
 <div class="schedule-date">Sep 21<span>Mon</span></div>
 
-### <span class="session-type">L</span> Hardware Security Modules
+### <span class="session-type">L</span> Hardware Root of Trust and Secure Coprocessors
+
+**Optional:**
+- Cryptographic processors – a survey [Link](https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-641.pdf){:target="_blank"}
+- The Secure Enclave -- Apple Platform Security [Link](https://support.apple.com/guide/security/the-secure-enclave-sec59b0b31ff/web){:target="_blank"}
 
 </div>
 
 <div class="schedule-day" markdown="1">
 <div class="schedule-date">Sep 23<span>Wed</span></div>
 
-### <span class="session-type">L</span> Trusted Execution Environments
+### <span class="session-type">L</span> Trusted Execution Environments (TEEs)
+
+**Post-lecture:** Choose one to review:
+- Controlled-Channel Attacks: Deterministic Side Channels for Untrusted Operating Systems (SP &#39;15) [Link](https://www.ieee-security.org/TC/SP2015/papers-archived/6949a640.pdf){:target="_blank"}
+- MicroScope: Enabling Microarchitectural Replay Attacks (ISCA &#39;19) [Link](https://www.cs.cmu.edu/~dskarlat/publications/microScope_isca19.pdf){:target="_blank"}
+
+**Optional:** Intel SGX Explained [Link](https://eprint.iacr.org/2016/086.pdf){:target="_blank"}
 
 </div>
 </section>
 
 <section class="schedule-week" id="week-6" markdown="1">
-## Week 6: TEEs and Memory Safety
+## Week 6: Memory Security
 
 <div class="schedule-day" markdown="1">
 <div class="schedule-date">Sep 28<span>Mon</span></div>
