@@ -141,7 +141,6 @@ layout: minimal
 - Cryptographic processors – a survey [Link](https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-641.pdf){:target="_blank"}
 - The Secure Enclave -- Apple Platform Security [Link](https://support.apple.com/guide/security/the-secure-enclave-sec59b0b31ff/web){:target="_blank"}
 - Titanium hardware security architecture at Google [Link](https://docs.cloud.google.com/docs/security/titanium-hardware-security-architecture){:target="_blank"}
-- Titanium hardware security architecture at Google [Link](https://docs.cloud.google.com/docs/security/titanium-hardware-security-architecture){:target="_blank"}
 
 </div>
 
