@@ -142,6 +142,8 @@ layout: minimal
 - The Secure Enclave -- Apple Platform Security [Link](https://support.apple.com/guide/security/the-secure-enclave-sec59b0b31ff/web){:target="_blank"}
 - Titanium hardware security architecture at Google [Link](https://docs.cloud.google.com/docs/security/titanium-hardware-security-architecture){:target="_blank"}
 
+**Materials:** [Slides](files/L7%20-%20Secure%20Coprocessors.pdf)
+
 </div>
 
 <div class="schedule-day" markdown="1">
@@ -154,6 +156,8 @@ layout: minimal
 - MicroScope: Enabling Microarchitectural Replay Attacks (ISCA &#39;19) [Link](https://www.cs.cmu.edu/~dskarlat/publications/microScope_isca19.pdf){:target="_blank"}
 
 **Optional:** Intel SGX Explained [Link](https://eprint.iacr.org/2016/086.pdf){:target="_blank"}
+
+**Materials:** [Slides](files/L8%20-%20Trusted-Execution%20Environments.pdf)
 
 </div>
 </section>
