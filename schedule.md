@@ -137,6 +137,8 @@ layout: minimal
 
 ### <span class="session-type">L</span> Hardware Root of Trust and Secure Coprocessors
 
+**No pre-lecture readings**
+
 **Optional:**
 - Cryptographic processors – a survey [Link](https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-641.pdf){:target="_blank"}
 - The Secure Enclave -- Apple Platform Security [Link](https://support.apple.com/guide/security/the-secure-enclave-sec59b0b31ff/web){:target="_blank"}
@@ -150,6 +152,8 @@ layout: minimal
 <div class="schedule-date">Sep 23<span>Wed</span></div>
 
 ### <span class="session-type">L</span> Trusted Execution Environments (TEEs)
+
+**No pre-lecture readings**
 
 **Post-lecture:** Choose one to review:
 - Controlled-Channel Attacks: Deterministic Side Channels for Untrusted Operating Systems (SP &#39;15) [Link](https://www.ieee-security.org/TC/SP2015/papers-archived/6949a640.pdf){:target="_blank"}
@@ -169,12 +173,29 @@ layout: minimal
 <div class="schedule-date">Sep 28<span>Mon</span></div>
 
 ### <span class="session-type">L</span> Memory Encryption and Integrity Protection
+
+**No pre-lecture readings**
+
+**Optional:**
+- Efficient Memory Integrity Verification and Encryption for Secure Processors [Link](https://microarch.org/micro36/html/pdf/suh-EfficMemory.pdf){:target="_blank"}
+- Using Address Independent Seed Encryption and Bonsai Merkle Trees to Make Secure Processors OS- and Performance-Friendly [Link](https://faculty.cc.gatech.edu/~milos/rogers_micro07.pdf){:target="_blank"}
+
+**Materials:** [Slides](files/L9%20-%20Memory%20Encryption%20and%20Integrity%20Protection.pdf)
+
 </div>
 
 <div class="schedule-day" markdown="1">
 <div class="schedule-date">Sep 30<span>Wed</span></div>
 
 ### <span class="session-type">L</span> Memory Safety--Attacks
+
+**Pre-lecture:** Running a Buffer Overflow Attack - Computerphile [Link](https://www.youtube.com/watch?v=1S0aBV-Waeo){:target="_blank"}
+
+**Post-lecture:** The Geometry of Innocent Flesh on the Bone: Return-into-libc without Function Calls (on the x86) (SP &#39;07) [Link](https://dl.acm.org/doi/pdf/10.1145/1315245.1315313){:target="_blank"}
+
+**Optional:** Return-Oriented Programming without Returns (CCS &#39;10) [Link](https://dl.acm.org/doi/pdf/10.1145/1866307.1866370){:target="_blank"}
+
+**Materials:** [Slides](files/L10%20-%20Memory%20Safety%20Attacks.pdf)
 
 </div>
 </section>
