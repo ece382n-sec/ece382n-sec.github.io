@@ -224,14 +224,21 @@ layout: minimal
 <div class="schedule-day" markdown="1">
 <div class="schedule-date">Oct 12<span>Mon</span></div>
 
-### <span class="session-type">D</span> TBA
+### <span class="session-type">D</span> Cache Attacks
+
+**Papers to discuss:** Choose one to review:
+- Attack Directories, Not Caches: Side Channel Attacks in a Non-Inclusive World (SP &#39;19) [Link](https://ieeexplore.ieee.org/document/8835325){:target="_blank"}
+- Prime+Abort: A Timer-Free High-Precision L3 Cache Attack using Intel TSX (USENIX Sec &#39;17) [Link](https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/disselkoen){:target="_blank"}
 </div>
 
 <div class="schedule-day" markdown="1">
 <div class="schedule-date">Oct 14<span>Wed</span></div>
 
-### <span class="session-type">D</span> TBA
+### <span class="session-type">D</span> Cache Defenses
 
+**Papers to discuss:** Choose one to review:
+- CATalyst: Defeating Last-Level Cache Side Channel Attacks in Cloud Computing (HPCA &#39;16) [Link](https://ieeexplore.ieee.org/document/7446082){:target="_blank"}
+- MIRAGE: Mitigating Conflict-Based Cache Attacks with a Practical Fully-Associative Design (USENIX Sec &#39;21) [Link](https://www.usenix.org/conference/usenixsecurity21/presentation/saileshwar){:target="_blank"}
 </div>
 </section>
 
@@ -241,15 +248,21 @@ layout: minimal
 <div class="schedule-day" markdown="1">
 <div class="schedule-date">Oct 19<span>Mon</span></div>
 
-### <span class="session-type">D</span> TBA
+### <span class="session-type">D</span> Graphics Side Channels
 
+**Papers to discuss:** Choose one to review:
+- On Subnormal Floating Point and Abnormal Timing (SP &#39;15) [Link](https://ieeexplore.ieee.org/document/7163051){:target="_blank"}
+- Pixnapping: Bringing Pixel Stealing out of the Stone Age (CCS &#39;25) [Link](https://dl.acm.org/doi/10.1145/3719027.3765093){:target="_blank"}
 </div>
 
 <div class="schedule-day" markdown="1">
 <div class="schedule-date">Oct 21<span>Wed</span></div>
 
-### <span class="session-type">D</span> TBA
+### <span class="session-type">D</span> Branch Prediction Attacks
 
+**Papers to discuss:** Choose one to review:
+- Indirector: High-Precision Branch Target Injection Attacks Exploiting the Indirect Branch Predictor (USENIX Sec &#39;24) [Link](https://www.usenix.org/conference/usenixsecurity24/presentation/li-luyi){:target="_blank"}
+- Branch History Injection: On the Effectiveness of Hardware Mitigations Against Cross-Privilege Spectre-v2 Attacks (USENIX Sec &#39;22) [Link](https://www.usenix.org/conference/usenixsecurity22/presentation/barberis){:target="_blank"}
 </div>
 </section>
 
@@ -259,17 +272,21 @@ layout: minimal
 <div class="schedule-day" markdown="1">
 <div class="schedule-date">Oct 26<span>Mon</span></div>
 
-### <span class="session-type">D</span> TBA
+### <span class="session-type">D</span> Speculation Defenses and Leakage
 
-
+**Papers to discuss:** Choose one to review:
+- Speculative Data-Oblivious Execution: Mobilizing Safe Prediction for Safe and Efficient Speculative Execution (ISCA &#39;20) [Link](https://ieeexplore.ieee.org/document/9138997){:target="_blank"}
+- Speculative Privacy Tracking (SPT): Leaking Information From Speculative Execution Without Compromising Privacy (MICRO &#39;21) [Link](https://dl.acm.org/doi/10.1145/3466752.3480068){:target="_blank"}
 </div>
 
 <div class="schedule-day" markdown="1">
 <div class="schedule-date">Oct 28<span>Wed</span></div>
 
-### <span class="session-type">D</span> TBA
+### <span class="session-type">D</span> Speculative Attacks
 
-
+**Papers to discuss:** Choose one to review:
+- Speculative Probing: Hacking Blind in the Spectre Era (CCS &#39;20) [Link](https://dl.acm.org/doi/10.1145/3372297.3417289){:target="_blank"}
+- PACMAN: Attacking ARM Pointer Authentication with Speculative Execution (ISCA &#39;22) [Link](https://dl.acm.org/doi/10.1145/3470496.3527429){:target="_blank"}
 </div>
 </section>
 
@@ -279,15 +296,21 @@ layout: minimal
 <div class="schedule-day" markdown="1">
 <div class="schedule-date">Nov 2<span>Mon</span></div>
 
-### <span class="session-type">D</span> TBA
+### <span class="session-type">D</span> Trusted Execution and Data Privacy
 
+**Papers to discuss:** Choose one to review:
+- Graviton: Trusted Execution Environments on GPUs (OSDI &#39;18) [Link](https://www.usenix.org/conference/osdi18/presentation/volos){:target="_blank"}
+- Sequestered Encryption: A Hardware Technique for Comprehensive Data Privacy (SEED &#39;22) [Link](https://ieeexplore.ieee.org/document/9935044){:target="_blank"}
 </div>
 
 <div class="schedule-day" markdown="1">
 <div class="schedule-date">Nov 4<span>Wed</span></div>
 
-### <span class="session-type">D</span> TBA
+### <span class="session-type">D</span> In-Process Isolation
 
+**Papers to discuss:** Choose one to review:
+- Donky: Domain Keys – Efficient In-Process Isolation for RISC-V and x86 (USENIX Sec &#39;20) [Link](https://www.usenix.org/conference/usenixsecurity20/presentation/schrammel){:target="_blank"}
+- Going beyond the Limits of SFI: Flexible and Secure Hardware-Assisted In-Process Isolation with HFI (ASPLOS &#39;23) [Link](https://dl.acm.org/doi/10.1145/3582016.3582023){:target="_blank"}
 </div>
 </section>
 
@@ -297,15 +320,21 @@ layout: minimal
 <div class="schedule-day" markdown="1">
 <div class="schedule-date">Nov 9<span>Mon</span></div>
 
-### <span class="session-type">D</span> TBA
+### <span class="session-type">D</span> Timers and Cache Attacks
 
+**Papers to discuss:** Choose one to review:
+- Hacky Racers: Exploiting Instruction-Level Parallelism to Generate Stealthy Fine-Grained Timers (ASPLOS &#39;23) [Link](https://dl.acm.org/doi/10.1145/3575693.3575700){:target="_blank"}
+- The Gates of Time: Improving Cache Attacks with Transient Execution (USENIX Sec &#39;23) [Link](https://www.usenix.org/conference/usenixsecurity23/presentation/katzman){:target="_blank"}
 </div>
 
 <div class="schedule-day" markdown="1">
 <div class="schedule-date">Nov 11<span>Wed</span></div>
 
-### <span class="session-type">D</span> TBA
+### <span class="session-type">D</span> Power Side Channels
 
+**Papers to discuss:** Choose one to review:
+- PLATYPUS: Software-based Power Side-Channel Attacks on x86 (SP &#39;21) [Link](https://ieeexplore.ieee.org/document/9519416){:target="_blank"}
+- Hertzbleed: Turning Power Side-Channel Attacks Into Remote Timing Attacks on x86 (USENIX Sec &#39;22) [Link](https://www.usenix.org/conference/usenixsecurity22/presentation/wang-yingchen){:target="_blank"}
 </div>
 </section>
 
@@ -315,15 +344,21 @@ layout: minimal
 <div class="schedule-day" markdown="1">
 <div class="schedule-date">Nov 16<span>Mon</span></div>
 
-### <span class="session-type">D</span> TBA
+### <span class="session-type">D</span> GPU and FPGA Leakage
 
+**Papers to discuss:** Choose one to review:
+- BarraCUDA: Edge GPUs do Leak DNN Weights (USENIX Sec &#39;25) [Link](https://www.usenix.org/conference/usenixsecurity25/presentation/horvath){:target="_blank"}
+- Pentimento: Data Remanence in Cloud FPGAs (ASPLOS &#39;24) [Link](https://dl.acm.org/doi/10.1145/3620665.3640355){:target="_blank"}
 </div>
 
 <div class="schedule-day" markdown="1">
 <div class="schedule-date">Nov 18<span>Wed</span></div>
 
-### <span class="session-type">D</span> TBA
+### <span class="session-type">D</span> Security Fuzzing
 
+**Papers to discuss:** Choose one to review:
+- SpecFuzz: Bringing Spectre-Type Vulnerabilities to the Surface (USENIX Sec &#39;20) [Link](https://www.usenix.org/conference/usenixsecurity20/presentation/oleksenko){:target="_blank"}
+- Cascade: CPU Fuzzing via Intricate Program Generation (USENIX Sec &#39;24) [Link](https://www.usenix.org/conference/usenixsecurity24/presentation/solt){:target="_blank"}
 </div>
 </section>
 
