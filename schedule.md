@@ -248,7 +248,7 @@ layout: minimal
 <div class="schedule-day" markdown="1">
 <div class="schedule-date">Oct 19<span>Mon</span></div>
 
-### <span class="session-type">D</span> Graphics Side Channels
+### <span class="session-type">D</span> Pixel Stealing
 
 **Papers to discuss:** Choose one to review:
 - On Subnormal Floating Point and Abnormal Timing (SP &#39;15) [Link](https://ieeexplore.ieee.org/document/7163051){:target="_blank"}
@@ -258,7 +258,7 @@ layout: minimal
 <div class="schedule-day" markdown="1">
 <div class="schedule-date">Oct 21<span>Wed</span></div>
 
-### <span class="session-type">D</span> Branch Prediction Attacks
+### <span class="session-type">D</span> Spectre v2
 
 **Papers to discuss:** Choose one to review:
 - Indirector: High-Precision Branch Target Injection Attacks Exploiting the Indirect Branch Predictor (USENIX Sec &#39;24) [Link](https://www.usenix.org/conference/usenixsecurity24/presentation/li-luyi){:target="_blank"}
@@ -272,7 +272,7 @@ layout: minimal
 <div class="schedule-day" markdown="1">
 <div class="schedule-date">Oct 26<span>Mon</span></div>
 
-### <span class="session-type">D</span> Speculation Defenses and Leakage
+### <span class="session-type">D</span> Spectre Defense
 
 **Papers to discuss:** Choose one to review:
 - Speculative Data-Oblivious Execution: Mobilizing Safe Prediction for Safe and Efficient Speculative Execution (ISCA &#39;20) [Link](https://ieeexplore.ieee.org/document/9138997){:target="_blank"}
@@ -282,7 +282,7 @@ layout: minimal
 <div class="schedule-day" markdown="1">
 <div class="schedule-date">Oct 28<span>Wed</span></div>
 
-### <span class="session-type">D</span> Speculative Attacks
+### <span class="session-type">D</span> Memory Safety + Transient Attacks
 
 **Papers to discuss:** Choose one to review:
 - Speculative Probing: Hacking Blind in the Spectre Era (CCS &#39;20) [Link](https://dl.acm.org/doi/10.1145/3372297.3417289){:target="_blank"}
@@ -296,7 +296,7 @@ layout: minimal
 <div class="schedule-day" markdown="1">
 <div class="schedule-date">Nov 2<span>Mon</span></div>
 
-### <span class="session-type">D</span> Trusted Execution and Data Privacy
+### <span class="session-type">D</span> Trusted Execution
 
 **Papers to discuss:** Choose one to review:
 - Graviton: Trusted Execution Environments on GPUs (OSDI &#39;18) [Link](https://www.usenix.org/conference/osdi18/presentation/volos){:target="_blank"}
@@ -320,7 +320,7 @@ layout: minimal
 <div class="schedule-day" markdown="1">
 <div class="schedule-date">Nov 9<span>Mon</span></div>
 
-### <span class="session-type">D</span> Timers and Cache Attacks
+### <span class="session-type">D</span> Overcoming Coarse Timer
 
 **Papers to discuss:** Choose one to review:
 - Hacky Racers: Exploiting Instruction-Level Parallelism to Generate Stealthy Fine-Grained Timers (ASPLOS &#39;23) [Link](https://dl.acm.org/doi/10.1145/3575693.3575700){:target="_blank"}
@@ -344,17 +344,17 @@ layout: minimal
 <div class="schedule-day" markdown="1">
 <div class="schedule-date">Nov 16<span>Mon</span></div>
 
-### <span class="session-type">D</span> GPU and FPGA Leakage
+### <span class="session-type">D</span> Attacks on FPGA
 
 **Papers to discuss:** Choose one to review:
-- BarraCUDA: Edge GPUs do Leak DNN Weights (USENIX Sec &#39;25) [Link](https://www.usenix.org/conference/usenixsecurity25/presentation/horvath){:target="_blank"}
+- FPGA-Based Remote Power Side-Channel Attacks (SP &#39;18) [Link](https://ieeexplore.ieee.org/abstract/document/8418606){:target="_blank"}
 - Pentimento: Data Remanence in Cloud FPGAs (ASPLOS &#39;24) [Link](https://dl.acm.org/doi/10.1145/3620665.3640355){:target="_blank"}
 </div>
 
 <div class="schedule-day" markdown="1">
 <div class="schedule-date">Nov 18<span>Wed</span></div>
 
-### <span class="session-type">D</span> Security Fuzzing
+### <span class="session-type">D</span> Hardware and Software Fuzzing
 
 **Papers to discuss:** Choose one to review:
 - SpecFuzz: Bringing Spectre-Type Vulnerabilities to the Surface (USENIX Sec &#39;20) [Link](https://www.usenix.org/conference/usenixsecurity20/presentation/oleksenko){:target="_blank"}
