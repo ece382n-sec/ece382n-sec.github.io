@@ -208,6 +208,10 @@ layout: minimal
 
 ### <span class="session-type">L</span> Memory Safety--Defense
 
+**Optional:** SoK: Eternal War in Memory (SP &#39;13) [Link](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6547101){:target="_blank"}
+
+**Materials:** [Slides](files/L11%20-%20Memory%20Safety%20Defense.pdf)
+
 </div>
 
 <div class="schedule-day" markdown="1">
