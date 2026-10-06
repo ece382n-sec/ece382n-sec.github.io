@@ -219,6 +219,8 @@ layout: minimal
 
 ### <span class="session-type">L</span> Physical Attacks
 
+**Materials:** [Slides](files/L12%20-%20Physical-ish%20Attacks.pdf)
+
 </div>
 </section>
 
