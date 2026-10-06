@@ -217,7 +217,7 @@ layout: minimal
 <div class="schedule-day" markdown="1">
 <div class="schedule-date">Oct 7<span>Wed</span></div>
 
-### <span class="session-type">L</span> Physical Attacks
+### <span class="session-type">L</span> Physical-ish Attacks
 
 **Materials:** [Slides](files/L12%20-%20Physical-ish%20Attacks.pdf)
 
