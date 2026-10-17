@@ -267,8 +267,8 @@ layout: minimal
 ### <span class="session-type">D</span> Spectre v2
 
 **Papers to discuss:** Choose one to review:
-- Indirector: High-Precision Branch Target Injection Attacks Exploiting the Indirect Branch Predictor (USENIX Sec &#39;24) [Link](https://www.usenix.org/conference/usenixsecurity24/presentation/li-luyi){:target="_blank"}
 - Branch History Injection: On the Effectiveness of Hardware Mitigations Against Cross-Privilege Spectre-v2 Attacks (USENIX Sec &#39;22) [Link](https://www.usenix.org/conference/usenixsecurity22/presentation/barberis){:target="_blank"}
+- Indirector: High-Precision Branch Target Injection Attacks Exploiting the Indirect Branch Predictor (USENIX Sec &#39;24) [Link](https://www.usenix.org/conference/usenixsecurity24/presentation/li-luyi){:target="_blank"}
 </div>
 </section>
 
