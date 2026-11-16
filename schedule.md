@@ -365,6 +365,10 @@ layout: minimal
 **Papers to discuss:** Choose one to review:
 - SpecFuzz: Bringing Spectre-Type Vulnerabilities to the Surface (USENIX Sec &#39;20) [Link](https://www.usenix.org/conference/usenixsecurity20/presentation/oleksenko){:target="_blank"}
 - Cascade: CPU Fuzzing via Intricate Program Generation (USENIX Sec &#39;24) [Link](https://www.usenix.org/conference/usenixsecurity24/presentation/solt){:target="_blank"}
+
+**Optional videos on hardware fuzzing:**
+- The Discovery of Zenbleed ft. Tavis Ormandy by LiveOverflow [Link](https://www.youtube.com/watch?v=neWc0H1k2Lc){:target="_blank"}
+- Breaking the x86 Instruction Set by Christopher Domas at BlackHat &#39;17 [Link](https://www.youtube.com/watch?v=KrksBdWcZgQ){:target="_blank"}
 </div>
 </section>
 
